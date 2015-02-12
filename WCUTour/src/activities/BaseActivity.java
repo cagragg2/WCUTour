@@ -71,10 +71,6 @@ public class BaseActivity extends FragmentActivity {
 	    
 	    public static FragmentManager fragmentManager;
 
-        private int testinggit;
-	    private int testingint2;
-    private int testing3;
-        private int testing4;
 
 		//------------------------------------------------------------------------------------------------------------
 		/*
