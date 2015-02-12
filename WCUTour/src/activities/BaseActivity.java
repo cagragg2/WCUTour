@@ -49,12 +49,12 @@ import android.widget.ListView;
  * 
  * This is the base activity which every activity extends for the navigation drawer.
  * Creates the nav drawer and does our xml parsing.
- * 
+ *
  */
 public class BaseActivity extends FragmentActivity {
 
 	
-	 protected DrawerLayout mDrawerLayout; // nav drawer layout
+	 protected DrawerLayout mDrawerLayout; // nav drawer layout 
 	    private ListView mDrawerList;  //nav drawer list
 	    private ActionBarDrawerToggle mDrawerToggle;
 	    // nav drawer title
