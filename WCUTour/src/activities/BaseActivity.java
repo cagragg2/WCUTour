@@ -70,6 +70,8 @@ public class BaseActivity extends FragmentActivity {
 	    private NavDrawerListAdapter adapter;
 	    
 	    public static FragmentManager fragmentManager;
+
+        private int testinggit;
 	    
 
 		//------------------------------------------------------------------------------------------------------------
