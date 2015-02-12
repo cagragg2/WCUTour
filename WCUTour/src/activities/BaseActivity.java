@@ -71,6 +71,7 @@ public class BaseActivity extends FragmentActivity {
 	    
 	    public static FragmentManager fragmentManager;
 
+        public int num;
 
 		//------------------------------------------------------------------------------------------------------------
 		/*
