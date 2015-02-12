@@ -385,7 +385,172 @@ public class NavFragment extends Fragment implements LocationListener, SensorEve
 	public void onProviderDisabled(String provider) {
 		// TODO Auto-generated method stub
 	}
-	
+
+public void setUpSportsTour(){
+    // Creating temporary arraylist that builds tour path.
+    ArrayList<LatLng> points = new ArrayList<LatLng>();
+    PolylineOptions pOptions = new PolylineOptions().width(15).color(Color.rgb(128,0,128)) //85,30,97
+            .geodesic(true);
+    LatLng soccer  = new LatLng(35.310455, -83.185925);
+    points.add(soccer);
+    LatLng a2 = new LatLng(35.310334, -83.185852);
+    points.add(a2);
+    LatLng a3 = new LatLng(35.310131, -83.186173);
+    points.add(a3);
+    LatLng a4 = new LatLng(35.310046, -83.186284);
+    points.add(a4);
+    LatLng a5 = new LatLng(35.309928, -83.186378);
+    points.add(a5);
+    LatLng a6 = new LatLng(35.309662, -83.186505);
+    points.add(a6);
+    LatLng a7 = new LatLng(35.309314, -83.186672);
+    points.add(a7);
+    LatLng a8 = new LatLng(35.309218, -83.186694);
+    points.add(a8);
+    LatLng a9 = new LatLng(35.309137, -83.186688);
+    points.add(a9);
+    LatLng a10 = new LatLng(35.309074, -83.186721);
+    points.add(a10);
+    LatLng a11 = new LatLng(35.309020, -83.186810);
+    points.add(a11);
+    LatLng a12 = new LatLng(35.308983, -83.186866);
+    points.add(a12);
+    LatLng a13 = new LatLng(35.308699, -83.186926);
+    points.add(a13);
+    LatLng a14 = new LatLng(35.308591, -83.186926);
+    points.add(a14);
+    LatLng a15 = new LatLng(35.308450, -83.186888);
+    points.add(a15);
+    LatLng a16 = new LatLng(35.308337, -83.186806);
+    points.add(a16);
+    LatLng a17 = new LatLng(35.308238, -83.186667);
+    points.add(a17);
+    LatLng a18 = new LatLng(35.308153, -83.186522);
+    points.add(a18);
+    LatLng a19 = new LatLng(35.308076, -83.186384);
+    points.add(a19);
+    LatLng a20 = new LatLng(35.310403, -83.185947);
+    points.add(a20);
+    LatLng a21 = new LatLng(35.307954, -83.186174);
+    points.add(a21);
+    LatLng a22 = new LatLng(35.307854, -83.186019);
+    points.add(a22);
+    LatLng a23 = new LatLng(35.307786, -83.185876);
+    points.add(a23);
+    LatLng a24 = new LatLng(35.307750, -83.185870);
+    points.add(a24);
+    LatLng a25 = new LatLng(35.307258, -83.185200);
+    points.add(a25);
+    LatLng a26 = new LatLng(35.307050, -83.184934);
+    points.add(a26);
+    LatLng a27 = new LatLng(35.306783, -83.184674);
+    points.add(a27);
+    LatLng a28 = new LatLng(35.306642, -83.184529);
+    points.add(a28);
+    LatLng a29 = new LatLng(35.306461, -83.184341);
+    points.add(a29);
+    LatLng a30 = new LatLng(35.306385, -83.184202);
+    points.add(a30);
+    LatLng a31 = new LatLng(35.306313, -83.184036);
+    points.add(a31);
+    LatLng a32 = new LatLng(35.306280, -83.183814);
+    points.add(a32);
+    LatLng a33 = new LatLng(35.306280, -83.183670);
+    points.add(a33);
+    LatLng a34 = new LatLng(35.306302, -83.183515);
+    points.add(a34);
+    LatLng a35 = new LatLng(35.306429, -83.182984);
+    points.add(a35);
+    LatLng a36 = new LatLng(35.306514, -83.182819);
+    points.add(a36);
+    LatLng a37 = new LatLng(35.306582, -83.182709);
+    points.add(a37);
+    LatLng a38 = new LatLng(35.306468, -83.182544);
+    points.add(a38);
+    LatLng a39 = new LatLng(35.306441, -83.182500);
+    points.add(a39);
+    LatLng a40 = new LatLng(35.306333, -83.182428);
+    points.add(a40);
+    LatLng a41 = new LatLng(35.306113, -83.182357);
+    points.add(a41);
+    LatLng a42 = new LatLng(35.305933, -83.182313);
+    points.add(a42);
+    LatLng a43 = new LatLng(35.305865, -83.182329);
+    points.add(a43);
+    LatLng a44 = new LatLng(35.305829, -83.182357);
+    points.add(a44);
+    LatLng a45 = new LatLng(35.305784, -83.182235);
+    points.add(a45);
+    LatLng a46 = new LatLng(35.305749, -83.182063);
+    points.add(a46);
+    LatLng a47 = new LatLng(35.305684, -83.181862);
+    points.add(a47);
+    LatLng a48 = new LatLng(35.305491, -83.181772);
+    points.add(a48);
+    LatLng football = new LatLng(35.305456, -83.181759);
+    points.add(football);
+    LatLng a50 = new LatLng(35.305467, -83.181656);
+    points.add(a50);
+    LatLng a51 = new LatLng(35.304596, -83.181383);
+    points.add(a51);
+    LatLng a52 = new LatLng(35.304455, -83.181351);
+    points.add(a52);
+    LatLng a53 = new LatLng(35.304263, -83.181340);
+    points.add(a53);
+    LatLng a54 = new LatLng(35.304022, -83.181356);
+    points.add(a54);
+    LatLng a55 = new LatLng(35.303793, -83.181401);
+    points.add(a55);
+    LatLng a56 = new LatLng(35.303707, -83.181430);
+    points.add(a56);
+    LatLng a57 = new LatLng(35.303480, -83.181526);
+    points.add(a57);
+    LatLng a58 = new LatLng(35.303281, -83.181646);
+    points.add(a58);
+    LatLng a59 = new LatLng(35.303087, -83.181818);
+    points.add(a59);
+    LatLng ramsey = new LatLng(35.302555, -83.182347);
+    points.add(ramsey);
+    LatLng a61 = new LatLng(35.302469, -83.182162);
+    points.add(a61);
+    LatLng a62 = new LatLng(35.302426, -83.182100);
+    points.add(a62);
+    LatLng a63 = new LatLng(35.302198, -83.181941);
+    points.add(a63);
+    LatLng a64 = new LatLng(35.302219, -83.181748);
+    points.add(a64);
+    LatLng a65 = new LatLng(35.302104, -83.181588);
+    points.add(a65);
+    LatLng baseball = new LatLng(35.301609, -83.181002);
+    points.add(baseball);
+
+    MarkerOptions options = new MarkerOptions();
+    for(int z = 0; z < points.size(); z++) {
+        LatLng point = points.get(z);
+        pOptions.add(point);
+
+    }
+    googleMap.addMarker(options.position(soccer)
+            .title("Soccer Field and Track")
+            .icon(BitmapDescriptorFactory
+                    .defaultMarker(BitmapDescriptorFactory.HUE_YELLOW)));
+    googleMap.addMarker(options.position(baseball)
+            .title("Baseball Field")
+            .icon(BitmapDescriptorFactory
+                    .defaultMarker(BitmapDescriptorFactory.HUE_YELLOW)));
+    googleMap.addMarker(options.position(ramsey)
+            .title("Ramsey Center")
+            .icon(BitmapDescriptorFactory
+                    .defaultMarker(BitmapDescriptorFactory.HUE_YELLOW)));
+
+    googleMap.addMarker(options.position(football)
+            .title("E.J. Whitmore Stadium")
+            .snippet("This is the last location, thanks for taking the tour!")
+            .icon(BitmapDescriptorFactory
+                    .defaultMarker(BitmapDescriptorFactory.HUE_YELLOW)));
+    line = googleMap.addPolyline(pOptions);
+
+}
 public void setUpTour() {
 		
 		//LatLng latlng = new LatLng(location.getLatitude(),location.getLongitude());
