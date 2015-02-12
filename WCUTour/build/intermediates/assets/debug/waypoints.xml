@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Waypoint>
+    <Location id="1">
+    	<lat>35.303268</lat>
+    	<long>-83.182322</long>
+    	<desc>Ramsey Center</desc>
+    	<information>The Ramsey center where events happen.</information>
+    </Location>
+    
+    <Location id="2">
+    	<lat>35.310450</lat>
+    	<long>-83.182631</long>
+    	<desc>Alumni Tower</desc>
+    	<information>The Ramsey center where events happen.</information>
+    </Location>
+    
+    <Location id="3">
+    	<lat>35.311357</lat>
+    	<long>-83.182171</long>
+    	<desc>Coulter</desc>
+    	<information>The Ramsey center where events happen.</information>
+    </Location>
+    
+    <Location id="4">
+    	<lat>35.310517</lat>
+    	<long>-83.183470</long>
+    	<desc>Reid Gym</desc>
+    	<information>The Ramsey center where events happen.</information>
+    </Location>  
+   
+    <Location id="5">
+    	<lat>35.311235</lat>
+    	<long>-83.181227</long>
+    	<desc>Student One-Stop</desc>
+    	<information>The Ramsey center where events happen.</information>
+    </Location>  
+    
+    <Location id="6">
+    	<lat>35.313028</lat>
+    	<long>-83.179745</long>
+    	<desc>Hunter Library</desc>
+    	<information>The Ramsey center where events happen.</information>
+    </Location>
+    
+    <Location id="7">
+    	<lat>35.311295</lat>
+    	<long>-83.181263</long>
+    	<desc>Student Union Center</desc>
+    	<information>The Ramsey center where events happen.</information>
+    </Location>
+    
+      <Location id="8">
+    	<lat>35.305279</lat>
+    	<long>-83.182494</long>
+    	<desc>Football Field</desc>
+    	<information>The Ramsey center where events happen.</information>
+    </Location>
+    
+    <Location id="9">
+    	<lat>35.310717</lat>
+    	<long>-83.183028</long>
+    	<desc>Campus Recreation Center</desc>
+    	<information>The Ramsey center where events happen.</information>
+    </Location>
+  
+    <Location id="10">
+    	<lat>35.307502</lat>
+    	<long>-83.182880</long>
+    	<desc>Belk</desc>
+    	<information>The Ramsey center where events happen.</information>
+    </Location>
+    
+    <Location id="11">
+    	<lat>35.311440</lat>
+    	<long>-83.183470</long>
+    	<desc>Campus Bookstore</desc>
+    	<information>The Ramsey center where events happen.</information>
+    </Location>
+    
+    <Location id="12">
+    	<lat>35.309005</lat>
+    	<long>-83.186424</long>
+    	<desc>Administration Building</desc>
+    	<information>The Ramsey center where events happen.</information>
+    </Location>
+    
+    <Location id="13">
+    	<lat>35.306355</lat>
+    	<long>-83.186963</long>
+    	<desc>Campus Police</desc>
+    	<information>The Ramsey center where events happen.</information>
+    </Location>
+    
+    <Location id="14">
+    	<lat>35.310464</lat>
+    	<long>-83.186638</long>
+    	<desc>Soccer Field/Running Track</desc>
+    	<information>The Ramsey center where events happen.</information>
+    </Location> 
+    
+    <Location id="15">
+    	<lat>35.307116</lat>
+    	<long>-83.184431</long>
+    	<desc>Bardo Arts Center</desc>
+    	<information>The Ramsey center where events happen.</information>
+    </Location>
+    
+    <Location id="16">
+    	<lat>35.309418</lat>
+    	<long>-83.183299</long>
+    	<desc>Courtyard Cafeteria</desc>
+    	<information>The Ramsey center where events happen.</information>
+    </Location>
+    
+    <Location id="17">
+    	<lat>35.310000</lat>
+    	<long>-83.182575</long>
+    	<desc>Fountain</desc>
+    	<information>The Ramsey center where events happen.</information>
+    </Location>
+    
+    <Location id="18">
+    	<lat>35.311339</lat>
+    	<long>-83.178967</long>
+    	<desc>Health Services</desc>
+    	<information>The Ramsey center where events happen.</information>
+    </Location>
+    
+    
+    <Location id="19">
+    	<lat>35.301412</lat>
+    	<long>-83.181435</long>
+    	<desc>Baseball Field</desc>
+    	<information>The Ramsey center where events happen.</information>
+    </Location>
+    
+    <Location id="20">
+    	<lat>35.309188</lat>
+    	<long>-83.186925</long>
+    	<desc>Catamount</desc>
+    	<information>The Ramsey center where events happen.</information>
+    </Location>
+    
+    
+ 
+ 
+   
+</Waypoint>

@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent">
+
+    <LinearLayout 
+        android:layout_weight="1"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent" >
+    
+		<TextView 
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+	    	android:text="Avaliable Tours"
+	    	android:gravity="center"
+	  	    android:textColor="@color/gold"
+	  	    android:textSize="27sp"/>
+	</LinearLayout>
+	
+	<LinearLayout 
+	    android:layout_weight=".1"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent">
+	
+		<ListView
+    		android:id="@+id/tour_list"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content" /> 
+    </LinearLayout>
+</LinearLayout><!-- From: file:/C:/Users/Caleb/WCUTour/WCUTour/res/layout/activity_tour.xml -->

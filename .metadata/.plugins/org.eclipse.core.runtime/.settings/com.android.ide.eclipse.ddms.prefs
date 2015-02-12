@@ -1,0 +1,11 @@
+ddms.logcat.auotmonitor.level=error
+ddms.logcat.automonitor.userprompt=true
+eclipse.preferences.version=1
+logcat.view.colsize.Application=143
+logcat.view.colsize.Level=29
+logcat.view.colsize.PID=50
+logcat.view.colsize.TID=50
+logcat.view.colsize.Tag=107
+logcat.view.colsize.Text=543
+logcat.view.colsize.Time=130
+logcat.view.filters.list=name\: 'WCUTour', tag\: '', text\: '', pid\: '', app\: 'WCUTour', level\: 'verbose', name\: 'edu.wcu.wcutour', tag\: '', text\: '', pid\: '', app\: 'ecu.wcu.wcutour', level\: 'verbose', name\: 'WCUTPURAPP', tag\: '', text\: '', pid\: '13223', app\: 'edu.wcu.wcutour', level\: 'warn', name\: 'app', tag\: 'USER_EVENTS', text\: 'Event\: type\=22, status\: lb, data\: 2097', pid\: '28935', app\: 'edu.wcu.wcutour', level\: 'debug', name\: 'h', tag\: 'System.out', text\: 'Football Field', pid\: '6446', app\: 'edu.wcu.wcutour', level\: 'info', 
