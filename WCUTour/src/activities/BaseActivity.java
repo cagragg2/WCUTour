@@ -59,7 +59,7 @@ public class BaseActivity extends FragmentActivity {
 	    private ActionBarDrawerToggle mDrawerToggle;
 	    // nav drawer title
 	    private CharSequence mDrawerTitle;
-	 
+	    private  int he;
 	    // used to store app title
 	    private CharSequence mTitle;
 	 
