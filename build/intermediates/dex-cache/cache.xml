@@ -5,7 +5,7 @@
         jar="C:\Users\Caleb\WCUTour\WCUTour\build\intermediates\exploded-aar\WCUTour\google-play-services_lib\unspecified\classes.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="bc9aa4d12dabbefb2058bc8451a15f7672938661">
+        sha1="180f85735fc859ed39e58719351d5e5c28dfc1fb">
         <dex dex="C:\Users\Caleb\WCUTour\WCUTour\build\intermediates\pre-dexed\debug\classes-319078d4e9005a9605dcb999fb387ff3923c5eb2.jar" />
     </item>
     <item
@@ -19,7 +19,7 @@
         jar="C:\Users\Caleb\WCUTour\WCUTour\build\intermediates\exploded-aar\WCUTour\appcompat_v7\unspecified\classes.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="51f2e5047dcdff3809803d49c21e94b57d966874">
+        sha1="863a214327ab07529f0f82ffde05bd8ab79d780b">
         <dex dex="C:\Users\Caleb\WCUTour\WCUTour\build\intermediates\pre-dexed\debug\classes-5f58db866ecef4e6767421b86a1dc998288ff64c.jar" />
     </item>
     <item
