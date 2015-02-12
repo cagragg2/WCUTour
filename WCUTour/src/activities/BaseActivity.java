@@ -73,6 +73,7 @@ public class BaseActivity extends FragmentActivity {
 
         private int testinggit;
 	    private int testingint2;
+    private int testing3;
 
 		//------------------------------------------------------------------------------------------------------------
 		/*
