@@ -132,7 +132,7 @@ public class NavFragment extends Fragment implements LocationListener, SensorEve
 		    try {
 		    	initilizeMap();
 		    	setUpMap();
-		    	setUpTour();
+
 		    //	startListening();
 		    } catch (Exception e) {
 		    	e.printStackTrace();
@@ -260,6 +260,13 @@ public class NavFragment extends Fragment implements LocationListener, SensorEve
 	        							.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_VIOLET)));
 
 	    }
+
+        if(Variables.selectedTour.getTourName().equals("Sport's Tour")) {
+            setUpSportsTour();
+        }
+        if(Variables.selectedTour.getTourName().equals("Cross Campus Tour")){
+            setUpCrossCampusTour();
+        }
 		
 	  //  myLocMarker = googleMap.addMarker(new MarkerOptions().position(new LatLng(googleMap.getMyLocation().getLatitude(),
 	 //   		googleMap.getMyLocation().getLongitude())));
@@ -430,7 +437,7 @@ public void setUpSportsTour(){
     LatLng a19 = new LatLng(35.308076, -83.186384);
     points.add(a19);
     LatLng a20 = new LatLng(35.310403, -83.185947);
-    points.add(a20);
+    //points.add(a20);
     LatLng a21 = new LatLng(35.307954, -83.186174);
     points.add(a21);
     LatLng a22 = new LatLng(35.307854, -83.186019);
@@ -545,13 +552,12 @@ public void setUpSportsTour(){
 
     googleMap.addMarker(options.position(football)
             .title("E.J. Whitmore Stadium")
-            .snippet("This is the last location, thanks for taking the tour!")
             .icon(BitmapDescriptorFactory
                     .defaultMarker(BitmapDescriptorFactory.HUE_YELLOW)));
     line = googleMap.addPolyline(pOptions);
 
 }
-public void setUpTour() {
+public void setUpCrossCampusTour() {
 		
 		//LatLng latlng = new LatLng(location.getLatitude(),location.getLongitude());
 		

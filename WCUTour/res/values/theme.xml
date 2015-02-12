@@ -9,7 +9,7 @@
     <!-- ActionBar styles -->
     <style name="MyActionBar"
         parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
-        <item name="android:background">@drawable/actionbar_background</item>
+        <item name="android:background">@drawable/catamount_purple</item>
     </style>
 
     <!-- ActionBar tabs styles -->

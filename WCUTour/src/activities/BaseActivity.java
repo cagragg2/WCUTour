@@ -348,8 +348,8 @@ public class BaseActivity extends FragmentActivity {
 	        sampleTour.add(stadium);
 	        
 	        
-			Variables.listOfTours.add(new Tours(waypoints,"Academic Buildings Tour"));
-			Variables.listOfTours.add(new Tours(waypoints2,"Residential Living Tour"));
+			//Variables.listOfTours.add(new Tours(waypoints,"Academic Buildings Tour"));
+			//Variables.listOfTours.add(new Tours(waypoints2,"Residential Living Tour"));
 			Variables.listOfTours.add(new Tours(testWaypoint,"Sport's Tour"));
 			Variables.listOfTours.add(new Tours(sampleTour, "Cross Campus Tour"));
 	    }

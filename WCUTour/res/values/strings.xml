@@ -41,5 +41,7 @@
     <string name="title_section2">Tour Information</string>
     <string name="title_section3">Waypoints in Tour</string>
     <string name="title_activity_blank">blank</string>
+    <string name="title_tour_info_frag">Description</string>
+    <string name="tour_info_frag_length">Length(m)</string>
 
 </resources>
