@@ -18,203 +18,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6098b4e4-30c9-4ea1-a3f4-d2faadc50b69" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/classes.jar" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/classes.jar" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/model_data.bin" afterPath="$PROJECT_DIR$/build/intermediates/model_data.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/AndroidManifest.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/AndroidManifest.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/generated/source/buildConfig/debug/edu/wcu/wcutour/BuildConfig.java" afterPath="$PROJECT_DIR$/WCUTour/build/generated/source/buildConfig/debug/edu/wcu/wcutour/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appcompat_v7/build/generated/source/buildConfig/release/android/support/v7/appcompat/BuildConfig.java" afterPath="$PROJECT_DIR$/appcompat_v7/build/generated/source/buildConfig/release/android/support/v7/appcompat/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/build/generated/source/buildConfig/release/com/google/android/gms/BuildConfig.java" afterPath="$PROJECT_DIR$/google-play-services_lib/build/generated/source/buildConfig/release/com/google/android/gms/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/WCUTour-WCUTour.iml" afterPath="$PROJECT_DIR$/WCUTour/WCUTour-WCUTour.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout/abc_action_bar_decor.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout/abc_action_bar_decor.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout-v11/abc_action_bar_decor.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout-v11/abc_action_bar_decor.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout/abc_action_bar_decor_include.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout/abc_action_bar_decor_include.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout/abc_action_bar_decor_overlay.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout/abc_action_bar_decor_overlay.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout/abc_action_bar_home.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout/abc_action_bar_home.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout/abc_action_bar_tab.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout/abc_action_bar_tab.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout/abc_action_bar_tabbar.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout/abc_action_bar_tabbar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout/abc_action_bar_title_item.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout/abc_action_bar_title_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout/abc_action_bar_view_list_nav_layout.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout/abc_action_bar_view_list_nav_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout/abc_action_menu_item_layout.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout/abc_action_menu_item_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout/abc_action_menu_layout.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout/abc_action_menu_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout/abc_action_mode_bar.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout/abc_action_mode_bar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout/abc_action_mode_close_item.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout/abc_action_mode_close_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout/abc_activity_chooser_view.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout/abc_activity_chooser_view.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout-v14/abc_activity_chooser_view.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout-v14/abc_activity_chooser_view.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout/abc_activity_chooser_view_include.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout/abc_activity_chooser_view_include.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout/abc_activity_chooser_view_list_item.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout/abc_activity_chooser_view_list_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout/abc_expanded_menu_layout.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout/abc_expanded_menu_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/anim/abc_fade_in.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/anim/abc_fade_in.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/anim/abc_fade_out.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/anim/abc_fade_out.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/drawable/abc_ic_clear.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/drawable/abc_ic_clear.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/drawable/abc_ic_clear_holo_light.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/drawable/abc_ic_clear_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/drawable/abc_item_background_holo_dark.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/drawable/abc_item_background_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/drawable/abc_item_background_holo_light.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/drawable/abc_item_background_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout/abc_list_menu_item_checkbox.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout/abc_list_menu_item_checkbox.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout/abc_list_menu_item_icon.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout/abc_list_menu_item_icon.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout/abc_list_menu_item_layout.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout/abc_list_menu_item_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout/abc_list_menu_item_radio.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout/abc_list_menu_item_radio.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/drawable/abc_list_selector_background_transition_holo_dark.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/drawable/abc_list_selector_background_transition_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/drawable/abc_list_selector_background_transition_holo_light.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/drawable/abc_list_selector_background_transition_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/drawable/abc_list_selector_holo_dark.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/drawable/abc_list_selector_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/drawable/abc_list_selector_holo_light.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/drawable/abc_list_selector_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout/abc_popup_menu_item_layout.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout/abc_popup_menu_item_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/drawable/abc_search_dropdown_dark.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/drawable/abc_search_dropdown_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout/abc_search_dropdown_item_icons_2line.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout/abc_search_dropdown_item_icons_2line.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/drawable/abc_search_dropdown_light.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/drawable/abc_search_dropdown_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/color/abc_search_url_text_holo.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/color/abc_search_url_text_holo.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout/abc_search_view.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout/abc_search_view.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout/abc_simple_decor.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout/abc_simple_decor.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout-v11/abc_simple_decor.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout-v11/abc_simple_decor.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/anim/abc_slide_in_bottom.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/anim/abc_slide_in_bottom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/anim/abc_slide_in_top.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/anim/abc_slide_in_top.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/anim/abc_slide_out_bottom.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/anim/abc_slide_out_bottom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/anim/abc_slide_out_top.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/anim/abc_slide_out_top.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/drawable/abc_spinner_ab_holo_dark.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/drawable/abc_spinner_ab_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/drawable/abc_spinner_ab_holo_light.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/drawable/abc_spinner_ab_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/drawable/abc_tab_indicator_ab_holo.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/drawable/abc_tab_indicator_ab_holo.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/drawable/abc_textfield_searchview_holo_dark.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/drawable/abc_textfield_searchview_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/drawable/abc_textfield_searchview_holo_light.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/drawable/abc_textfield_searchview_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/drawable/abc_textfield_searchview_right_holo_dark.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/drawable/abc_textfield_searchview_right_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/drawable/abc_textfield_searchview_right_holo_light.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/drawable/abc_textfield_searchview_right_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/drawable/common_signin_btn_icon_dark.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/drawable/common_signin_btn_icon_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/drawable/common_signin_btn_icon_light.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/drawable/common_signin_btn_icon_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/color/common_signin_btn_text_dark.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/color/common_signin_btn_text_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/drawable/common_signin_btn_text_dark.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/drawable/common_signin_btn_text_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/color/common_signin_btn_text_light.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/color/common_signin_btn_text_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/drawable/common_signin_btn_text_light.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/drawable/common_signin_btn_text_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout/support_simple_spinner_dropdown_item.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout/support_simple_spinner_dropdown_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-af/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-af/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-am/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-am/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-ar/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-ar/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-bg/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-bg/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-ca/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-ca/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-cs/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-cs/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-da/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-da/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-de/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-de/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-el/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-el/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-en-rGB/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-en-rGB/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-en-rIN/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-en-rIN/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-es/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-es/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-es-rUS/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-es-rUS/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-et-rEE/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-et-rEE/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-fa/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-fa/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-fi/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-fi/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-fr/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-fr/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-fr-rCA/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-fr-rCA/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-hi/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-hi/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-hr/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-hr/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-hu/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-hu/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-hy-rAM/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-hy-rAM/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-in/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-in/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-it/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-it/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-iw/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-iw/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-ja/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-ja/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-ka-rGE/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-ka-rGE/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-km-rKH/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-km-rKH/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-ko/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-ko/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-land/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-land/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-large-v14/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-large-v14/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-large-v4/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-large-v4/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-lo-rLA/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-lo-rLA/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-lt/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-lt/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-lv/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-lv/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-mn-rMN/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-mn-rMN/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-ms-rMY/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-ms-rMY/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-nb/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-nb/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-nl/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-nl/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-pl/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-pl/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-pt/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-pt/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-pt-rPT/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-pt-rPT/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-ro/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-ro/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-ru/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-ru/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-sk/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-sk/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-sl/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-sl/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-sr/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-sr/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-sv/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-sv/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-sw/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-sw/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-sw600dp-v13/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-sw600dp-v13/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-th/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-th/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-tl/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-tl/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-tr/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-tr/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-uk/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-uk/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-v11/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-v11/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-v14/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-v14/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-vi/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-vi/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-w360dp-v13/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-w360dp-v13/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-w480dp-v13/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-w480dp-v13/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-w500dp-v13/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-w500dp-v13/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-w600dp-v13/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-w600dp-v13/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-w720dp-v13/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-w720dp-v13/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-xlarge-v4/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-xlarge-v4/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-zh-rCN/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-zh-rCN/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-zh-rHK/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-zh-rHK/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-zh-rTW/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-zh-rTW/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-zu/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values-zu/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-af/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-af/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-am/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-am/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-ar/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-ar/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-be/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-be/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-bg/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-bg/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-ca/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-ca/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-cs/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-cs/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-da/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-da/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-de/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-de/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-el/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-el/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-en-rGB/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-en-rGB/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-en-rIN/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-en-rIN/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-es/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-es/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-es-rUS/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-es-rUS/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-et-rEE/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-et-rEE/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-fa/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-fa/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-fi/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-fi/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-fr/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-fr/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-fr-rCA/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-fr-rCA/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-hi/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-hi/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-hr/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-hr/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-hu/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-hu/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-hy-rAM/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-hy-rAM/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-in/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-in/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-it/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-it/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-iw/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-iw/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-ja/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-ja/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-ka-rGE/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-ka-rGE/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-km-rKH/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-km-rKH/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-ko/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-ko/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-lo-rLA/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-lo-rLA/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-lt/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-lt/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-lv/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-lv/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-mn-rMN/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-mn-rMN/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-ms-rMY/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-ms-rMY/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-nb/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-nb/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-nl/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-nl/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-pl/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-pl/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-pt/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-pt/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-pt-rBR/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-pt-rBR/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-pt-rPT/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-pt-rPT/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-ro/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-ro/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-ru/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-ru/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-sk/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-sk/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-sl/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-sl/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-sr/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-sr/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-sv/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-sv/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-sw/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-sw/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-th/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-th/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-tl/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-tl/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-tr/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-tr/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-uk/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-uk/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-vi/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-vi/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-zh-rCN/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-zh-rCN/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-zh-rHK/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-zh-rHK/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-zh-rTW/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-zh-rTW/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-zu/values.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values-zu/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/color/wallet_primary_text_holo_light.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/color/wallet_primary_text_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/color/wallet_secondary_text_holo_dark.xml" afterPath="$PROJECT_DIR$/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/color/wallet_secondary_text_holo_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/src/activities/BaseActivity.java" afterPath="$PROJECT_DIR$/WCUTour/src/activities/BaseActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WCUTour.iws" />
@@ -241,7 +45,7 @@
       <file leaf-file-name="BaseActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WCUTour/src/activities/BaseActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7705383" vertical-offset="969" max-vertical-offset="6171">
+            <state vertical-scroll-proportion="0.63109046" vertical-offset="969" max-vertical-offset="6171">
               <caret line="73" column="31" selection-start-line="73" selection-start-column="31" selection-end-line="73" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -253,7 +57,7 @@
       <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WCUTour/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="867">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
               <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
               <folding />
             </state>
@@ -265,7 +69,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="2312">
               <caret line="84" column="57" selection-start-line="84" selection-start-column="57" selection-end-line="84" selection-end-column="57" />
-              <folding />
+              <folding>
+                <element signature="e#5004#5034#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -273,9 +79,11 @@
       <file leaf-file-name="NavFragment.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WCUTour/src/nav_fragments/NavFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="4488" max-vertical-offset="10727">
+            <state vertical-scroll-proportion="91.96429" vertical-offset="7029" max-vertical-offset="10659">
               <caret line="264" column="7" selection-start-line="264" selection-start-column="7" selection-end-line="264" selection-end-column="7" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -293,7 +101,7 @@
       <file leaf-file-name="styles.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WCUTour/res/values/styles.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="442">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
               <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
               <folding />
             </state>
@@ -302,14 +110,14 @@
       </file>
       <file leaf-file-name="activity_main.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WCUTour/res/layout/activity_main.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="697">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
           </provider>
         </entry>
       </file>
@@ -326,7 +134,7 @@
       <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/appcompat_v7/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="680">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
               <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
               <folding />
             </state>
@@ -336,7 +144,7 @@
       <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="255">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
               <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
               <folding />
             </state>
@@ -1606,7 +1414,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="7118544640138" />
+        <entry key="$PROJECT_DIR$" value="7118427666010" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1619,16 +1427,6 @@
                   <entry key="$PROJECT_DIR$">
                     <value>
                       <ExternalModuleBuildClasspathPojo>
-                        <option name="entries">
-                          <list>
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/1.0.0/gradle-1.0.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/1.0.0/builder-1.0.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/1.0.0/builder-model-1.0.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/1.0.0/builder-1.0.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/1.0.0/gradle-1.0.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/1.0.0/builder-model-1.0.0.jar" />
-                          </list>
-                        </option>
                         <option name="path" value="$PROJECT_DIR$" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
@@ -1636,16 +1434,6 @@
                   <entry key="$PROJECT_DIR$/WCUTour">
                     <value>
                       <ExternalModuleBuildClasspathPojo>
-                        <option name="entries">
-                          <list>
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/1.0.0/gradle-1.0.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/1.0.0/builder-1.0.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/1.0.0/builder-model-1.0.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/1.0.0/builder-1.0.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/1.0.0/gradle-1.0.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/1.0.0/builder-model-1.0.0.jar" />
-                          </list>
-                        </option>
                         <option name="path" value="$PROJECT_DIR$/WCUTour" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
@@ -1653,16 +1441,6 @@
                   <entry key="$PROJECT_DIR$/appcompat_v7">
                     <value>
                       <ExternalModuleBuildClasspathPojo>
-                        <option name="entries">
-                          <list>
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/1.0.0/gradle-1.0.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/1.0.0/builder-1.0.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/1.0.0/builder-model-1.0.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/1.0.0/builder-1.0.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/1.0.0/gradle-1.0.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/1.0.0/builder-model-1.0.0.jar" />
-                          </list>
-                        </option>
                         <option name="path" value="$PROJECT_DIR$/appcompat_v7" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
@@ -1670,16 +1448,6 @@
                   <entry key="$PROJECT_DIR$/google-play-services_lib">
                     <value>
                       <ExternalModuleBuildClasspathPojo>
-                        <option name="entries">
-                          <list>
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/1.0.0/gradle-1.0.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/1.0.0/builder-1.0.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/1.0.0/builder-model-1.0.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/1.0.0/builder-1.0.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/1.0.0/gradle-1.0.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/1.0.0/builder-model-1.0.0.jar" />
-                          </list>
-                        </option>
                         <option name="path" value="$PROJECT_DIR$/google-play-services_lib" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
@@ -1689,108 +1457,59 @@
               <option name="name" value="WCUTour" />
               <option name="projectBuildClasspath">
                 <list>
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/src/announce" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/src/antlr" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/src/base-services" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/src/base-services-groovy" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/src/build-comparison" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/src/build-init" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/src/cli" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/src/code-quality" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/src/core" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/src/cunit" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/src/dependency-management" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/src/diagnostics" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/src/ear" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/src/ide" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/src/ide-native" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/src/internal-integ-testing" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/src/internal-testing" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/src/ivy" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/src/jacoco" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/src/javascript" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/src/jetty" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/src/language-groovy" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/src/language-java" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/src/language-jvm" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/src/language-native" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/src/launcher" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/src/maven" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/src/messaging" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/src/model-core" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/src/model-groovy" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/src/native" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/src/open-api" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/src/osgi" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/src/platform-base" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/src/platform-jvm" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/src/platform-native" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/src/plugin-development" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/src/plugin-use" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/src/plugins" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/src/publish" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/src/reporting" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/src/resources" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/src/resources-http" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/src/scala" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/src/signing" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/src/sonar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/src/tooling-api" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/src/ui" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/src/wrapper" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/lib/ant-1.9.3.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/lib/ant-launcher-1.9.3.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/lib/gradle-base-services-2.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/lib/gradle-base-services-groovy-2.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/lib/gradle-cli-2.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/lib/gradle-core-2.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/lib/gradle-docs-2.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/lib/gradle-launcher-2.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/lib/gradle-messaging-2.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/lib/gradle-model-core-2.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/lib/gradle-model-groovy-2.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/lib/gradle-native-2.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/lib/gradle-open-api-2.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/lib/gradle-resources-2.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/lib/gradle-tooling-api-2.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/lib/gradle-ui-2.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/lib/gradle-wrapper-2.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/lib/groovy-all-2.3.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/lib/plugins/ant-antlr-1.9.3.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/lib/plugins/gradle-announce-2.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/lib/plugins/gradle-antlr-2.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/lib/plugins/gradle-build-comparison-2.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/lib/plugins/gradle-build-init-2.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/lib/plugins/gradle-code-quality-2.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/lib/plugins/gradle-cunit-2.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/lib/plugins/gradle-dependency-management-2.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/lib/plugins/gradle-diagnostics-2.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/lib/plugins/gradle-ear-2.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/lib/plugins/gradle-ide-2.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/lib/plugins/gradle-ide-native-2.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/lib/plugins/gradle-ivy-2.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/lib/plugins/gradle-jacoco-2.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/lib/plugins/gradle-javascript-2.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/lib/plugins/gradle-jetty-2.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/lib/plugins/gradle-language-groovy-2.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/lib/plugins/gradle-language-java-2.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/lib/plugins/gradle-language-jvm-2.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/lib/plugins/gradle-language-native-2.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/lib/plugins/gradle-maven-2.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/lib/plugins/gradle-osgi-2.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/lib/plugins/gradle-platform-base-2.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/lib/plugins/gradle-platform-jvm-2.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/lib/plugins/gradle-platform-native-2.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/lib/plugins/gradle-plugin-development-2.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/lib/plugins/gradle-plugin-use-2.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/lib/plugins/gradle-plugins-2.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/lib/plugins/gradle-publish-2.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/lib/plugins/gradle-reporting-2.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/lib/plugins/gradle-resources-http-2.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/lib/plugins/gradle-scala-2.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/lib/plugins/gradle-signing-2.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/lib/plugins/gradle-sonar-2.2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.2.1-all/c64ydeuardnfqctvr1gm30w53/gradle-2.2.1/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/ant-1.9.3.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/ant-launcher-1.9.3.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/gradle-base-services-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/gradle-base-services-groovy-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/gradle-cli-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/gradle-core-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/gradle-docs-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/gradle-launcher-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/gradle-messaging-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/gradle-model-core-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/gradle-model-groovy-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/gradle-native-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/gradle-open-api-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/gradle-resources-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/gradle-tooling-api-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/gradle-ui-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/gradle-wrapper-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/groovy-all-2.3.6.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/ant-antlr-1.9.3.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-announce-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-antlr-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-build-comparison-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-build-init-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-code-quality-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-cunit-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-dependency-management-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-diagnostics-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-ear-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-ide-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-ide-native-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-ivy-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-jacoco-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-javascript-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-jetty-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-language-groovy-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-language-java-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-language-jvm-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-language-native-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-maven-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-osgi-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-platform-base-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-platform-jvm-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-platform-native-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-plugin-development-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-plugin-use-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-plugins-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-publish-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-reporting-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-resources-http-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-scala-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-signing-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/gradle-sonar-2.2.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.2.1/lib/plugins/ivy-2.2.0.jar" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
                 </list>
@@ -1815,10 +1534,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="97" />
+    <option name="y" value="5" />
+    <option name="width" value="1400" />
+    <option name="height" value="860" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -1846,9 +1565,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -1867,8 +1584,112 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WCUTour" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appcompat_v7" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WCUTour" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WCUTour-WCUTour" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WCUTour" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WCUTour-WCUTour" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WCUTour" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WCUTour-WCUTour" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WCUTour" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WCUTour-WCUTour" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WCUTour" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WCUTour-WCUTour" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activities" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WCUTour" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WCUTour-WCUTour" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manifests" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2120,18 +1941,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <frame x="97" y="5" width="1400" height="860" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985073" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32879046" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32954547" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2142,14 +1964,13 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2375189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2380597" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985073" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -2188,6 +2009,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="1275">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2209,9 +2031,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="104" max-vertical-offset="6154">
           <caret line="297" column="71" selection-start-line="297" selection-start-column="71" selection-end-line="297" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2261,6 +2081,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1275">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2268,6 +2089,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="2023">
           <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2331,6 +2153,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2338,6 +2161,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="1802">
           <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2405,14 +2229,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WCUTour/res/layout/activity_blank.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WCUTour/src/edu/wcu/wcutour/blank/blank.java">
@@ -2442,6 +2266,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="56" max-vertical-offset="1275">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2449,6 +2274,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="2278">
           <caret line="48" column="27" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2502,9 +2328,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WCUTour/src/nav_fragments/NavFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4488" max-vertical-offset="10727">
+        <state vertical-scroll-proportion="91.96429" vertical-offset="7029" max-vertical-offset="10659">
           <caret line="264" column="7" selection-start-line="264" selection-start-column="7" selection-end-line="264" selection-end-column="7" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2517,14 +2345,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WCUTour/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WCUTour/res/values/dimens.xml">
@@ -2539,7 +2367,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="2312">
           <caret line="84" column="57" selection-start-line="84" selection-start-column="57" selection-end-line="84" selection-end-column="57" />
-          <folding />
+          <folding>
+            <element signature="e#5004#5034#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2553,7 +2383,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WCUTour/src/activities/BaseActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7705383" vertical-offset="969" max-vertical-offset="6171">
+        <state vertical-scroll-proportion="0.63109046" vertical-offset="969" max-vertical-offset="6171">
           <caret line="73" column="31" selection-start-line="73" selection-start-column="31" selection-end-line="73" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
