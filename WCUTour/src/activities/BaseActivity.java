@@ -54,7 +54,7 @@ import android.widget.ListView;
 public class BaseActivity extends FragmentActivity {
 
 	
-	 protected DrawerLayout mDrawerLayout; // nav drawer layout 
+	 protected DrawerLayout mDrawerLayout; // nav drawer layout hey
 	    private ListView mDrawerList;  //nav drawer list
 	    private ActionBarDrawerToggle mDrawerToggle;
 	    // nav drawer title
