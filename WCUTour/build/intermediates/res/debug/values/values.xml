@@ -190,6 +190,11 @@
     <item name="dialog_fixed_height_minor" type="dimen">100%</item>
     <item name="dialog_fixed_width_major" type="dimen">320dp</item>
     <item name="dialog_fixed_width_minor" type="dimen">320dp</item>
+    <!-- From: file:/C:/Users/Caleb/WCUTour/WCUTour/res/values/color.xml -->
+    <eat-comment/>
+    <drawable name="screen_background_dark">#ff000000</drawable>
+    <!-- From: file:/C:/Users/Caleb/WCUTour/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values/values.xml -->
+    <eat-comment/>
     <item name="action_bar_activity_content" type="id"/>
     <item name="action_menu_divider" type="id"/>
     <item name="action_menu_presenter" type="id"/>
@@ -278,6 +283,19 @@
     </style>
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <!-- From: file:/C:/Users/Caleb/WCUTour/WCUTour/res/values/theme.xml -->
+    <eat-comment/>
+    <style name="CustomActionBarTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+       
+    </style>
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/actionbar_background</item>
+    </style>
+    <style name="MyActionBarTabs" parent="@android:style/Widget.Holo.ActionBar.TabView">
+        <!-- tab indicator -->
+        <item name="android:background">@drawable/actionbar_tab_indicator</item>
     </style>
     <!-- From: file:/C:/Users/Caleb/WCUTour/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values/values.xml -->
     <eat-comment/>

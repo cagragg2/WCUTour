@@ -17,9 +17,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: edu.wcu.wcutour" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6098b4e4-30c9-4ea1-a3f4-d2faadc50b69" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="6098b4e4-30c9-4ea1-a3f4-d2faadc50b69" name="Default" comment="" />
     <ignored path="WCUTour.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -2000,7 +1998,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="243" />
+    <option name="x" value="373" />
+    <option name="y" value="4" />
     <option name="width" value="958" />
     <option name="height" value="858" />
   </component>
@@ -2392,7 +2391,11 @@
       <created>1423719441425</created>
       <updated>1423719441425</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="updated action bar colors/ rotation on tour of the camera">
+      <created>1423719471228</created>
+      <updated>1423719471228</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -2416,7 +2419,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="243" y="0" width="958" height="858" extended-state="0" />
+    <frame x="373" y="4" width="958" height="858" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
