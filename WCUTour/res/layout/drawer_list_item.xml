@@ -29,7 +29,7 @@
     <TextView android:id="@+id/counter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/counter_bg"
+        android:background="@drawable/catamount_purple"
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
         android:layout_marginRight="8dp"

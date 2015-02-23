@@ -11,13 +11,13 @@
  <color name="articlecolor">#3399FF</color> 
  <color name="article_title">#3399FF</color> 
  <color name="cachecolor">#8ad0e8</color>
- <color name="gold">#FFD700</color>
+ <color name="gold">#C1A875</color>
     <drawable name="screen_background_dark">#ff000000</drawable>
- 
+    <drawable name="catamount_purple">#592C88</drawable>
  <!-- Nav Drawer Colors -->
  <color name="counter_text_bg">#e6b121</color>
  <color name="list_background_pressed">#FFD700</color>
- <color name="list_background">#FFAA66CC</color>
+ <color name="list_background">#592C88</color>
  <color name="list_divider">#FFD700</color>
  <color name="counter_text_color">#0066cc</color>
  <color name="list_item_title">#99FFFF</color>

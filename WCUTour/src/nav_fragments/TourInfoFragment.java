@@ -13,6 +13,8 @@ public class TourInfoFragment extends Fragment{
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.tour_info_fragment, container, false);
+
+
         return rootView;
 	}
 }
