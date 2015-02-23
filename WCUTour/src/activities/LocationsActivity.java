@@ -49,7 +49,7 @@ public class LocationsActivity extends BaseActivity {
         			int position, long id) {
         		
         		Intent i = new Intent(LocationsActivity.this, SelectedItem.class);
-        		
+        		//
         		Variables.selectedWaypoint = Variables.listOfWaypoints.get(parent.getPositionForView(view));
         		Variables.selectedItem = Variables.selectedWaypoint.getDescription();
         		
