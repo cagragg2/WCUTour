@@ -143,7 +143,7 @@ ADDED from AndroidManifest.xml:84:13
 		ADDED from AndroidManifest.xml:85:17
 	android:value
 		ADDED from AndroidManifest.xml:86:17
-activity#edu.wcu.wcutour.LocationsActivity
+activity#activities.LocationsActivity
 ADDED from AndroidManifest.xml:88:9
 	android:parentActivityName
 		ADDED from AndroidManifest.xml:90:13
@@ -174,8 +174,14 @@ ADDED from AndroidManifest.xml:116:9
 	android:name
 		ADDED from AndroidManifest.xml:117:13
 activity#edu.wcu.wcutour.blank.blank
-ADDED from AndroidManifest.xml:124:9
+ADDED from AndroidManifest.xml:123:9
 	android:label
-		ADDED from AndroidManifest.xml:126:13
-	android:name
 		ADDED from AndroidManifest.xml:125:13
+	android:name
+		ADDED from AndroidManifest.xml:124:13
+activity#activities.WaypointDescription
+ADDED from AndroidManifest.xml:127:9
+	android:label
+		ADDED from AndroidManifest.xml:129:13
+	android:name
+		ADDED from AndroidManifest.xml:128:13

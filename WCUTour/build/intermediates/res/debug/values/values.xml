@@ -254,9 +254,11 @@
     <!-- From: file:/C:/Users/Caleb/WCUTour/WCUTour/res/values/strings.xml -->
     <eat-comment/>
     <string name="desc_list_item_icon">Item Icon</string>
+    <string name="description">Description:</string>
     <string name="drawer_close">Slider Menu Closed</string>
     <string name="drawer_open">Slider Menu Opened</string>
     <string name="hello_world">Hello world!</string>
+    <string name="hours">Hours of Operation:</string>
     <string name="title_Selected_Item">SelectedItem</string>
     <string name="title_activity_achievements">AchievementsActivity</string>
     <string name="title_activity_blank">blank</string>
@@ -266,9 +268,11 @@
     <string name="title_activity_settings">SettingsActivity</string>
     <string name="title_activity_tour">TourActivity</string>
     <string name="title_activity_tour_navigation">TourNavigationActivity</string>
+    <string name="title_activity_waypoint_description">WaypointDescription</string>
     <string name="title_section1">Navigation</string>
     <string name="title_section2">Tour Information</string>
     <string name="title_section3">Waypoints in Tour</string>
+    <string name="uses">Uses:</string>
     <!-- From: file:/C:/Users/Caleb/WCUTour/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values/values.xml -->
     <eat-comment/>
     <string name="wallet_buy_button_place_holder" translation_description="Text on a button that allows a user to make a payment with Google Wallet [CHAR LIMIT=30]">Buy with Google</string>
@@ -288,7 +292,6 @@
     <eat-comment/>
     <style name="CustomActionBarTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
         <item name="android:actionBarStyle">@style/MyActionBar</item>
-       
     </style>
     <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
         <item name="android:background">@drawable/actionbar_background</item>
