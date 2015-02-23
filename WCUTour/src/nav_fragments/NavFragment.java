@@ -261,8 +261,8 @@ public class NavFragment extends Fragment implements LocationListener, SensorEve
 
 	    }
 		
-	  //  myLocMarker = googleMap.addMarker(new MarkerOptions().position(new LatLng(googleMap.getMyLocation().getLatitude(),
-	 //   		googleMap.getMyLocation().getLongitude())));
+	    myLocMarker = googleMap.addMarker(new MarkerOptions().position(new LatLng(0,
+	    		0)));
 	}
 	
 	

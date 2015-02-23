@@ -1,32 +1,24 @@
 package activities;
 
-import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 
-import models.NavDrawerItem;
+import utilities.NavDrawerItem;
 import models.Tours;
 import models.Waypoint;
 
 import org.xml.sax.InputSource;
-import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;
 
 import utilities.NavDrawerListAdapter;
 import utilities.ReadXMLFile;
 import utilities.Variables;
 import edu.wcu.wcutour.R;
-import edu.wcu.wcutour.R.array;
-import edu.wcu.wcutour.R.drawable;
-import edu.wcu.wcutour.R.id;
-import edu.wcu.wcutour.R.layout;
-import edu.wcu.wcutour.R.menu;
-import edu.wcu.wcutour.R.string;
+
 import android.app.Fragment;
 import android.content.Intent;
 import android.content.res.AssetManager;
@@ -37,6 +29,7 @@ import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.widget.DrawerLayout;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -154,8 +147,7 @@ public class BaseActivity extends FragmentActivity {
 		protected void onResume() {
 			
 			super.onResume();
-			
-		//	initilizeMap();
+
 		}
 
 		@Override
@@ -288,6 +280,7 @@ public class BaseActivity extends FragmentActivity {
 	           // Variables.listOfWaypoints.add(wayList.get(0));
 	            for(Waypoint waypoint : wayList) {
 	            	Variables.listOfWaypoints.add(waypoint);
+                    Log.v("Tour", ""+waypoint.getInformation());
 	            }
 	        }// catch (ParserConfigurationException | SAXException | IOException e) {
                 catch (Exception e) {
@@ -313,8 +306,8 @@ public class BaseActivity extends FragmentActivity {
 	        		System.out.println("added caf");
 	        	}
 	        }
-	        Waypoint truck = new Waypoint(35.332879, -83.200240,"Truck",998,"The truck");
-	        Waypoint end_of_poarch = new Waypoint(35.332995, -83.199904,"End of Poarch",999,"End of Poarch");
+	        Waypoint truck = new Waypoint(35.332879, -83.200240,"Truck",998,"The truck","","");
+	        Waypoint end_of_poarch = new Waypoint(35.332995, -83.199904,"End of Poarch",999,"End of Poarch","","");
 	        testWaypoint.add(truck);
 	        testWaypoint.add(end_of_poarch);
 	        
@@ -335,11 +328,11 @@ public class BaseActivity extends FragmentActivity {
 	        sampleTour.add(fountain);
 	        sampleTour.add(caf);
 	        sampleTour.add(library); */
-	        Waypoint library = new Waypoint(35.312966, -83.179877,"Hunter Library", 992,"Hunter Library last");
-	        Waypoint alumni_tower = new Waypoint(35.310413, -83.182663,"Alumni Tower", 995, "Alumni Tower");
-	        Waypoint caf = new Waypoint(35.309474, -83.183245,"Cafeteria ", 993, "Caf Stop");
-	        Waypoint belk = new Waypoint (35.307838, -83.183053,"Belk Building", 1024, "Belk Building");
-	        Waypoint stadium = new Waypoint(35.305428, -83.181740,"Stadium", 1025, "Stadium");
+	        Waypoint library = new Waypoint(35.312966, -83.179877,"Hunter Library", 992,"Hunter Library last","","");
+	        Waypoint alumni_tower = new Waypoint(35.310413, -83.182663,"Alumni Tower", 995, "Alumni Tower","","");
+	        Waypoint caf = new Waypoint(35.309474, -83.183245,"Cafeteria ", 993, "Caf Stop","","");
+	        Waypoint belk = new Waypoint (35.307838, -83.183053,"Belk Building", 1024, "Belk Building","","");
+	        Waypoint stadium = new Waypoint(35.305428, -83.181740,"Stadium", 1025, "Stadium","","");
 	        
 	        sampleTour.add(library);
 	        sampleTour.add(alumni_tower);

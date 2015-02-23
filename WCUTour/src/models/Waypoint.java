@@ -13,6 +13,9 @@ public class Waypoint {
 	public String description = ""; // description of the waypoint
 	public int id; // id of the waypoint
 	public String information = ""; // information about the waypoint.
+    public String hours="";
+    public String uses="";
+    public WaypointInfo info;
 	
 	/**
 	 * Constructor for class waypoint.
@@ -21,14 +24,19 @@ public class Waypoint {
 	 * @param longitude the longitude of the location.
 	 * @param description the discription of the waypoint.
 	 * @param id the id of the waypoint
-	 * @param information // information about the waypoint
+	 * @param information information about the waypoint
 	 */
-	public Waypoint(double latitude, double longitude, String description, int id, String information) {
+	public Waypoint(double latitude, double longitude, String description, int id, String information,
+                    String hours, String uses) {
 		this.latitude = latitude;
 		this.longitude = longitude;
 		this.description = description;
 		this.id = id;
 		this.information = information;
+        this.hours = hours;
+        this.uses = uses;
+
+        info = new WaypointInfo(this.description,this.information,this.hours,this.uses);
 	}
 	/**
 	 * Constructor of a blank waypoint.
@@ -117,6 +125,25 @@ public class Waypoint {
 	public String getInformation() {
 		return information;
 	}
+
+    public WaypointInfo getInfo() {
+        return info;
+    }
+    public void setInfo(WaypointInfo info) {
+        this.info = info;
+    }
+    public void setHours(String hours){
+        this.hours = hours;
+    }
+    public String getHours() {
+        return hours;
+    }
+    public void setUses(String uses) {
+        this.uses = uses;
+    }
+    public String getUses() {
+        return uses;
+    }
 }
 
 

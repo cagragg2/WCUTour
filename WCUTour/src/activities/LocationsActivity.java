@@ -1,12 +1,11 @@
-package edu.wcu.wcutour;
+package activities;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import edu.wcu.wcutour.R;
 import utilities.Variables;
-import activities.BaseActivity;
-import activities.SelectedItem;
-import android.app.Activity;
+
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -19,7 +18,6 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class LocationsActivity extends BaseActivity {
 

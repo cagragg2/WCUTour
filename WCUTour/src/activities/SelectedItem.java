@@ -16,7 +16,9 @@ import edu.wcu.wcutour.R.id;
 import edu.wcu.wcutour.R.layout;
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup.LayoutParams;
@@ -27,6 +29,9 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import java.util.ArrayList;
+
 /**
  * 
  * @author Caleb Gragg, Jeremiah Griffin
@@ -35,16 +40,16 @@ import android.widget.Toast;
  * from the waypoints in the selected tour.
  */
 
-public class SelectedItem extends BaseActivity {
+public class SelectedItem extends BaseActivity implements View.OnClickListener{
 	
 	public GoogleMap googleMap; // google map object
 	ListView list;
-	
+
 	//http://android-er.blogspot.com/2012/07/implement-gallery-like.html
 	LinearLayout myGallery;
 	
-	int[] images = {R.drawable.alumni_tower,R.drawable.alumni_tower2, R.drawable.alumni_tower3 };
-	
+	//int[] images = {R.drawable.alumni_tower,R.drawable.alumni_tower2, R.drawable.alumni_tower3 };
+	ArrayList<Integer> imageIds = new ArrayList<>();
 	
 
 	//------------------------------------------------------------------------------------------------------------
@@ -61,10 +66,11 @@ public class SelectedItem extends BaseActivity {
 	    View contentView = inflater.inflate(R.layout.activity_selected_item, null, false);
 	    mDrawerLayout.addView(contentView, 0); 
 
-	    
 	    map(); //sets up the map
-	    Bundle extras = getIntent().getExtras();
-		
+	    setImages(); // sets up the images to be used
+        Bundle extras = getIntent().getExtras();
+
+
 	//sets up the information regarding the waypoint.
 		if(extras != null)
 		{
@@ -74,10 +80,15 @@ public class SelectedItem extends BaseActivity {
 			TextView tv3 = (TextView) this.findViewById(R.id.textView3);
 			TextView tv4 = (TextView) this.findViewById(R.id.textView4);
 //			TextView tv5 = (TextView) this.findViewById(R.id.textView5);
-			
+
+
+
 			tv1.setText("" + Variables.selectedItem);
 			tv2.setText("Description:" + "\n");
-			tv3.setText("" + Variables.selectedWaypoint.getInformation() + "\n");
+			//tv3.setText("" + Variables.selectedWaypoint.getInformation() + "\n");
+            tv3.setText("Click here for more information.\n");
+            tv3.setOnClickListener(this);
+            //list.addView(tv5);
 			//tv3.setText("hey" + "\n");
 			
 			tv4.setText("Photos:");
@@ -88,13 +99,20 @@ public class SelectedItem extends BaseActivity {
         
 		myGallery = (LinearLayout)findViewById(R.id.mygallery);
 	
-		for(int i = 0; i<images.length;i++) {
+		for(int i = 0; i<imageIds.size();i++) {
 			ImageView iv = new ImageView (this);
-			iv.setBackgroundResource(images[i]);
+			//iv.setBackgroundResource(images[i]);
+            iv.setImageResource(imageIds.get(i));
 			myGallery.addView(iv);
 		}
 
 	}
+
+    @Override
+    public void onClick(View v) {
+        Intent i = new Intent(SelectedItem.this,WaypointDescription.class);
+        startActivity(i);
+    }
 	
 	//------------------------------------------------------------------------------------------------------------
 	/*
@@ -169,5 +187,30 @@ public class SelectedItem extends BaseActivity {
 		googleMap.addMarker(new MarkerOptions().position(new LatLng(Variables.selectedWaypoint.getLatitude(), Variables.selectedWaypoint.getLongitude())).title(Variables.selectedWaypoint.getDescription()).snippet("WCU")
 				.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_VIOLET)));
 	}
+
+    //-------------------------------------------------------------------------
+    /*
+     * Sets up the image ids for the pictures in the waypoint screen.
+     */
+    //-------------------------------------------------------------------------
+    public void setImages() {
+        int counter = 0;
+        boolean check = true;
+        String name = "";
+        name = Variables.selectedItem.toLowerCase();
+        name = name.replaceAll("\\s+", "");
+        name = name.replaceAll("\\\\","");
+        while(check) {
+             imageIds.add(counter,getResources().getIdentifier(name + "_" + counter,
+                    "drawable", getPackageName()));
+            Log.v("tour", imageIds.get(counter) + "");
+            if(imageIds.get(counter) == 0) {
+                Log.v("tour", "Closing out of loop");
+                check = false;
+                imageIds.remove(counter);
+            }
+            counter++;
+        }
+    }
 }
 
