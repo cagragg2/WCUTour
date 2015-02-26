@@ -9,7 +9,18 @@
         android:targetSdkVersion="19" />
 
     <!-- For mapping -->
- -->
+ -->
+
+
+
+
+
+
+
+
+
+
+
     <permission
         android:name="info.androidhive.googlemapsv2.permission.MAPS_RECEIVE"
         android:protectionLevel="signature" />
@@ -84,7 +95,7 @@
                 android:value="MainActivity" />
         </activity>
         <activity
-            android:name=".LocationsActivity"
+            android:name="activities.LocationsActivity"
             android:parentActivityName="activities.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVTY"

@@ -4,9 +4,8 @@ import edu.wcu.wcutour.*;
  
 
 import java.util.ArrayList;
- 
 
-import models.NavDrawerItem;
+
 import android.app.Activity;
 import android.content.Context;
 import android.view.LayoutInflater;

@@ -1,5 +1,7 @@
 package utilities;
 
+import android.util.Log;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -22,6 +24,8 @@ public class ReadXMLFile extends DefaultHandler{
     boolean bLong = false;
     boolean bDesc = false;
     boolean bInfo = false;
+    boolean bHours = false;
+    boolean bUses = false;
     
     @Override
     public void startElement(String uri, String localName, String qName, Attributes attributes)
@@ -42,6 +46,10 @@ public class ReadXMLFile extends DefaultHandler{
             bDesc = true;
         } else if (qName.equals("information")) {
         	bInfo = true;
+        } else if (qName.equals("hours")) {
+            bHours = true;
+        } else if (qName.equals("uses")) {
+            bUses = true;
         }
         
     }
@@ -68,6 +76,12 @@ public class ReadXMLFile extends DefaultHandler{
         } else if (bInfo) {
         	waypoint.setInformation(new String(ch, start,length));
         	bInfo = false;
+        } else if(bHours) {
+            waypoint.setHours(new String(ch,start,length));
+            bHours =false;
+        } else if (bUses) {
+            waypoint.setUses(new String(ch,start,length));
+            bUses = false;
         }
     }
 }

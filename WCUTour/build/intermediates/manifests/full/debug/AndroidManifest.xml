@@ -86,7 +86,7 @@
                 android:value="MainActivity" />
         </activity>
         <activity
-            android:name="edu.wcu.wcutour.LocationsActivity"
+            android:name="activities.LocationsActivity"
             android:parentActivityName="activities.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVTY"
@@ -123,6 +123,10 @@
         <activity
             android:name="edu.wcu.wcutour.blank.blank"
             android:label="@string/title_activity_blank" >
+        </activity>
+        <activity
+            android:name="activities.WaypointDescription"
+            android:label="@string/title_activity_waypoint_description" >
         </activity>
     </application>
 

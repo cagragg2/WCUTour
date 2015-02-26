@@ -1,42 +1,36 @@
 package activities;
 
-import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 
-import models.NavDrawerItem;
+import utilities.NavDrawerItem;
 import models.Tours;
 import models.Waypoint;
 
 import org.xml.sax.InputSource;
-import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;
 
 import utilities.NavDrawerListAdapter;
 import utilities.ReadXMLFile;
 import utilities.Variables;
 import edu.wcu.wcutour.R;
-import edu.wcu.wcutour.R.array;
-import edu.wcu.wcutour.R.drawable;
-import edu.wcu.wcutour.R.id;
-import edu.wcu.wcutour.R.layout;
-import edu.wcu.wcutour.R.menu;
-import edu.wcu.wcutour.R.string;
+
 import android.app.Fragment;
 import android.content.Intent;
 import android.content.res.AssetManager;
 import android.content.res.Configuration;
 import android.content.res.TypedArray;
+import android.location.LocationListener;
 import android.os.Bundle;
 import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.widget.DrawerLayout;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -67,9 +61,9 @@ public class BaseActivity extends FragmentActivity {
 	    private TypedArray navMenuIcons;
 	 
 	    private ArrayList<NavDrawerItem> navDrawerItems; //items in the drawer
-	    private NavDrawerListAdapter adapter;
+	    private NavDrawerListAdapter adapter; //adapter for the custom list
 	    
-	    public static FragmentManager fragmentManager;
+	    public static FragmentManager fragmentManager; // fragment manager for transactions.
 
 
 
@@ -154,8 +148,7 @@ public class BaseActivity extends FragmentActivity {
 		protected void onResume() {
 			
 			super.onResume();
-			
-		//	initilizeMap();
+
 		}
 
 		@Override
@@ -264,11 +257,20 @@ public class BaseActivity extends FragmentActivity {
 	            break;
 	        }
 	    }
-	    
+
+
+    /**
+     * Method to parse the xml file and records the values read into the Variables class for
+     * later use throughtout the application.
+     */
+
 	    public void parser() {
-	   	 
+
+            //All of the waypoints to store from xml file.
 	        Variables.listOfWaypoints = new ArrayList<Waypoint>();
-	        Variables.listOfTours = new ArrayList<Tours>();
+	        //The tours made from waypoints.
+            Variables.listOfTours = new ArrayList<Tours>();
+
 	        
 	        SAXParserFactory saxParserFactory = SAXParserFactory.newInstance();
 	        AssetManager assetManager = getBaseContext().getAssets();
@@ -279,26 +281,26 @@ public class BaseActivity extends FragmentActivity {
 	            SAXParser sp = spf.newSAXParser();
 	            XMLReader xr = sp.getXMLReader();
 	 
-	   			ReadXMLFile handler = new ReadXMLFile();
+	   			ReadXMLFile handler = new ReadXMLFile(); //reader for the xml file
 	   			xr.setContentHandler(handler);
 	   			InputSource inStream = new InputSource(is);
 	   			xr.parse(inStream);
 	 
 	            List<Waypoint> wayList = handler.getWayList();
-	           // Variables.listOfWaypoints.add(wayList.get(0));
+                //Inserts all of the waypoints in the ArrayList.
 	            for(Waypoint waypoint : wayList) {
 	            	Variables.listOfWaypoints.add(waypoint);
 	            }
-	        }// catch (ParserConfigurationException | SAXException | IOException e) {
-                catch (Exception e) {
+	        }
+                catch (Exception e) { //somehow got an error.
 	            e.printStackTrace();
 	        }
 	        
-	        ArrayList<Waypoint> waypoints = new ArrayList<Waypoint>();
-	        ArrayList<Waypoint> waypoints2 = new ArrayList<Waypoint>();
+	/*        ArrayList<Waypoint> waypoints = new ArrayList<Waypoint>();
+	        ArrayList<Waypoint> waypoints2 = new ArrayList<Waypoint>();*/
 	        ArrayList<Waypoint> testWaypoint = new ArrayList<Waypoint>();
 	        ArrayList<Waypoint> sampleTour = new ArrayList<Waypoint>();
-	        
+	     /*
 	        for(int i = 0; i < 8; i++) {
 	        	waypoints.add(Variables.listOfWaypoints.get(i));
 	        }
@@ -312,9 +314,9 @@ public class BaseActivity extends FragmentActivity {
 	        		waypoints2.add(Variables.listOfWaypoints.get(i));
 	        		System.out.println("added caf");
 	        	}
-	        }
-	        Waypoint truck = new Waypoint(35.332879, -83.200240,"Truck",998,"The truck");
-	        Waypoint end_of_poarch = new Waypoint(35.332995, -83.199904,"End of Poarch",999,"End of Poarch");
+	        }*/
+	        Waypoint truck = new Waypoint(35.332879, -83.200240,"Truck",998,"The truck","","");
+	        Waypoint end_of_poarch = new Waypoint(35.332995, -83.199904,"End of Poarch",999,"End of Poarch","","");
 	        testWaypoint.add(truck);
 	        testWaypoint.add(end_of_poarch);
 	        
@@ -335,11 +337,11 @@ public class BaseActivity extends FragmentActivity {
 	        sampleTour.add(fountain);
 	        sampleTour.add(caf);
 	        sampleTour.add(library); */
-	        Waypoint library = new Waypoint(35.312966, -83.179877,"Hunter Library", 992,"Hunter Library last");
-	        Waypoint alumni_tower = new Waypoint(35.310413, -83.182663,"Alumni Tower", 995, "Alumni Tower");
-	        Waypoint caf = new Waypoint(35.309474, -83.183245,"Cafeteria ", 993, "Caf Stop");
-	        Waypoint belk = new Waypoint (35.307838, -83.183053,"Belk Building", 1024, "Belk Building");
-	        Waypoint stadium = new Waypoint(35.305428, -83.181740,"Stadium", 1025, "Stadium");
+	        Waypoint library = new Waypoint(35.312966, -83.179877,"Hunter Library", 992,"Hunter Library last","","");
+	        Waypoint alumni_tower = new Waypoint(35.310413, -83.182663,"Alumni Tower", 995, "Alumni Tower","","");
+	        Waypoint caf = new Waypoint(35.309474, -83.183245,"Cafeteria ", 993, "Caf Stop","","");
+	        Waypoint belk = new Waypoint (35.307838, -83.183053,"Belk Building", 1024, "Belk Building","","");
+	        Waypoint stadium = new Waypoint(35.305428, -83.181740,"Stadium", 1025, "Stadium","","");
 	        
 	        sampleTour.add(library);
 	        sampleTour.add(alumni_tower);

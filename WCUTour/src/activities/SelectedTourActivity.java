@@ -35,11 +35,9 @@ import android.widget.AdapterView.OnItemClickListener;
 
 public class SelectedTourActivity extends BaseActivity {
 
+    //list view to use for the list of waypoints
 	private ListView lv;
-	
-	
-	
-	
+
 	/*
 	 * Sets up the Tour header and the list of waypoints in the selected tour.
 	 * 
@@ -111,12 +109,10 @@ public class SelectedTourActivity extends BaseActivity {
 		}
 		return super.onOptionsItemSelected(item);
 	}
-	/*
+	/**
 	 * The navigate button at the top of the screen starts the Navigation Activity.
 	 */
 	public void navigate(View view) {
-		//took this out to compensate for the new TourNavigationActivity
-		//Intent activityNavigation = new Intent(this, NavigationActivity.class);
 		Intent activityNavigation = new Intent(this, TourNavigationActivity.class);
 		this.startActivity(activityNavigation);
 	}

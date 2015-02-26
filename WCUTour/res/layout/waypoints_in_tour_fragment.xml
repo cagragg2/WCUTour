@@ -1,23 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/title_section3"
+        android:textSize="35dp"
         android:id="@+id/waypoint_in_tour_frag"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="69dp"
         android:textColor="#fdfff878" />
-
     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+ >
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:layout_weight="1"
+            android:textColor="@color/gold"
+            android:text="Waypoint:"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:layout_weight="1"
+            android:textColor="@color/gold"
+            android:text="Distance:"/>
+        </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="@color/gold"/>
+
+<!--    <LinearLayout
         android:orientation="vertical"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_below="@+id/waypoint_in_tour_frag"
-        android:layout_alignParentStart="true"></LinearLayout>
-</RelativeLayout>
+        android:layout_alignParentStart="true"> -->
+        <ListView
+            android:id="@+id/way_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+ <!--   </LinearLayout>-->
+</LinearLayout>

@@ -89,5 +89,10 @@ public class Variables {
 	 * Whether or not the information page should be displayed.
 	 */
 	public static boolean updateInformation;
+
+    /**
+     * My location.
+     */
+    public static Location myLocation;
 }
 
