@@ -10,7 +10,7 @@
         <Button
             android:layout_width="300dip"
             android:layout_height="wrap_content"
-            android:text="@string/campusmap_button_text"
+            android:text="@string/campus_map_home"
             android:id="@+id/campus_map_button_home"
             android:layout_marginTop="96dp"
             android:typeface="normal"
@@ -22,7 +22,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/waypointslist_button_text"
+            android:text="@string/waypoints_home"
             android:id="@+id/locations_button_home"
             android:layout_centerVertical="true"
             android:layout_alignStart="@+id/campus_map_button_home"

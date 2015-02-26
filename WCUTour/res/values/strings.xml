@@ -42,7 +42,10 @@
     <string name="title_section2">Tour Information</string>
     <string name="title_section3">Waypoints in Tour</string>
     <string name="title_activity_blank">blank</string>
-    <string name="title_activity_waypoint_description">WaypointDescription</string>
+    <string name="campus_map_home">Campus Map</string>
+    <string name="waypoints_home">Waypoints</string>
+    <string name="tours_button_text">Tours</string>
+    <string name="title_activity_waypoint_description">Waypoint Description</string>
 
     <!-- Waypoint information -->
     <string name="description">Description:</string>
