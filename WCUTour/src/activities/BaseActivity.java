@@ -61,9 +61,9 @@ public class BaseActivity extends FragmentActivity {
 	    private TypedArray navMenuIcons;
 	 
 	    private ArrayList<NavDrawerItem> navDrawerItems; //items in the drawer
-	    private NavDrawerListAdapter adapter;
+	    private NavDrawerListAdapter adapter; //adapter for the custom list
 	    
-	    public static FragmentManager fragmentManager;
+	    public static FragmentManager fragmentManager; // fragment manager for transactions.
 
 
 
@@ -257,11 +257,20 @@ public class BaseActivity extends FragmentActivity {
 	            break;
 	        }
 	    }
-	    
+
+
+    /**
+     * Method to parse the xml file and records the values read into the Variables class for
+     * later use throughtout the application.
+     */
+
 	    public void parser() {
-	   	 
+
+            //All of the waypoints to store from xml file.
 	        Variables.listOfWaypoints = new ArrayList<Waypoint>();
-	        Variables.listOfTours = new ArrayList<Tours>();
+	        //The tours made from waypoints.
+            Variables.listOfTours = new ArrayList<Tours>();
+
 	        
 	        SAXParserFactory saxParserFactory = SAXParserFactory.newInstance();
 	        AssetManager assetManager = getBaseContext().getAssets();
@@ -272,26 +281,26 @@ public class BaseActivity extends FragmentActivity {
 	            SAXParser sp = spf.newSAXParser();
 	            XMLReader xr = sp.getXMLReader();
 	 
-	   			ReadXMLFile handler = new ReadXMLFile();
+	   			ReadXMLFile handler = new ReadXMLFile(); //reader for the xml file
 	   			xr.setContentHandler(handler);
 	   			InputSource inStream = new InputSource(is);
 	   			xr.parse(inStream);
 	 
 	            List<Waypoint> wayList = handler.getWayList();
-	           // Variables.listOfWaypoints.add(wayList.get(0));
+                //Inserts all of the waypoints in the ArrayList.
 	            for(Waypoint waypoint : wayList) {
 	            	Variables.listOfWaypoints.add(waypoint);
 	            }
-	        }// catch (ParserConfigurationException | SAXException | IOException e) {
-                catch (Exception e) {
+	        }
+                catch (Exception e) { //somehow got an error.
 	            e.printStackTrace();
 	        }
 	        
-	        ArrayList<Waypoint> waypoints = new ArrayList<Waypoint>();
-	        ArrayList<Waypoint> waypoints2 = new ArrayList<Waypoint>();
+	/*        ArrayList<Waypoint> waypoints = new ArrayList<Waypoint>();
+	        ArrayList<Waypoint> waypoints2 = new ArrayList<Waypoint>();*/
 	        ArrayList<Waypoint> testWaypoint = new ArrayList<Waypoint>();
 	        ArrayList<Waypoint> sampleTour = new ArrayList<Waypoint>();
-	        
+	     /*
 	        for(int i = 0; i < 8; i++) {
 	        	waypoints.add(Variables.listOfWaypoints.get(i));
 	        }
@@ -305,7 +314,7 @@ public class BaseActivity extends FragmentActivity {
 	        		waypoints2.add(Variables.listOfWaypoints.get(i));
 	        		System.out.println("added caf");
 	        	}
-	        }
+	        }*/
 	        Waypoint truck = new Waypoint(35.332879, -83.200240,"Truck",998,"The truck","","");
 	        Waypoint end_of_poarch = new Waypoint(35.332995, -83.199904,"End of Poarch",999,"End of Poarch","","");
 	        testWaypoint.add(truck);

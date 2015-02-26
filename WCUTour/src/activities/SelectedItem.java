@@ -53,7 +53,7 @@ public class SelectedItem extends BaseActivity implements View.OnClickListener{
 	
 
 	//------------------------------------------------------------------------------------------------------------
-	/*
+	/**
 	 * onCreate method for the selected item.
 	 */
 	//------------------------------------------------------------------------------------------------------------
@@ -79,34 +79,38 @@ public class SelectedItem extends BaseActivity implements View.OnClickListener{
 			TextView tv2 = (TextView) this.findViewById(R.id.textView2);
 			TextView tv3 = (TextView) this.findViewById(R.id.textView3);
 			TextView tv4 = (TextView) this.findViewById(R.id.textView4);
-//			TextView tv5 = (TextView) this.findViewById(R.id.textView5);
 
 
-
+            //waypoint name
 			tv1.setText("" + Variables.selectedItem);
 			tv2.setText("Description:" + "\n");
-			//tv3.setText("" + Variables.selectedWaypoint.getInformation() + "\n");
+            //when clicked takes the user to the more information screen
             tv3.setText("Click here for more information.\n");
             tv3.setOnClickListener(this);
-            //list.addView(tv5);
-			//tv3.setText("hey" + "\n");
-			
+
 			tv4.setText("Photos:");
 		}
 		Button button = new Button(this);
 		button.setText("Nav");
 		addContentView(button, new LayoutParams(LayoutParams.WRAP_CONTENT,LayoutParams.WRAP_CONTENT));
-        
+
+        //sets up the galler
 		myGallery = (LinearLayout)findViewById(R.id.mygallery);
-	
+
+        //loops over all the images and adds them to the gallery
 		for(int i = 0; i<imageIds.size();i++) {
 			ImageView iv = new ImageView (this);
-			//iv.setBackgroundResource(images[i]);
             iv.setImageResource(imageIds.get(i));
 			myGallery.addView(iv);
 		}
 
 	}
+
+    /**
+     * Starts the more information screen when the "click here for more information"
+     * is clicked
+     * @param v view that was clicked
+     */
 
     @Override
     public void onClick(View v) {
@@ -115,7 +119,7 @@ public class SelectedItem extends BaseActivity implements View.OnClickListener{
     }
 	
 	//------------------------------------------------------------------------------------------------------------
-	/*
+	/**
 	 * Method that calls the other methods relavent to setting up the map.
 	 */
 	//------------------------------------------------------------------------------------------------------------
@@ -125,7 +129,7 @@ public class SelectedItem extends BaseActivity implements View.OnClickListener{
 		setUpOneWaypoint();
 	}
 	//------------------------------------------------------------------------------------------------------------
-	/*
+	/**
 	 * Trys to call the initialize map method.
 	 */
 	//------------------------------------------------------------------------------------------------------------
@@ -138,7 +142,7 @@ public class SelectedItem extends BaseActivity implements View.OnClickListener{
 	}
 	
 	//------------------------------------------------------------------------------------------------------------
-	/*
+	/**
 	 * Initializes the map if the map is null.
 	 */
 	//------------------------------------------------------------------------------------------------------------
@@ -155,7 +159,7 @@ public class SelectedItem extends BaseActivity implements View.OnClickListener{
 	}
 	
 	//------------------------------------------------------------------------------------------------------------
-	/*
+	/**
 	 * Zooms over the waypoint.
 	 */
 	//------------------------------------------------------------------------------------------------------------
@@ -178,7 +182,7 @@ public class SelectedItem extends BaseActivity implements View.OnClickListener{
 	}
 	
 	//------------------------------------------------------------------------------------------------------------
-	/*
+	/**
 	 * Sets the marker for the single waypoint.  
 	 */
 	//------------------------------------------------------------------------------------------------------------
@@ -189,7 +193,7 @@ public class SelectedItem extends BaseActivity implements View.OnClickListener{
 	}
 
     //-------------------------------------------------------------------------
-    /*
+    /**
      * Sets up the image ids for the pictures in the waypoint screen.
      */
     //-------------------------------------------------------------------------
@@ -200,12 +204,11 @@ public class SelectedItem extends BaseActivity implements View.OnClickListener{
         name = Variables.selectedItem.toLowerCase();
         name = name.replaceAll("\\s+", "");
         name = name.replaceAll("\\\\","");
+        //gets all images with the name followed by _ and a number
         while(check) {
              imageIds.add(counter,getResources().getIdentifier(name + "_" + counter,
                     "drawable", getPackageName()));
-            Log.v("tour", imageIds.get(counter) + "");
             if(imageIds.get(counter) == 0) {
-                Log.v("tour", "Closing out of loop");
                 check = false;
                 imageIds.remove(counter);
             }

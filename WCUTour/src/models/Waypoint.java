@@ -126,21 +126,50 @@ public class Waypoint {
 		return information;
 	}
 
+    /**
+     * Gets the information about the waypoint
+     * @return the information in an WaypointInfo object.
+     */
     public WaypointInfo getInfo() {
         return info;
     }
+
+    /**
+     * Sets the info for the waypoint in an WaypointInfo object.
+     * @param info The new information for the waypoint.
+     */
     public void setInfo(WaypointInfo info) {
         this.info = info;
     }
+
+    /**
+     * Sets the hours for the waypoint.
+     * @param hours The hours for the waypoint
+     */
     public void setHours(String hours){
         this.hours = hours;
     }
+
+    /**
+     * Returns the hours for the waypoint.
+     * @return The hours of the waypoint.
+     */
     public String getHours() {
         return hours;
     }
+
+    /**
+     * Sets the uses for the waypoint.
+     * @param uses The new uses for the waypoint.
+     */
     public void setUses(String uses) {
         this.uses = uses;
     }
+
+    /**
+     * Returns the uses for the waypoint
+     * @return The uses for the waypoint.
+     */
     public String getUses() {
         return uses;
     }

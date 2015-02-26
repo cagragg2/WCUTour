@@ -53,6 +53,12 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+/**
+ * @author Caleb Gragg, Jeremiah Griffin
+ * Fragment tab of the TourNavigationActivity.  Handles the creation of google maps and
+ * sets up the tour.  Guides the user throughout the tour and has a LocationListener to
+ * monitor the users location.
+ */
 public class NavFragment extends Fragment implements LocationListener{//, SensorEventListener {
 	
 	private GoogleMap googleMap; //google map to use
@@ -70,9 +76,9 @@ public class NavFragment extends Fragment implements LocationListener{//, Sensor
 	Marker myLocMarker;
 	SensorManager sensor;
 	Sensor mAccelerometer;
-    private UpdateLocation updateLocationTask;
-    private boolean hasLocation = false;
-    LocationHelper locationHelper;
+    private UpdateLocation updateLocationTask;//async task to find location
+    private boolean hasLocation = false; //wether or not we have found the user location
+    LocationHelper locationHelper; //to help with determining initial location
 	
 	@Override
 	public void onResume() {
@@ -84,6 +90,10 @@ public class NavFragment extends Fragment implements LocationListener{//, Sensor
 	//	sensor.registerListener(this, mAccelerometer, SensorManager.SENSOR_DELAY_NORMAL);
 	}
 
+    /**
+     * onCreate method to start the async task of finding the users initial location
+     * @param savedInstanceState
+     */
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -98,7 +108,10 @@ public class NavFragment extends Fragment implements LocationListener{//, Sensor
 		super.onActivityCreated(savedInstanceState);
 		
 	}
-	
+
+    /**
+     * onDestroy method to stop tracking the users location.
+     */
 	@Override
 	public void onDestroy() {
 		super.onDestroy();
@@ -111,7 +124,14 @@ public class NavFragment extends Fragment implements LocationListener{//, Sensor
 		Variables.locationManager.removeUpdates(this);
 		Variables.locationManager.removeProximityAlert(Variables.pi);
 	}
-	
+
+    /**
+     * Called when the view is created initializes the map.
+     * @param inflater
+     * @param containter
+     * @param savedInstanceState
+     * @return
+     */
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup containter,
 			Bundle savedInstanceState) {
@@ -135,7 +155,10 @@ public class NavFragment extends Fragment implements LocationListener{//, Sensor
 
 		return view;
 	}
-	
+
+    /**
+     * Method to initialize the map and start the proximity reciever.
+     */
 	public void start() {
 		 Variables.locationManager = (LocationManager) getActivity().getSystemService(Context.LOCATION_SERVICE);
 
@@ -171,9 +194,7 @@ public class NavFragment extends Fragment implements LocationListener{//, Sensor
 		    //adds the proximity alert for the first waypoint in the list.
 		    Variables.locationManager.addProximityAlert(lat1, lon1, radius, -1, Variables.pi);
 		    Variables.tourCounter = 1; //so we know which waypoint in the list we are at.
-		    
-		    //locationView = (TextView) V.findViewById(R.id.tv1);
-		   // distanceView = (TextView) V.findViewById(R.id.tv2);
+
 		  
 		    locationView.setText(Variables.selectedTour.getTour().get(0).getDescription() + "");
 		    distanceView.setText("-999");
@@ -181,8 +202,6 @@ public class NavFragment extends Fragment implements LocationListener{//, Sensor
 		    /*
 		     * Progress bar
 		     */
-		
-		    //mProgress = (ProgressBar) V.findViewById(R.id.progressBar1);
 		    mProgress.setMax(100);
 		    Variables.changeDistance = true;
 		    Variables.updateInformation = false;
@@ -193,7 +212,7 @@ public class NavFragment extends Fragment implements LocationListener{//, Sensor
     //    sensor.registerListener(this, mAccelerometer, SensorManager.SENSOR_DELAY_NORMAL);
 	}
 	
-	/*
+	/**
 	 * Checks to see if the google maps is null if it is creates a new google maps.
 	 */
 	private void initilizeMap() {
@@ -209,7 +228,7 @@ public class NavFragment extends Fragment implements LocationListener{//, Sensor
 	}
 	
 	
-	/*
+	/**
 	 * Sets up the map by getting the current location and initilizing things to start the tracking the location changes.
 	 */
 	private void setUpMap() {
@@ -249,11 +268,11 @@ public class NavFragment extends Fragment implements LocationListener{//, Sensor
                 .tilt(65.5f).zoom(18f).build();
         googleMap.moveCamera(CameraUpdateFactory.newCameraPosition(currentPlace));
 
-
+        //sets up the markers for the map
 	    setMarkers();
 	}
 	
-	/*
+	/**
 	 * Sets up the markers for the waypoints in the selected tour.
 	 */
 	public void setMarkers(){
@@ -262,7 +281,7 @@ public class NavFragment extends Fragment implements LocationListener{//, Sensor
 	    googleMap.setTrafficEnabled(true);
 	    
 
-	    
+	    //loops over all waypoints in the tour and sets a marker for each waypoint
 	    for(int i = 0; i < Variables.selectedTour.getTour().size(); i++){
 	        googleMap.addMarker(new MarkerOptions().position(new LatLng(Variables.selectedTour.getTour().get(i).getLatitude(), 
 	        							Variables.selectedTour.getTour().get(i).getLongitude())).title(Variables.selectedTour.getTour().get(i).getDescription()).snippet("WCU")
@@ -282,7 +301,7 @@ public class NavFragment extends Fragment implements LocationListener{//, Sensor
 	}
 	
 	
-	/*
+	/**
 	 * Draws a lime green polyline everytime the location changes.
 	 */
 	public void trackLocation(Location location) {
@@ -300,7 +319,7 @@ public class NavFragment extends Fragment implements LocationListener{//, Sensor
 		
 		line = googleMap.addPolyline(pOptions);		
 	}
-	/*
+	/**
 	 * Will use later for updating the UI on how far to the next location.
 	 */
 	
@@ -309,17 +328,14 @@ public class NavFragment extends Fragment implements LocationListener{//, Sensor
 	}
 
 	/*
-	 * The onDestroy() method unregisters the receiver and stops tracking location.
+	 * Called when the users location is changed.
+	 * @param location the current location of the device.
 	 */
 	@Override
 	public void onLocationChanged(Location location) {
-    //	Toast.makeText(getApplicationContext(),"Location Changed", 
-     //           Toast.LENGTH_SHORT).show();
 		trackLocation(location);
 
-		/*
-		 * To fix the screen at the bottom below the map
-		 */
+        //calcs the distance to the next location
 		Location loc99 = new Location("");
 		loc99.setLatitude(Variables.selectedTour.getTour().get(Variables.tourCounter-1).getLatitude());
 		loc99.setLongitude(Variables.selectedTour.getTour().get(Variables.tourCounter-1).getLongitude());
@@ -366,18 +382,13 @@ public class NavFragment extends Fragment implements LocationListener{//, Sensor
 			//Pass them to a new CameraUpdateObject
 			CameraUpdate center= CameraUpdateFactory.newLatLng(new LatLng(loc.getLatitude(),loc.getLongitude())); 
 			//Specify a zoom level
-
-			//myLocMarker.remove();
-		   // myLocMarker = googleMap.addMarker(new MarkerOptions().position(new LatLng(googleMap.getMyLocation().getLatitude(),
-		    //		googleMap.getMyLocation().getLongitude())));
-		  //  myLocMarker.isFlat();
-		   // myLocMarker.setIcon(BitmapDescriptorFactory.fromResource(R.drawable.arrow));
-		   // Log.e("tour", "Moving");
-
-
 		    
 	}
 
+    /**
+     * Updates the camera to a new bearing.
+     * @param bearing
+     */
     public void updateCamera(float bearing) {
         CameraPosition currentPlace = new CameraPosition.Builder()
                 .target(new LatLng(Variables.myLocation.getLatitude(),Variables.myLocation.getLongitude()))
@@ -746,11 +757,6 @@ public void setUpCrossCampusTour() {
 			pOptions.add(point);
 			
 		}
-		//LatLng coord = new LatLng(35.312804, -83.179894);
-		//CameraUpdate center= CameraUpdateFactory.newLatLng(coord);
-		//CameraUpdate zoom=CameraUpdateFactory.zoomTo(17);
-		//googleMap.moveCamera(center);
-		//googleMap.animateCamera(zoom);
 		
 		googleMap.addMarker(options.position(hunterLibrary)
 								   .title("Hunter Library")
@@ -800,10 +806,18 @@ public void onAccuracyChanged(Sensor sensor, int accuracy) {
 	
 } */
 
+    /**
+     * Async task to find the users location in the background.  When finished calls the setUpMap()
+     * method
+     */
     public class UpdateLocation extends AsyncTask<Context, Void, Void> {
 
+        //dialog box
         private ProgressDialog dialog = new ProgressDialog(getActivity());
 
+        /**
+         * called before the execution.
+         */
         protected void onPreExecute() {
             this.dialog.setMessage("Searching for Location");
             this.dialog.show();
@@ -811,6 +825,11 @@ public void onAccuracyChanged(Sensor sensor, int accuracy) {
             Log.e("tour","doing pre execute");
         }
 
+        /**
+         * Waits for Variables to find location.
+         * @param params
+         * @return
+         */
         protected Void doInBackground(Context... params) {
             int count = 0;
             while(Variables.myLocation == null || count > 10) {
@@ -824,6 +843,11 @@ public void onAccuracyChanged(Sensor sensor, int accuracy) {
             return null;
         }
 
+
+        /**
+         * After found calls the setUpMap() method
+         * @param unused
+         */
         protected  void onPostExecute(final Void unused) {
             if(this.dialog.isShowing()) {
                 this.dialog.dismiss();

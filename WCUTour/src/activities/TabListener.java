@@ -9,7 +9,10 @@ import android.app.FragmentTransaction;
 import android.app.ActionBar;
 import android.util.Log;
 
-
+/**
+ * @author Caleb Gragg, Jeremiah Griffin
+ * Class for the tabs in the TourNavigationActivity.
+ */
 public class TabListener implements ActionBar.TabListener {
 	
 		 

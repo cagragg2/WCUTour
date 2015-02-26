@@ -54,10 +54,8 @@ public class WaypointsListAdapter extends BaseAdapter {
 
         TextView waypoint = (TextView) convertView.findViewById(R.id.waylisttv1);
         TextView dist = (TextView) convertView.findViewById(R.id.waylisttv2);
-        //TextView txtTitle = (TextView) convertView.findViewById(R.id.title);
         TextView txtCount = (TextView) convertView.findViewById(R.id.counter2);
 
-       // imgIcon.setImageResource(waypointItem.get(position).getIcon());
        waypoint.setText(waypointItem.get(position).getTitle());
        dist.setText(waypointItem.get(position).getDistance() + "");
 
