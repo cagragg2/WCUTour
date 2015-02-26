@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- From: file:/C:/Users/Caleb/WCUTour/WCUTour/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Jeremiah/Documents/GitHubWCUtour/WCUTour/WCUTour/res/values/strings.xml -->
     <eat-comment/>
     <array name="nav_drawer_icons">
         <item>@drawable/ic_launcher</item>
@@ -16,7 +16,7 @@
         <item>Settings</item>
         <item>Achievements</item>
     </string-array>
-    <!-- From: file:/C:/Users/Caleb/WCUTour/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Jeremiah/Documents/GitHubWCUtour/WCUTour/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="actionBarDivider"/>
     <attr format="reference" name="actionBarItemBackground"/>
@@ -90,7 +90,7 @@
     <color name="abc_search_url_text_normal">#7fa87f</color>
     <color name="abc_search_url_text_pressed">@android:color/black</color>
     <color name="abc_search_url_text_selected">@android:color/black</color>
-    <!-- From: file:/C:/Users/Caleb/WCUTour/WCUTour/res/values/color.xml -->
+    <!-- From: file:/C:/Users/Jeremiah/Documents/GitHubWCUtour/WCUTour/WCUTour/res/values/color.xml -->
     <eat-comment/>
     <color name="article_title">#3399FF</color>
     <color name="articlecolor">#3399FF</color>
@@ -98,7 +98,7 @@
     <color name="blue">#0066cc</color>
     <color name="blueback">#99FFFF</color>
     <color name="cachecolor">#8ad0e8</color>
-    <!-- From: file:/C:/Users/Caleb/WCUTour/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Jeremiah/Documents/GitHubWCUtour/WCUTour/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values/values.xml -->
     <eat-comment/>
     <color name="common_action_bar_splitter">#d2d2d2</color>
     <color name="common_signin_btn_dark_text_default">@android:color/white</color>
@@ -110,7 +110,7 @@
     <color name="common_signin_btn_light_text_disabled">#FFAAAAAA</color>
     <color name="common_signin_btn_light_text_focused">#FF737373</color>
     <color name="common_signin_btn_light_text_pressed">@android:color/white</color>
-    <!-- From: file:/C:/Users/Caleb/WCUTour/WCUTour/res/values/color.xml -->
+    <!-- From: file:/C:/Users/Jeremiah/Documents/GitHubWCUtour/WCUTour/WCUTour/res/values/color.xml -->
     <eat-comment/>
     <color name="counter_text_bg">#e6b121</color>
     <color name="counter_text_color">#0066cc</color>
@@ -123,7 +123,7 @@
     <color name="list_item_title">#99FFFF</color>
     <color name="orange">#ff5500</color>
     <color name="transparent">#00000000</color>
-    <!-- From: file:/C:/Users/Caleb/WCUTour/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Jeremiah/Documents/GitHubWCUtour/WCUTour/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values/values.xml -->
     <eat-comment/>
     <color name="wallet_bright_foreground_disabled_holo_light">#ffb2b2b2</color>
     <color name="wallet_bright_foreground_holo_dark">#fff3f3f3</color>
@@ -138,7 +138,7 @@
     <color name="wallet_hint_foreground_holo_light">#808080</color>
     <color name="wallet_holo_blue_light">#ff33b5e5</color>
     <color name="wallet_link_text_light">#0000ee</color>
-    <!-- From: file:/C:/Users/Caleb/WCUTour/WCUTour/res/values/color.xml -->
+    <!-- From: file:/C:/Users/Jeremiah/Documents/GitHubWCUtour/WCUTour/WCUTour/res/values/color.xml -->
     <eat-comment/>
     <color name="white">#ffffff</color>
     <declare-styleable name="ActionBar"><attr name="navigationMode"><enum name="normal" value="0"/><enum name="listMode" value="1"/><enum name="tabMode" value="2"/></attr><attr name="displayOptions"><flag name="useLogo" value="0x1"/><flag name="showHome" value="0x2"/><flag name="homeAsUp" value="0x4"/><flag name="showTitle" value="0x8"/><flag name="showCustom" value="0x10"/><flag name="disableHome" value="0x20"/></attr><attr name="title"/><attr format="string" name="subtitle"/><attr format="reference" name="titleTextStyle"/><attr format="reference" name="subtitleTextStyle"/><attr format="reference" name="icon"/><attr format="reference" name="logo"/><attr format="reference" name="divider"/><attr format="reference" name="background"/><attr format="reference|color" name="backgroundStacked"/><attr format="reference|color" name="backgroundSplit"/><attr format="reference" name="customNavigationLayout"/><attr name="height"/><attr format="reference" name="homeLayout"/><attr format="reference" name="progressBarStyle"/><attr format="reference" name="indeterminateProgressStyle"/><attr format="dimension" name="progressBarPadding"/><attr format="dimension" name="itemPadding"/></declare-styleable>
@@ -161,7 +161,7 @@
     <declare-styleable name="View"><attr format="dimension" name="paddingStart"/><attr format="dimension" name="paddingEnd"/><attr name="android:focusable"/></declare-styleable>
     <declare-styleable name="WalletFragmentOptions"><attr format="enum" name="theme"><enum name="holo_dark" value="0"/><enum name="holo_light" value="1"/></attr><attr format="enum" name="environment"><enum name="production" value="1"/><enum name="sandbox" value="0"/><enum name="strict_sandbox" value="2"/></attr><attr format="reference" name="fragmentStyle"/><attr format="enum" name="fragmentMode"><enum name="buyButton" value="1"/><enum name="selectionDetails" value="2"/></attr></declare-styleable>
     <declare-styleable name="WalletFragmentStyle"><attr format="dimension" name="buyButtonHeight"><enum name="match_parent" value="-1"/><enum name="wrap_content" value="-2"/></attr><attr format="dimension" name="buyButtonWidth"><enum name="match_parent" value="-1"/><enum name="wrap_content" value="-2"/></attr><attr format="enum" name="buyButtonText"><enum name="buy_with_google" value="1"/><enum name="buy_now" value="2"/><enum name="book_now" value="3"/></attr><attr format="enum" name="buyButtonAppearance"><enum name="classic" value="1"/><enum name="grayscale" value="2"/><enum name="monochrome" value="3"/></attr><attr format="reference" name="maskedWalletDetailsTextAppearance"/><attr format="reference" name="maskedWalletDetailsHeaderTextAppearance"/><attr format="reference|color" name="maskedWalletDetailsBackground"/><attr format="reference" name="maskedWalletDetailsButtonTextAppearance"/><attr format="reference|color" name="maskedWalletDetailsButtonBackground"/><attr format="color" name="maskedWalletDetailsLogoTextColor"/><attr format="enum" name="maskedWalletDetailsLogoImageType"><enum name="classic" value="1"/><enum name="monochrome" value="2"/></attr></declare-styleable>
-    <!-- From: file:/C:/Users/Caleb/WCUTour/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Jeremiah/Documents/GitHubWCUtour/WCUTour/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values/values.xml -->
     <eat-comment/>
     <dimen name="abc_action_bar_default_height">48dip</dimen>
     <dimen name="abc_action_bar_icon_vertical_padding">8dip</dimen>
@@ -180,20 +180,20 @@
     <dimen name="abc_panel_menu_list_width">296dp</dimen>
     <dimen name="abc_search_view_preferred_width">320dip</dimen>
     <dimen name="abc_search_view_text_min_width">160dip</dimen>
-    <!-- From: file:/C:/Users/Caleb/WCUTour/WCUTour/res/values/dimens.xml -->
+    <!-- From: file:/C:/Users/Jeremiah/Documents/GitHubWCUtour/WCUTour/WCUTour/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/C:/Users/Caleb/WCUTour/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Jeremiah/Documents/GitHubWCUtour/WCUTour/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values/values.xml -->
     <eat-comment/>
     <item name="dialog_fixed_height_major" type="dimen">80%</item>
     <item name="dialog_fixed_height_minor" type="dimen">100%</item>
     <item name="dialog_fixed_width_major" type="dimen">320dp</item>
     <item name="dialog_fixed_width_minor" type="dimen">320dp</item>
-    <!-- From: file:/C:/Users/Caleb/WCUTour/WCUTour/res/values/color.xml -->
+    <!-- From: file:/C:/Users/Jeremiah/Documents/GitHubWCUtour/WCUTour/WCUTour/res/values/color.xml -->
     <eat-comment/>
     <drawable name="screen_background_dark">#ff000000</drawable>
-    <!-- From: file:/C:/Users/Caleb/WCUTour/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Jeremiah/Documents/GitHubWCUtour/WCUTour/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values/values.xml -->
     <eat-comment/>
     <item name="action_bar_activity_content" type="id"/>
     <item name="action_menu_divider" type="id"/>
@@ -202,10 +202,10 @@
     <item name="progress_circular" type="id"/>
     <item name="progress_horizontal" type="id"/>
     <integer name="abc_max_action_buttons">2</integer>
-    <!-- From: file:/C:/Users/Caleb/WCUTour/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Jeremiah/Documents/GitHubWCUtour/WCUTour/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values/values.xml -->
     <eat-comment/>
     <integer name="google_play_services_version">5089000</integer>
-    <!-- From: file:/C:/Users/Caleb/WCUTour/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Jeremiah/Documents/GitHubWCUtour/WCUTour/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values/values.xml -->
     <eat-comment/>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_up_description">Navigate up</string>
@@ -220,11 +220,11 @@
     <string name="abc_searchview_description_voice">Voice search</string>
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
-    <!-- From: file:/C:/Users/Caleb/WCUTour/WCUTour/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Jeremiah/Documents/GitHubWCUtour/WCUTour/WCUTour/res/values/strings.xml -->
     <eat-comment/>
     <string name="action_settings">Settings</string>
     <string name="app_name">WCUTour</string>
-    <!-- From: file:/C:/Users/Caleb/WCUTour/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Jeremiah/Documents/GitHubWCUtour/WCUTour/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values/values.xml -->
     <eat-comment/>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable Google Play services</string>
     <string msgid="227660514972886228" name="common_google_play_services_enable_text">This app won\'t work unless you enable Google Play services.</string>
@@ -251,7 +251,7 @@
     <string msgid="1788179980625863495" name="common_google_play_services_update_title">Update Google Play services</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
-    <!-- From: file:/C:/Users/Caleb/WCUTour/WCUTour/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Jeremiah/Documents/GitHubWCUtour/WCUTour/WCUTour/res/values/strings.xml -->
     <eat-comment/>
     <string name="desc_list_item_icon">Item Icon</string>
     <string name="drawer_close">Slider Menu Closed</string>
@@ -269,10 +269,10 @@
     <string name="title_section1">Navigation</string>
     <string name="title_section2">Tour Information</string>
     <string name="title_section3">Waypoints in Tour</string>
-    <!-- From: file:/C:/Users/Caleb/WCUTour/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Jeremiah/Documents/GitHubWCUtour/WCUTour/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values/values.xml -->
     <eat-comment/>
     <string name="wallet_buy_button_place_holder" translation_description="Text on a button that allows a user to make a payment with Google Wallet [CHAR LIMIT=30]">Buy with Google</string>
-    <!-- From: file:/C:/Users/Caleb/WCUTour/WCUTour/res/values/styles.xml -->
+    <!-- From: file:/C:/Users/Jeremiah/Documents/GitHubWCUtour/WCUTour/WCUTour/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
         <!--
@@ -284,20 +284,7 @@
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
-    <!-- From: file:/C:/Users/Caleb/WCUTour/WCUTour/res/values/theme.xml -->
-    <eat-comment/>
-    <style name="CustomActionBarTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
-        <item name="android:actionBarStyle">@style/MyActionBar</item>
-       
-    </style>
-    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
-        <item name="android:background">@drawable/actionbar_background</item>
-    </style>
-    <style name="MyActionBarTabs" parent="@android:style/Widget.Holo.ActionBar.TabView">
-        <!-- tab indicator -->
-        <item name="android:background">@drawable/actionbar_tab_indicator</item>
-    </style>
-    <!-- From: file:/C:/Users/Caleb/WCUTour/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Jeremiah/Documents/GitHubWCUtour/WCUTour/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values/values.xml -->
     <eat-comment/>
     <style name="TextAppearance.AppCompat.Base.CompactMenu.Dialog" parent="android:TextAppearance.Medium">
         <item name="android:textColor">@android:color/primary_text_light</item>
@@ -773,7 +760,7 @@
     </style>
     <style name="Theme.Base.Light" parent="android:Theme.Light">
     </style>
-    <!-- From: file:/C:/Users/Caleb/WCUTour/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Jeremiah/Documents/GitHubWCUtour/WCUTour/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values/values.xml -->
     <eat-comment/>
     <style name="Theme.IAPTheme" parent="android:Theme">
     <item name="android:windowIsTranslucent">true</item>
@@ -815,7 +802,7 @@
         <item name="maskedWalletDetailsLogoTextColor">@color/wallet_bright_foreground_holo_dark</item>
         <item name="maskedWalletDetailsLogoImageType">classic</item>
     </style>
-    <!-- From: file:/C:/Users/Caleb/WCUTour/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Jeremiah/Documents/GitHubWCUtour/WCUTour/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values/values.xml -->
     <eat-comment/>
     <style name="Widget.AppCompat.ActionBar" parent="Widget.AppCompat.Base.ActionBar">
     </style>
