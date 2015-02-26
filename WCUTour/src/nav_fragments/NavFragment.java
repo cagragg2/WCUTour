@@ -750,10 +750,10 @@ public void setUpCrossCampusTour() {
 		hunterToCrc.add(a1);
 		
 		
-		
+		LatLng point;
 		MarkerOptions options = new MarkerOptions();
-		for(int z = 0; z < hunterToCrc.size(); z++) {
-			LatLng point = hunterToCrc.get(z);
+		for(int z = 0; z < Variables.crossCampusTour.size(); z++) {
+			point = Variables.crossCampusTour.get(z).getPoint();
 			pOptions.add(point);
 			
 		}

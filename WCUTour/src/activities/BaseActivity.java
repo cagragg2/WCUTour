@@ -7,6 +7,7 @@ import java.util.List;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 
+import models.TourPoint;
 import utilities.NavDrawerItem;
 import models.Tours;
 import models.Waypoint;
@@ -15,6 +16,7 @@ import org.xml.sax.InputSource;
 import org.xml.sax.XMLReader;
 
 import utilities.NavDrawerListAdapter;
+import utilities.ReadTourXML;
 import utilities.ReadXMLFile;
 import utilities.Variables;
 import edu.wcu.wcutour.R;
@@ -260,7 +262,7 @@ public class BaseActivity extends FragmentActivity {
 
 
     /**
-     * Method to parse the xml file and records the values read into the Variables class for
+     * Method to parse the xml files and record the values read into the Variables class for
      * later use throughtout the application.
      */
 
@@ -270,8 +272,10 @@ public class BaseActivity extends FragmentActivity {
 	        Variables.listOfWaypoints = new ArrayList<Waypoint>();
 	        //The tours made from waypoints.
             Variables.listOfTours = new ArrayList<Tours>();
+            // The cross-campus tour.
+            Variables.crossCampusTour = new ArrayList<TourPoint>();
 
-	        
+	        // Reading the waypoints.xml file in and storing it an ArrayList.
 	        SAXParserFactory saxParserFactory = SAXParserFactory.newInstance();
 	        AssetManager assetManager = getBaseContext().getAssets();
 	        try {
@@ -295,6 +299,35 @@ public class BaseActivity extends FragmentActivity {
                 catch (Exception e) { //somehow got an error.
 	            e.printStackTrace();
 	        }
+
+            // Reading the cross_campus_tour.xml in and storing it in an ArrayList.
+
+            SAXParserFactory saxParserFact2 = SAXParserFactory.newInstance();
+            AssetManager assetManager2 = getBaseContext().getAssets();
+            try {
+
+                InputStream is2 = assetManager2.open("cross_campus_tour.xml");
+
+                SAXParserFactory spf2 = SAXParserFactory.newInstance();
+                SAXParser sp2 = spf2.newSAXParser();
+                XMLReader reader = sp2.getXMLReader();
+
+                ReadTourXML handler2 = new ReadTourXML();
+                reader.setContentHandler(handler2);
+                InputSource inStream2 = new InputSource(is2);
+                reader.parse(inStream2);
+
+                List<TourPoint> tourList = handler2.getTourList();
+
+                for(TourPoint point : tourList) {
+                    Variables.crossCampusTour.add(point);
+
+
+                }
+            }// catch (ParserConfigurationException | SAXException | IOException e) {
+            catch (Exception e) {
+                e.printStackTrace();
+            }
 	        
 	/*        ArrayList<Waypoint> waypoints = new ArrayList<Waypoint>();
 	        ArrayList<Waypoint> waypoints2 = new ArrayList<Waypoint>();*/
@@ -315,10 +348,10 @@ public class BaseActivity extends FragmentActivity {
 	        		System.out.println("added caf");
 	        	}
 	        }*/
-	        Waypoint truck = new Waypoint(35.332879, -83.200240,"Truck",998,"The truck","","");
-	        Waypoint end_of_poarch = new Waypoint(35.332995, -83.199904,"End of Poarch",999,"End of Poarch","","");
-	        testWaypoint.add(truck);
-	        testWaypoint.add(end_of_poarch);
+	        //Waypoint truck = new Waypoint(35.332879, -83.200240,"Truck",998,"The truck","","");
+	        //Waypoint end_of_poarch = new Waypoint(35.332995, -83.199904,"End of Poarch",999,"End of Poarch","","");
+	        //testWaypoint.add(truck);
+	        //testWaypoint.add(end_of_poarch);
 	        
 	       /* Waypoint coulter = new Waypoint(35.311357,-83.182171,"Coulter Stop 1", 997,"Coulter Stop 1");
 	        Waypoint campus_rec_center = new Waypoint(35.310717,-83.183028,"Campus Rec Center Stop 2", 996, "Campus Rec Center Stop 2");

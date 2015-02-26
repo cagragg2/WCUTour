@@ -3,6 +3,7 @@ package utilities;
 import java.util.ArrayList;
 import java.util.List;
 
+import models.TourPoint;
 import models.Tours;
 import models.Waypoint;
 
@@ -48,6 +49,11 @@ public class Variables {
 	 * the movements of the user
 	 */
 	public static ArrayList<LatLng> myTracks;
+
+    /**
+     * the cross-campus tour
+     */
+    public static ArrayList<TourPoint> crossCampusTour;
 	
 	/**
 	 * to count where we are at in the tour.
@@ -84,6 +90,8 @@ public class Variables {
 	 * the progress that user is from the next waypoint.
 	 */
 	public static double progressStatus;
+
+
 	
 	/**
 	 * Whether or not the information page should be displayed.
