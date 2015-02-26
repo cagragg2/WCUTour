@@ -1190,6 +1190,7 @@ containing a value of this type.
         public static final int campusrecreationcenter_3=0x7f02007e;
         public static final int catamount_0=0x7f02007f;
         public static final int catamount_1=0x7f020080;
+        public static final int catamount_purple=0x7f0200c2;
         public static final int common_signin_btn_icon_dark=0x7f020081;
         public static final int common_signin_btn_icon_disabled_dark=0x7f020082;
         public static final int common_signin_btn_icon_disabled_focus_dark=0x7f020083;
@@ -1243,18 +1244,19 @@ containing a value of this type.
         public static final int nav_screen=0x7f0200b3;
         public static final int nav_screen2=0x7f0200b4;
         public static final int navigationscreen=0x7f0200b5;
-        public static final int powered_by_google_dark=0x7f0200b6;
-        public static final int powered_by_google_light=0x7f0200b7;
-        public static final int ramseycenter_0=0x7f0200b8;
-        public static final int ramseycenter_1=0x7f0200b9;
-        public static final int ramseycenter_2=0x7f0200ba;
-        public static final int reidgym_0=0x7f0200bb;
-        public static final int reidgym_1=0x7f0200bc;
-        public static final int screen_background_dark=0x7f0200c1;
-        public static final int soccerfieldrunningtrack=0x7f0200bd;
-        public static final int tourbuttonjeremiahunpressed=0x7f0200be;
-        public static final int tourspressed=0x7f0200bf;
-        public static final int toursunpressed=0x7f0200c0;
+        public static final int other_actionbar_background=0x7f0200b6;
+        public static final int powered_by_google_dark=0x7f0200b7;
+        public static final int powered_by_google_light=0x7f0200b8;
+        public static final int ramseycenter_0=0x7f0200b9;
+        public static final int ramseycenter_1=0x7f0200ba;
+        public static final int ramseycenter_2=0x7f0200bb;
+        public static final int reidgym_0=0x7f0200bc;
+        public static final int reidgym_1=0x7f0200bd;
+        public static final int screen_background_dark=0x7f0200c3;
+        public static final int soccerfieldrunningtrack=0x7f0200be;
+        public static final int tourbuttonjeremiahunpressed=0x7f0200bf;
+        public static final int tourspressed=0x7f0200c0;
+        public static final int toursunpressed=0x7f0200c1;
     }
     public static final class id {
         public static final int action_bar=0x7f08002e;
@@ -1268,7 +1270,7 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f080027;
         public static final int action_menu_presenter=0x7f080028;
         public static final int action_mode_close_button=0x7f080036;
-        public static final int action_settings=0x7f080071;
+        public static final int action_settings=0x7f080078;
         public static final int activity_chooser_view_content=0x7f080037;
         public static final int always=0x7f080012;
         public static final int beginning=0x7f08000a;
@@ -1282,6 +1284,7 @@ containing a value of this type.
         public static final int collapseActionView=0x7f080014;
         public static final int container=0x7f080061;
         public static final int counter=0x7f080066;
+        public static final int counter2=0x7f080075;
         public static final int default_activity_button=0x7f08003a;
         public static final int dialog=0x7f080015;
         public static final int disableHome=0x7f080008;
@@ -1307,6 +1310,7 @@ containing a value of this type.
         public static final int infotv1=0x7f080063;
         public static final int infotv2=0x7f080064;
         public static final int infotv3=0x7f080065;
+        public static final int length_of_tour_info_frag=0x7f080072;
         public static final int list=0x7f08004e;
         public static final int list2=0x7f08005f;
         public static final int listMode=0x7f080001;
@@ -1360,6 +1364,7 @@ containing a value of this type.
         public static final int textView4=0x7f08005a;
         public static final int title=0x7f08003d;
         public static final int top_action_bar=0x7f080032;
+        public static final int tour_info_frag_title=0x7f080071;
         public static final int tour_list=0x7f080060;
         public static final int tours=0x7f08006a;
         public static final int toursview=0x7f08006e;
@@ -1369,6 +1374,10 @@ containing a value of this type.
         public static final int txtLabel=0x7f080067;
         public static final int up=0x7f080033;
         public static final int useLogo=0x7f080003;
+        public static final int way_list=0x7f080077;
+        public static final int waylisttv1=0x7f080073;
+        public static final int waylisttv2=0x7f080074;
+        public static final int waypoint_in_tour_frag=0x7f080076;
         public static final int withText=0x7f080013;
         public static final int wrap_content=0x7f08001f;
     }
@@ -1425,7 +1434,8 @@ containing a value of this type.
         public static final int navfragment=0x7f03002d;
         public static final int support_simple_spinner_dropdown_item=0x7f03002e;
         public static final int tour_info_fragment=0x7f03002f;
-        public static final int waypoints_in_tour_fragment=0x7f030030;
+        public static final int waypoint_list_item=0x7f030030;
+        public static final int waypoints_in_tour_fragment=0x7f030031;
     }
     public static final class menu {
         public static final int achievements=0x7f0d0000;
@@ -1499,8 +1509,10 @@ containing a value of this type.
         public static final int title_section1=0x7f0b0038;
         public static final int title_section2=0x7f0b0039;
         public static final int title_section3=0x7f0b003a;
-        public static final int uses=0x7f0b003b;
-        public static final int wallet_buy_button_place_holder=0x7f0b003c;
+        public static final int title_tour_info_frag=0x7f0b003b;
+        public static final int tour_info_frag_length=0x7f0b003c;
+        public static final int uses=0x7f0b003d;
+        public static final int wallet_buy_button_place_holder=0x7f0b003e;
     }
     public static final class style {
         /** 

@@ -24,6 +24,7 @@ import android.content.Intent;
 import android.content.res.AssetManager;
 import android.content.res.Configuration;
 import android.content.res.TypedArray;
+import android.location.LocationListener;
 import android.os.Bundle;
 import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.app.FragmentActivity;
@@ -280,7 +281,6 @@ public class BaseActivity extends FragmentActivity {
 	           // Variables.listOfWaypoints.add(wayList.get(0));
 	            for(Waypoint waypoint : wayList) {
 	            	Variables.listOfWaypoints.add(waypoint);
-                    Log.v("Tour", ""+waypoint.getInformation());
 	            }
 	        }// catch (ParserConfigurationException | SAXException | IOException e) {
                 catch (Exception e) {

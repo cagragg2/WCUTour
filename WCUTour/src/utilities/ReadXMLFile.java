@@ -78,7 +78,6 @@ public class ReadXMLFile extends DefaultHandler{
         	bInfo = false;
         } else if(bHours) {
             waypoint.setHours(new String(ch,start,length));
-            Log.e("Tour",waypoint.getHours());
             bHours =false;
         } else if (bUses) {
             waypoint.setUses(new String(ch,start,length));

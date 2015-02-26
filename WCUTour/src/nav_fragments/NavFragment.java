@@ -6,6 +6,7 @@ import java.util.Calendar;
 import models.Waypoint;
 import navigation.NavigationActivity;
 import navigation.ProximityReceiver;
+import utilities.LocationHelper;
 import utilities.Variables;
 
 import com.google.android.gms.maps.CameraUpdate;
@@ -24,8 +25,10 @@ import com.google.android.gms.maps.model.Marker;
 import edu.wcu.wcutour.R;
 import activities.SelectedItem;
 import android.app.Activity;
+import android.app.DialogFragment;
 import android.app.Fragment;
 import android.app.PendingIntent;
+import android.app.ProgressDialog;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -38,6 +41,7 @@ import android.hardware.SensorManager;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Vibrator;
 import android.util.Log;
@@ -49,7 +53,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class NavFragment extends Fragment implements LocationListener, SensorEventListener {
+public class NavFragment extends Fragment implements LocationListener{//, SensorEventListener {
 	
 	private GoogleMap googleMap; //google map to use
 	private Polyline line; //for drawing the line on the map 
@@ -66,21 +70,27 @@ public class NavFragment extends Fragment implements LocationListener, SensorEve
 	Marker myLocMarker;
 	SensorManager sensor;
 	Sensor mAccelerometer;
+    private UpdateLocation updateLocationTask;
+    private boolean hasLocation = false;
+    LocationHelper locationHelper;
 	
 	@Override
 	public void onResume() {
 		super.onResume();
-		
-		Log.e("tour", "turning on sensor");
-		sensor = (SensorManager) getActivity().getSystemService(Context.SENSOR_SERVICE);
+
+		//sensor = (SensorManager) getActivity().getSystemService(Context.SENSOR_SERVICE);
 		//mAccelerometer = sensor.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
-        mAccelerometer = sensor.getDefaultSensor(Sensor.TYPE_ORIENTATION);
-		sensor.registerListener(this, mAccelerometer, SensorManager.SENSOR_DELAY_NORMAL);
+      //  mAccelerometer = sensor.getDefaultSensor(Sensor.TYPE_ORIENTATION);
+	//	sensor.registerListener(this, mAccelerometer, SensorManager.SENSOR_DELAY_NORMAL);
 	}
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+        locationHelper = new LocationHelper();
+        locationHelper.getLocation(getActivity().getApplicationContext(),locationResult);
+        updateLocationTask = new UpdateLocation();
+        updateLocationTask.execute(getActivity().getApplicationContext());
 	}
 	
 	@Override
@@ -94,18 +104,18 @@ public class NavFragment extends Fragment implements LocationListener, SensorEve
 		super.onDestroy();
 	    try {
 	        getActivity().unregisterReceiver(mybroadcast);
-            sensor.unregisterListener(this);
+        //    sensor.unregisterListener(this);
 	    } catch (IllegalArgumentException e) {
 	       // Log.d("reciever", e.toString());
 	    }
 		Variables.locationManager.removeUpdates(this);
 		Variables.locationManager.removeProximityAlert(Variables.pi);
-		Log.e("Tour", "Turning off proximity alerts.");
 	}
 	
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup containter,
 			Bundle savedInstanceState) {
+        Log.e("tour","starting oncreateview");
 		//View rootView = inflater.inflate(R.layout.navfragment, containter, false);
 		if(view != null) {
 			ViewGroup parent = (ViewGroup) view.getParent();
@@ -131,7 +141,7 @@ public class NavFragment extends Fragment implements LocationListener, SensorEve
 
 		    try {
 		    	initilizeMap();
-		    	setUpMap();
+		  //  	setUpMap();
 
 		    //	startListening();
 		    } catch (Exception e) {
@@ -177,11 +187,10 @@ public class NavFragment extends Fragment implements LocationListener, SensorEve
 		    Variables.changeDistance = true;
 		    Variables.updateInformation = false;
 
-        Log.e("tour", "turning on sensor");
-        sensor = (SensorManager) getActivity().getSystemService(Context.SENSOR_SERVICE);
+     //   sensor = (SensorManager) getActivity().getSystemService(Context.SENSOR_SERVICE);
         //mAccelerometer = sensor.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
-        mAccelerometer = sensor.getDefaultSensor(Sensor.TYPE_ORIENTATION);
-        sensor.registerListener(this, mAccelerometer, SensorManager.SENSOR_DELAY_NORMAL);
+    //    mAccelerometer = sensor.getDefaultSensor(Sensor.TYPE_ORIENTATION);
+    //    sensor.registerListener(this, mAccelerometer, SensorManager.SENSOR_DELAY_NORMAL);
 	}
 	
 	/*
@@ -217,7 +226,7 @@ public class NavFragment extends Fragment implements LocationListener, SensorEve
 		//asyncronis task
 		//Checks to see how recent the last location update was.
 			if(loc != null && loc.getTime() > Calendar.getInstance().getTimeInMillis() - 2*60*1000) {
-				Toast.makeText(getActivity().getApplicationContext(), "Waiting to aquire Location.", Toast.LENGTH_SHORT).show();
+				//Toast.makeText(getActivity().getApplicationContext(), "Waiting to aquire Location.", Toast.LENGTH_SHORT).show();
 				loc = Variables.locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
 			} else {
 				Toast.makeText(getActivity().getApplicationContext(),"Location Found.",Toast.LENGTH_SHORT).show();
@@ -236,7 +245,7 @@ public class NavFragment extends Fragment implements LocationListener, SensorEve
 		//=============================================================
 
         CameraPosition currentPlace = new CameraPosition.Builder()
-                .target(new LatLng(googleMap.getMyLocation().getLatitude(), googleMap.getMyLocation().getLongitude()))
+                .target(new LatLng(Variables.myLocation.getLatitude(), Variables.myLocation.getLongitude()))
                 .tilt(65.5f).zoom(18f).build();
         googleMap.moveCamera(CameraUpdateFactory.newCameraPosition(currentPlace));
 
@@ -330,7 +339,6 @@ public class NavFragment extends Fragment implements LocationListener, SensorEve
 		if(Variables.updateInformation) {
 		if(counter2 == 0) {
 			 Vibrator v = (Vibrator) getActivity().getSystemService(Context.VIBRATOR_SERVICE);
-			 Log.e("Tour", "vibrating");
 			 // Vibrate for 500 milliseconds
 			 v.vibrate(500);
 			 Intent i = new Intent(getActivity(), SelectedItem.class);
@@ -372,7 +380,7 @@ public class NavFragment extends Fragment implements LocationListener, SensorEve
 
     public void updateCamera(float bearing) {
         CameraPosition currentPlace = new CameraPosition.Builder()
-                .target(new LatLng(googleMap.getMyLocation().getLatitude(), googleMap.getMyLocation().getLongitude()))
+                .target(new LatLng(Variables.myLocation.getLatitude(),Variables.myLocation.getLongitude()))
                 .bearing(bearing).tilt(65.5f).zoom(18f).build();
         googleMap.moveCamera(CameraUpdateFactory.newCameraPosition(currentPlace));
 
@@ -775,22 +783,63 @@ public void setUpCrossCampusTour() {
 		//Variables.myTracks.add(latlng);
 	}
 
-@Override
+/*@Override
 public void onSensorChanged(SensorEvent event) {
 	float degree = Math.round(event.values[0]);
 
-		Log.e("tour",degree + "");
 if(myLocMarker != null) {
 	//myLocMarker.setRotation(degree *20);
             updateCamera(event.values[0]);}
-	Log.e("tour", "rotating");
 	
 }
 
 @Override
 public void onAccuracyChanged(Sensor sensor, int accuracy) {
 	// TODO Auto-generated method stub
-	Log.e("tour", "turnng");
+
 	
-}
+} */
+
+    public class UpdateLocation extends AsyncTask<Context, Void, Void> {
+
+        private ProgressDialog dialog = new ProgressDialog(getActivity());
+
+        protected void onPreExecute() {
+            this.dialog.setMessage("Searching for Location");
+            this.dialog.show();
+            Toast.makeText(getActivity().getApplicationContext(), "Waiting to aquire Location.", Toast.LENGTH_SHORT).show();
+            Log.e("tour","doing pre execute");
+        }
+
+        protected Void doInBackground(Context... params) {
+            int count = 0;
+            while(Variables.myLocation == null || count > 10) {
+                try {
+                    Thread.sleep(500);
+                    count++;
+                } catch (InterruptedException e) {
+                    Thread.interrupted();
+                }
+            }
+            return null;
+        }
+
+        protected  void onPostExecute(final Void unused) {
+            if(this.dialog.isShowing()) {
+                this.dialog.dismiss();
+            }
+            if(Variables.myLocation != null) {
+                Toast.makeText(getActivity().getApplicationContext(), "Location Found.", Toast.LENGTH_SHORT).show();
+                Log.e("tour", "location found!!!!!!");
+                setUpMap();
+            }
+        }
+    }
+    public LocationHelper.LocationResult locationResult = new LocationHelper.LocationResult() {
+        @Override
+        public void gotLocation(Location location) {
+            Variables.myLocation = location;
+        }
+    };
+
 }

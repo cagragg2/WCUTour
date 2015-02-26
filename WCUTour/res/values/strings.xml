@@ -42,7 +42,6 @@
     <string name="title_section2">Tour Information</string>
     <string name="title_section3">Waypoints in Tour</string>
     <string name="title_activity_blank">blank</string>
-<<<<<<< HEAD
     <string name="title_activity_waypoint_description">WaypointDescription</string>
 
     <!-- Waypoint information -->
