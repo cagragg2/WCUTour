@@ -2498,7 +2498,11 @@
       <created>1424978299764</created>
       <updated>1424978299764</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added ReadTourXML.java&#10;Added TourPoint.java&#10;Added cross_campus_tour.xml&#10;Added sports_tour.xml&#10;Changed some Buttons on main activity">
+      <created>1424978373367</created>
+      <updated>1424978373367</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
