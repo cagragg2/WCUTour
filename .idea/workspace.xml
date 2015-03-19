@@ -17,15 +17,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: edu.wcu.wcutour" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6098b4e4-30c9-4ea1-a3f4-d2faadc50b69" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/src/nav_fragments/NavFragment.java" afterPath="$PROJECT_DIR$/WCUTour/src/nav_fragments/NavFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/build/generated/source/r/debug/edu/wcu/wcutour/R.java" afterPath="$PROJECT_DIR$/WCUTour/build/generated/source/r/debug/edu/wcu/wcutour/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/src/activities/WaypointDescription.java" afterPath="$PROJECT_DIR$/WCUTour/src/activities/WaypointDescription.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/res/layout/activity_selected_item.xml" afterPath="$PROJECT_DIR$/WCUTour/res/layout/activity_selected_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/res/layout/activity_waypoint_description.xml" afterPath="$PROJECT_DIR$/WCUTour/res/layout/activity_waypoint_description.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WCUTour/assets/waypoints.xml" afterPath="$PROJECT_DIR$/WCUTour/assets/waypoints.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="6098b4e4-30c9-4ea1-a3f4-d2faadc50b69" name="Default" comment="" />
     <ignored path="WCUTour.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -2607,7 +2599,11 @@
       <created>1424920963623</created>
       <updated>1424920963623</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Updates to async task and webview for the waypoint description">
+      <created>1426785167548</created>
+      <updated>1426785167548</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -2631,7 +2627,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2684,7 +2680,8 @@
     <MESSAGE value="Second commit test2" />
     <MESSAGE value="xml updates-waypoint info screen, waypoints in tour, added waypoints_list_item&#10;java updates-&#10;async task waiting until has location&#10;dynamic pictures in each waypoints&#10;each waypoint in waypoints in tour fragment with formatted xml&#10;custom list view for the waypoints in tour&#10;LocationHelper class from internet to help dertimine location in NavFragment&#10;Waypoint item class for custom list view&#10;WaypointsListAdapter for custom list view&#10;New model waypoint info to hold information about waypoint object&#10;" />
     <MESSAGE value="xml updates-waypoint info screen, waypoints in tour, added waypoints_list_item&#10;java updates-&#10;async task waiting until has location&#10;dynamic pictures in each waypoints&#10;each waypoint in waypoints in tour fragment with formatted xml&#10;custom list view for the waypoints in tour&#10;LocationHelper class from internet to help dertimine location in NavFragment&#10;Waypoint item class for custom list view&#10;WaypointsListAdapter for custom list view&#10;New model waypoint info to hold information about waypoint object&#10;java doc updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="xml updates-waypoint info screen, waypoints in tour, added waypoints_list_item&#10;java updates-&#10;async task waiting until has location&#10;dynamic pictures in each waypoints&#10;each waypoint in waypoints in tour fragment with formatted xml&#10;custom list view for the waypoints in tour&#10;LocationHelper class from internet to help dertimine location in NavFragment&#10;Waypoint item class for custom list view&#10;WaypointsListAdapter for custom list view&#10;New model waypoint info to hold information about waypoint object&#10;java doc updates" />
+    <MESSAGE value="Updates to async task and webview for the waypoint description" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updates to async task and webview for the waypoint description" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

@@ -169,19 +169,23 @@ ADDED from AndroidManifest.xml:109:9
 		ADDED from AndroidManifest.xml:110:13
 activity#activities.TourNavigationActivity
 ADDED from AndroidManifest.xml:116:9
-	android:parentActivityName
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:119:13
+	android:configChanges
 		ADDED from AndroidManifest.xml:118:13
+	android:parentActivityName
+		ADDED from AndroidManifest.xml:120:13
 	android:name
 		ADDED from AndroidManifest.xml:117:13
 activity#edu.wcu.wcutour.blank.blank
-ADDED from AndroidManifest.xml:123:9
+ADDED from AndroidManifest.xml:125:9
 	android:label
-		ADDED from AndroidManifest.xml:125:13
+		ADDED from AndroidManifest.xml:127:13
 	android:name
-		ADDED from AndroidManifest.xml:124:13
+		ADDED from AndroidManifest.xml:126:13
 activity#activities.WaypointDescription
-ADDED from AndroidManifest.xml:127:9
+ADDED from AndroidManifest.xml:129:9
 	android:label
-		ADDED from AndroidManifest.xml:129:13
+		ADDED from AndroidManifest.xml:131:13
 	android:name
-		ADDED from AndroidManifest.xml:128:13
+		ADDED from AndroidManifest.xml:130:13

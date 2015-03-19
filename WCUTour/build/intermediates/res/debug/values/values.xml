@@ -115,9 +115,9 @@
     <color name="counter_text_bg">#e6b121</color>
     <color name="counter_text_color">#0066cc</color>
     <color name="date_color">#999999</color>
-    <color name="gold">#FFD700</color>
+    <color name="gold">#C1A875</color>
     <color name="gray">#999999</color>
-    <color name="list_background">#FFAA66CC</color>
+    <color name="list_background">#592C88</color>
     <color name="list_background_pressed">#FFD700</color>
     <color name="list_divider">#FFD700</color>
     <color name="list_item_title">#99FFFF</color>
@@ -192,6 +192,7 @@
     <item name="dialog_fixed_width_minor" type="dimen">320dp</item>
     <!-- From: file:/C:/Users/Caleb/WCUTour/WCUTour/res/values/color.xml -->
     <eat-comment/>
+    <drawable name="catamount_purple">#592C88</drawable>
     <drawable name="screen_background_dark">#ff000000</drawable>
     <!-- From: file:/C:/Users/Caleb/WCUTour/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/values/values.xml -->
     <eat-comment/>
@@ -272,6 +273,8 @@
     <string name="title_section1">Navigation</string>
     <string name="title_section2">Tour Information</string>
     <string name="title_section3">Waypoints in Tour</string>
+    <string name="title_tour_info_frag">Description</string>
+    <string name="tour_info_frag_length">Length(m)</string>
     <string name="uses">Uses:</string>
     <!-- From: file:/C:/Users/Caleb/WCUTour/WCUTour/build/intermediates/exploded-aar/WCUTour/google-play-services_lib/unspecified/res/values/values.xml -->
     <eat-comment/>
@@ -294,7 +297,7 @@
         <item name="android:actionBarStyle">@style/MyActionBar</item>
     </style>
     <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
-        <item name="android:background">@drawable/actionbar_background</item>
+        <item name="android:background">@drawable/catamount_purple</item>
     </style>
     <style name="MyActionBarTabs" parent="@android:style/Widget.Holo.ActionBar.TabView">
         <!-- tab indicator -->
