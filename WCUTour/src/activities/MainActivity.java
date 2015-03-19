@@ -11,6 +11,7 @@ import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.View.OnTouchListener;
+import android.widget.Button;
 import android.widget.ImageView;
 
 /**
@@ -19,24 +20,14 @@ import android.widget.ImageView;
  *Sets up the main page of the app, the home screen with buttons and nav drawer.
  */
 
-public class MainActivity extends BaseActivity {
-	//int campus_unpressed = R.drawable.campusmapunpressed;
-	//int campus_pressed = R.drawable.campusmappressed;
-	//int locations_unpressed = R.drawable.locationsunpressed;
-	//int locations_pressed = R.drawable.locationspressed;
-	//int tours_unpressed = R.drawable.toursunpressed;
-	//int tours_unpressed = R.drawable.tourbuttonjeremiahunpressed;
-	//int tours_pressed = R.drawable.tourspressed;
-	
-	int campus_unpressed = R.drawable.campusmapjgcampusmapjeremiahunpressed;
-	int campus_pressed = R.drawable.campusmapjgcampusmapjeremiahpressed;
-	int locations_unpressed = R.drawable.campusmapjglocationsjeremiahunpressed;
-	int locations_pressed = R.drawable.campusmapjglocationsjeremiahpressed;
-	int tours_unpressed = R.drawable.campusmapjgtoursjeremiahunpressed;
-	int tours_pressed = R.drawable.campusmapjgtoursjeremiahpressed;
-	
+public class MainActivity extends BaseActivity implements View.OnClickListener {
+
 	Thread thread;
-	
+
+    /**
+     * This method creates the activity.
+     * @param savedInstanceState - Bundle object with state data.
+     */
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -49,78 +40,48 @@ public class MainActivity extends BaseActivity {
 	    //to set up the custom buttons.
 	    setUpButtons();
 	}
-	
+
+    /**
+     * This method initializes and ties all the buttons on screen together.
+     */
 	public void setUpButtons() {
 	    /*
-	     * Images to represent the buttons.
+	     *  Finding the buttons.
 	     */
 	    
-		final ImageView campusMap = ( ImageView ) this.findViewById(R.id.campusmap);
-		final ImageView locations = (ImageView ) this.findViewById(R.id.locationsview);
-		final ImageView tours = ( ImageView ) this.findViewById(R.id.toursview);
+		final Button campusMap = ( Button ) this.findViewById(R.id.campus_map_button_home);
+		final Button locations = (Button ) this.findViewById(R.id.locations_button_home);
+		final Button tours = ( Button ) this.findViewById(R.id.tours_button_home);
 		
-	    campusMap.setBackgroundResource(campus_unpressed);
-	    locations.setBackgroundResource(locations_unpressed);
-	    tours.setBackgroundResource(tours_unpressed);
+	 	/* Setting onClickListener for each button */
+		campusMap.setOnClickListener(this);
+        	locations.setOnClickListener(this);
+        	tours.setOnClickListener(this);
 	    
-	    
-	    campusMap.setOnTouchListener(new OnTouchListener() {
-			@Override
-			public boolean onTouch(View v, MotionEvent event) {
-				switch(event.getAction()) {
-				case MotionEvent.ACTION_DOWN: {
-					campusMap.setBackgroundResource(campus_pressed);
-					break;
-				}
-				case MotionEvent.ACTION_UP: {
-					campusMap.setBackgroundResource(campus_unpressed);
-					openMaps(v);
-					break;
-				}
-				}
-				return true;
-			}
-	    	
-	    });
-	    
-	    locations.setOnTouchListener(new OnTouchListener() {
-			@Override
-			public boolean onTouch(View v, MotionEvent event) {
-				switch(event.getAction()) {
-				case MotionEvent.ACTION_DOWN: {
-					locations.setBackgroundResource(locations_pressed);
-					break;
-				}
-				case MotionEvent.ACTION_UP: {
-					locations.setBackgroundResource(locations_unpressed);
-					openLocations(v);
-					break;
-				}
-				}
-				return true;
-			}
-	    	
-	    });
-	    
-	    tours.setOnTouchListener(new OnTouchListener() {
-			@Override
-			public boolean onTouch(View v, MotionEvent event) {
-				switch(event.getAction()) {
-				case MotionEvent.ACTION_DOWN: {
-					tours.setBackgroundResource(tours_pressed);
-					break;
-				}
-				case MotionEvent.ACTION_UP: {
-					tours.setBackgroundResource(tours_unpressed);
-					openTours(v);
-					break;
-				}
-				}
-				return true;
-			}
-	    	
-	    });
 	}
+
+    /**
+     * This method handles when the buttons on the activity are pressed and what screens should
+     * be shown after the press.
+     * @param v - the button that was selected.
+     */
+    public void onClick(View v){
+
+        Button b = (Button)findViewById(v.getId());
+        Intent maps = new Intent(this,GoogleMapsActivity.class);
+        Intent loc = new Intent(this,LocationsActivity.class);
+        Intent tours = new Intent(this,TourActivity.class);
+
+        if(b.getId() == R.id.campus_map_button_home)
+            startActivity(maps);
+
+        if(b.getId() == R.id.locations_button_home)
+            startActivity(loc);
+
+        if(b.getId() == R.id.tours_button_home)
+            startActivity(tours);
+    }
+
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
@@ -142,22 +103,5 @@ public class MainActivity extends BaseActivity {
 	}
 	
 	
-	/*
-	 * What happens when the buttons are clicked.
-	 * 
-	 */
-	public void openMaps(View view) {
-    	Intent activityMaps = new Intent(this, GoogleMapsActivity.class);
-    	this.startActivity(activityMaps);
-	}
-	
-	public void openTours(View view) {
-        Intent tourActivity = new Intent(this, TourActivity.class);
-        this.startActivity(tourActivity);
-	}
-	
-	public void openLocations(View view) {
-		Intent locationActivity = new Intent(this, LocationsActivity.class);
-		this.startActivity(locationActivity);
-	}
+
 }

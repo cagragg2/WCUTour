@@ -1270,7 +1270,11 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f080027;
         public static final int action_menu_presenter=0x7f080028;
         public static final int action_mode_close_button=0x7f080036;
+<<<<<<< HEAD
         public static final int action_settings=0x7f080076;
+=======
+        public static final int action_settings=0x7f080075;
+>>>>>>> 146054d41ccf19a5fea49eba06dfcdc8a8e71bf0
         public static final int activity_chooser_view_content=0x7f080037;
         public static final int always=0x7f080012;
         public static final int beginning=0x7f08000a;
@@ -1278,13 +1282,22 @@ containing a value of this type.
         public static final int buyButton=0x7f08001c;
         public static final int buy_now=0x7f080021;
         public static final int buy_with_google=0x7f080020;
+<<<<<<< HEAD
         public static final int campusmap=0x7f08006a;
+=======
+        public static final int campus_map_button_home=0x7f080069;
+>>>>>>> 146054d41ccf19a5fea49eba06dfcdc8a8e71bf0
         public static final int checkbox=0x7f08003f;
         public static final int classic=0x7f080023;
         public static final int collapseActionView=0x7f080014;
         public static final int container=0x7f080061;
+<<<<<<< HEAD
         public static final int counter=0x7f080064;
         public static final int counter2=0x7f080073;
+=======
+        public static final int counter=0x7f080066;
+        public static final int counter2=0x7f080072;
+>>>>>>> 146054d41ccf19a5fea49eba06dfcdc8a8e71bf0
         public static final int default_activity_button=0x7f08003a;
         public static final int dialog=0x7f080015;
         public static final int disableHome=0x7f080008;
@@ -1306,18 +1319,32 @@ containing a value of this type.
         public static final int icon=0x7f08003c;
         public static final int ifRoom=0x7f080011;
         public static final int image=0x7f080039;
+<<<<<<< HEAD
         public static final int img=0x7f08006d;
         public static final int length_of_tour_info_frag=0x7f080070;
+=======
+        public static final int img=0x7f08006c;
+        public static final int infotv1=0x7f080063;
+        public static final int infotv2=0x7f080064;
+        public static final int infotv3=0x7f080065;
+        public static final int length_of_tour_info_frag=0x7f08006f;
+>>>>>>> 146054d41ccf19a5fea49eba06dfcdc8a8e71bf0
         public static final int list=0x7f08004e;
         public static final int list2=0x7f08005f;
         public static final int listMode=0x7f080001;
         public static final int list_item=0x7f08003b;
         public static final int list_slidermenu=0x7f080051;
+<<<<<<< HEAD
         public static final int locations=0x7f080069;
         public static final int locationsview=0x7f08006b;
         public static final int map=0x7f080056;
         public static final int map2=0x7f080052;
         public static final int maps=0x7f080067;
+=======
+        public static final int locations_button_home=0x7f08006a;
+        public static final int map=0x7f080056;
+        public static final int map2=0x7f080052;
+>>>>>>> 146054d41ccf19a5fea49eba06dfcdc8a8e71bf0
         public static final int match_parent=0x7f08001e;
         public static final int middle=0x7f08000b;
         public static final int monochrome=0x7f080025;
@@ -1361,6 +1388,7 @@ containing a value of this type.
         public static final int textView4=0x7f08005a;
         public static final int title=0x7f08003d;
         public static final int top_action_bar=0x7f080032;
+<<<<<<< HEAD
         public static final int tour_info_frag_title=0x7f08006f;
         public static final int tour_list=0x7f080060;
         public static final int tours=0x7f080068;
@@ -1376,6 +1404,21 @@ containing a value of this type.
         public static final int waylisttv2=0x7f080072;
         public static final int waypoint_in_tour_frag=0x7f080074;
         public static final int webView=0x7f080063;
+=======
+        public static final int tour_info_frag_title=0x7f08006e;
+        public static final int tour_list=0x7f080060;
+        public static final int tours_button_home=0x7f08006b;
+        public static final int tv1=0x7f080054;
+        public static final int tv2=0x7f080055;
+        public static final int txt=0x7f08006d;
+        public static final int txtLabel=0x7f080067;
+        public static final int up=0x7f080033;
+        public static final int useLogo=0x7f080003;
+        public static final int way_list=0x7f080074;
+        public static final int waylisttv1=0x7f080070;
+        public static final int waylisttv2=0x7f080071;
+        public static final int waypoint_in_tour_frag=0x7f080073;
+>>>>>>> 146054d41ccf19a5fea49eba06dfcdc8a8e71bf0
         public static final int withText=0x7f080013;
         public static final int wrap_content=0x7f08001f;
     }
@@ -1463,54 +1506,57 @@ containing a value of this type.
         public static final int abc_shareactionprovider_share_with_application=0x7f0b000c;
         public static final int action_settings=0x7f0b000d;
         public static final int app_name=0x7f0b000e;
-        public static final int common_google_play_services_enable_button=0x7f0b000f;
-        public static final int common_google_play_services_enable_text=0x7f0b0010;
-        public static final int common_google_play_services_enable_title=0x7f0b0011;
-        public static final int common_google_play_services_error_notification_requested_by_msg=0x7f0b0012;
-        public static final int common_google_play_services_install_button=0x7f0b0013;
-        public static final int common_google_play_services_install_text_phone=0x7f0b0014;
-        public static final int common_google_play_services_install_text_tablet=0x7f0b0015;
-        public static final int common_google_play_services_install_title=0x7f0b0016;
-        public static final int common_google_play_services_invalid_account_text=0x7f0b0017;
-        public static final int common_google_play_services_invalid_account_title=0x7f0b0018;
-        public static final int common_google_play_services_needs_enabling_title=0x7f0b0019;
-        public static final int common_google_play_services_network_error_text=0x7f0b001a;
-        public static final int common_google_play_services_network_error_title=0x7f0b001b;
-        public static final int common_google_play_services_notification_needs_installation_title=0x7f0b001c;
-        public static final int common_google_play_services_notification_needs_update_title=0x7f0b001d;
-        public static final int common_google_play_services_notification_ticker=0x7f0b001e;
-        public static final int common_google_play_services_unknown_issue=0x7f0b001f;
-        public static final int common_google_play_services_unsupported_date_text=0x7f0b0020;
-        public static final int common_google_play_services_unsupported_text=0x7f0b0021;
-        public static final int common_google_play_services_unsupported_title=0x7f0b0022;
-        public static final int common_google_play_services_update_button=0x7f0b0023;
-        public static final int common_google_play_services_update_text=0x7f0b0024;
-        public static final int common_google_play_services_update_title=0x7f0b0025;
-        public static final int common_signin_button_text=0x7f0b0026;
-        public static final int common_signin_button_text_long=0x7f0b0027;
-        public static final int desc_list_item_icon=0x7f0b0028;
-        public static final int description=0x7f0b0029;
-        public static final int drawer_close=0x7f0b002a;
-        public static final int drawer_open=0x7f0b002b;
-        public static final int hello_world=0x7f0b002c;
-        public static final int hours=0x7f0b002d;
-        public static final int title_Selected_Item=0x7f0b002e;
-        public static final int title_activity_achievements=0x7f0b002f;
-        public static final int title_activity_blank=0x7f0b0030;
-        public static final int title_activity_locations=0x7f0b0031;
-        public static final int title_activity_navigation=0x7f0b0032;
-        public static final int title_activity_selected_tour=0x7f0b0033;
-        public static final int title_activity_settings=0x7f0b0034;
-        public static final int title_activity_tour=0x7f0b0035;
-        public static final int title_activity_tour_navigation=0x7f0b0036;
-        public static final int title_activity_waypoint_description=0x7f0b0037;
-        public static final int title_section1=0x7f0b0038;
-        public static final int title_section2=0x7f0b0039;
-        public static final int title_section3=0x7f0b003a;
-        public static final int title_tour_info_frag=0x7f0b003b;
-        public static final int tour_info_frag_length=0x7f0b003c;
-        public static final int uses=0x7f0b003d;
-        public static final int wallet_buy_button_place_holder=0x7f0b003e;
+        public static final int campus_map_home=0x7f0b000f;
+        public static final int common_google_play_services_enable_button=0x7f0b0010;
+        public static final int common_google_play_services_enable_text=0x7f0b0011;
+        public static final int common_google_play_services_enable_title=0x7f0b0012;
+        public static final int common_google_play_services_error_notification_requested_by_msg=0x7f0b0013;
+        public static final int common_google_play_services_install_button=0x7f0b0014;
+        public static final int common_google_play_services_install_text_phone=0x7f0b0015;
+        public static final int common_google_play_services_install_text_tablet=0x7f0b0016;
+        public static final int common_google_play_services_install_title=0x7f0b0017;
+        public static final int common_google_play_services_invalid_account_text=0x7f0b0018;
+        public static final int common_google_play_services_invalid_account_title=0x7f0b0019;
+        public static final int common_google_play_services_needs_enabling_title=0x7f0b001a;
+        public static final int common_google_play_services_network_error_text=0x7f0b001b;
+        public static final int common_google_play_services_network_error_title=0x7f0b001c;
+        public static final int common_google_play_services_notification_needs_installation_title=0x7f0b001d;
+        public static final int common_google_play_services_notification_needs_update_title=0x7f0b001e;
+        public static final int common_google_play_services_notification_ticker=0x7f0b001f;
+        public static final int common_google_play_services_unknown_issue=0x7f0b0020;
+        public static final int common_google_play_services_unsupported_date_text=0x7f0b0021;
+        public static final int common_google_play_services_unsupported_text=0x7f0b0022;
+        public static final int common_google_play_services_unsupported_title=0x7f0b0023;
+        public static final int common_google_play_services_update_button=0x7f0b0024;
+        public static final int common_google_play_services_update_text=0x7f0b0025;
+        public static final int common_google_play_services_update_title=0x7f0b0026;
+        public static final int common_signin_button_text=0x7f0b0027;
+        public static final int common_signin_button_text_long=0x7f0b0028;
+        public static final int desc_list_item_icon=0x7f0b0029;
+        public static final int description=0x7f0b002a;
+        public static final int drawer_close=0x7f0b002b;
+        public static final int drawer_open=0x7f0b002c;
+        public static final int hello_world=0x7f0b002d;
+        public static final int hours=0x7f0b002e;
+        public static final int title_Selected_Item=0x7f0b002f;
+        public static final int title_activity_achievements=0x7f0b0030;
+        public static final int title_activity_blank=0x7f0b0031;
+        public static final int title_activity_locations=0x7f0b0032;
+        public static final int title_activity_navigation=0x7f0b0033;
+        public static final int title_activity_selected_tour=0x7f0b0034;
+        public static final int title_activity_settings=0x7f0b0035;
+        public static final int title_activity_tour=0x7f0b0036;
+        public static final int title_activity_tour_navigation=0x7f0b0037;
+        public static final int title_activity_waypoint_description=0x7f0b0038;
+        public static final int title_section1=0x7f0b0039;
+        public static final int title_section2=0x7f0b003a;
+        public static final int title_section3=0x7f0b003b;
+        public static final int title_tour_info_frag=0x7f0b003c;
+        public static final int tour_info_frag_length=0x7f0b003d;
+        public static final int tours_button_text=0x7f0b003e;
+        public static final int uses=0x7f0b003f;
+        public static final int wallet_buy_button_place_holder=0x7f0b0040;
+        public static final int waypoints_home=0x7f0b0041;
     }
     public static final class style {
         /** 

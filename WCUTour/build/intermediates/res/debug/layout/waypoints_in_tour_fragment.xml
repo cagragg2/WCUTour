@@ -7,6 +7,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/title_section3"
         android:textSize="35dp"
@@ -54,3 +55,11 @@
  <!--   </LinearLayout>-->
 </LinearLayout>
 <!-- From: file:/C:/Users/Caleb/WCUTour/WCUTour/res/layout/waypoints_in_tour_fragment.xml -->
+=======
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Waypoints in tour Fragment" />
+    
+</RelativeLayout>
+<!-- From: file:/C:/Users/Jeremiah/Documents/GitHubWCUtour/WCUTour/WCUTour/res/layout/waypoints_in_tour_fragment.xml -->
+>>>>>>> 146054d41ccf19a5fea49eba06dfcdc8a8e71bf0

@@ -17,7 +17,13 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: edu.wcu.wcutour" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="6098b4e4-30c9-4ea1-a3f4-d2faadc50b69" name="Default" comment="" />
+=======
+    <list default="true" id="6098b4e4-30c9-4ea1-a3f4-d2faadc50b69" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+>>>>>>> 146054d41ccf19a5fea49eba06dfcdc8a8e71bf0
     <ignored path="WCUTour.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,13 +48,19 @@
       <file leaf-file-name="Variables.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WCUTour/src/utilities/Variables.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state vertical-scroll-proportion="0.0" vertical-offset="1086" max-vertical-offset="1598">
               <caret line="95" column="38" selection-start-line="95" selection-start-column="38" selection-end-line="95" selection-end-column="38" />
+=======
+            <state vertical-scroll-proportion="0.0" vertical-offset="6132" max-vertical-offset="13923">
+              <caret line="425" column="48" selection-start-line="425" selection-start-column="38" selection-end-line="425" selection-end-column="48" />
+>>>>>>> 146054d41ccf19a5fea49eba06dfcdc8a8e71bf0
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="NavFragment.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WCUTour/src/nav_fragments/NavFragment.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -59,30 +71,55 @@
                 <element signature="e#31543#31712#0" expanded="true" />
                 <element signature="e#31705#31706#0" expanded="true" />
               </folding>
+=======
+      <file leaf-file-name="sports_tour.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WCUTour/assets/sports_tour.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.41576087" vertical-offset="221" max-vertical-offset="6936">
+              <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+              <folding />
+>>>>>>> 146054d41ccf19a5fea49eba06dfcdc8a8e71bf0
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="LocationHelper.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WCUTour/src/utilities/LocationHelper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="1632" max-vertical-offset="2295">
               <caret line="116" column="26" selection-start-line="116" selection-start-column="12" selection-end-line="116" selection-end-column="26" />
+=======
+      <file leaf-file-name="BaseActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WCUTour/src/activities/BaseActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="4664" max-vertical-offset="6120">
+              <caret line="323" column="0" selection-start-line="323" selection-start-column="0" selection-end-line="323" selection-end-column="0" />
+>>>>>>> 146054d41ccf19a5fea49eba06dfcdc8a8e71bf0
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="SelectedItem.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WCUTour/src/activities/SelectedItem.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="3315">
               <caret line="48" column="27" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
+=======
+      <file leaf-file-name="TourPoint.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WCUTour/src/models/TourPoint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1088">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> 146054d41ccf19a5fea49eba06dfcdc8a8e71bf0
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="WaypointDescription.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WCUTour/src/activities/WaypointDescription.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -91,10 +128,19 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+=======
+      <file leaf-file-name="ReadTourXML.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WCUTour/src/utilities/ReadTourXML.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="615" max-vertical-offset="1190">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+>>>>>>> 146054d41ccf19a5fea49eba06dfcdc8a8e71bf0
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="waypoints.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WCUTour/assets/waypoints.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -114,10 +160,100 @@
             <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1071">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+=======
+      <file leaf-file-name="cross_campus_tour.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WCUTour/assets/cross_campus_tour.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="6381" max-vertical-offset="7327">
+              <caret line="396" column="16" selection-start-line="3" selection-start-column="6" selection-end-line="396" selection-end-column="16" />
+              <folding>
+                <marker date="1424974406012" expanded="true" signature="188:272" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="296:380" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="404:488" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="511:595" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="619:703" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="727:811" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="835:919" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="943:1027" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="1051:1135" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="1160:1244" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="1269:1353" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="1378:1462" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="1487:1571" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="1596:1680" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="1705:1789" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="1814:1898" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="1923:2007" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="2032:2116" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="2141:2225" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="2250:2334" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="2359:2443" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="2468:2552" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="2577:2661" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="2686:2770" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="2795:2879" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="2904:2988" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="3013:3097" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="3122:3206" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="3231:3315" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="3340:3424" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="3449:3533" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="3558:3642" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="3667:3751" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="3776:3860" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="3885:3969" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="3994:4078" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="4103:4187" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="4212:4296" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="4321:4405" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="4430:4514" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="4539:4623" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="4648:4732" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="4757:4841" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="4866:4950" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="4975:5059" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="5084:5168" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="5193:5277" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="5303:5387" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="5412:5496" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="5521:5605" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="5630:5714" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="5739:5823" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="5848:5932" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="5957:6041" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="6066:6150" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="6175:6259" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="6284:6368" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="6393:6477" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="6502:6586" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="6611:6695" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="6720:6804" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="6829:6913" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="6938:7022" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="7047:7131" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="7156:7240" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="7265:7349" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="7374:7458" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="7483:7567" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="7592:7676" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="7701:7785" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="7810:7894" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="7919:8003" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="8028:8112" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="8137:8221" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="8246:8330" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="8355:8439" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="8464:8548" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="8573:8657" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="8682:8766" placeholder="..." />
+                <marker date="1424974406012" expanded="true" signature="8791:8875" placeholder="..." />
+              </folding>
+>>>>>>> 146054d41ccf19a5fea49eba06dfcdc8a8e71bf0
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="activity_selected_item.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WCUTour/res/layout/activity_selected_item.xml">
           <provider editor-type-id="android-designer">
@@ -154,6 +290,8 @@
           </provider>
         </entry>
       </file>
+=======
+>>>>>>> 146054d41ccf19a5fea49eba06dfcdc8a8e71bf0
     </leaf>
   </component>
   <component name="FindManager">
@@ -2089,21 +2227,16 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/WCUTour/build.gradle" />
         <option value="$PROJECT_DIR$/WCUTour/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/WCUTour/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/WCUTour/res/layout/tour_info_fragment.xml" />
         <option value="$PROJECT_DIR$/WCUTour/res/values/theme.xml" />
         <option value="$PROJECT_DIR$/WCUTour/res/layout/drawer_list_item.xml" />
         <option value="$PROJECT_DIR$/WCUTour/res/values/color.xml" />
         <option value="$PROJECT_DIR$/WCUTour/res/layout/list_item.xml" />
-        <option value="$PROJECT_DIR$/WCUTour/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/WCUTour/src/utilities/WaypointItem.java" />
-        <option value="$PROJECT_DIR$/WCUTour/res/layout/waypoints_in_tour_fragment.xml" />
         <option value="$PROJECT_DIR$/WCUTour/res/layout/waypoint_list_item.xml" />
         <option value="$PROJECT_DIR$/WCUTour/src/utilities/ReadXMLFile.java" />
-        <option value="$PROJECT_DIR$/WCUTour/src/utilities/Variables.java" />
         <option value="$PROJECT_DIR$/WCUTour/src/utilities/LocationHelper.java" />
         <option value="$PROJECT_DIR$/WCUTour/src/background/UpdateLocation.java" />
-        <option value="$PROJECT_DIR$/WCUTour/src/activities/BaseActivity.java" />
         <option value="$PROJECT_DIR$/WCUTour/src/activities/LocationsActivity.java" />
         <option value="$PROJECT_DIR$/WCUTour/src/activities/SelectedItem.java" />
         <option value="$PROJECT_DIR$/WCUTour/src/activities/SelectedTourActivity.java" />
@@ -2114,19 +2247,35 @@
         <option value="$PROJECT_DIR$/WCUTour/src/nav_fragments/WaypointsInTourFragment.java" />
         <option value="$PROJECT_DIR$/WCUTour/src/nav_fragments/TourInfoFragment.java" />
         <option value="$PROJECT_DIR$/WCUTour/src/utilities/WaypointsListAdapter.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/WCUTour/res/layout/activity_waypoint_description.xml" />
         <option value="$PROJECT_DIR$/WCUTour/res/layout/activity_selected_item.xml" />
         <option value="$PROJECT_DIR$/WCUTour/src/nav_fragments/NavFragment.java" />
         <option value="$PROJECT_DIR$/WCUTour/assets/waypoints.xml" />
         <option value="$PROJECT_DIR$/WCUTour/src/activities/WaypointDescription.java" />
+=======
+        <option value="$PROJECT_DIR$/WCUTour/res/layout-land/home.xml" />
+        <option value="$PROJECT_DIR$/WCUTour/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/WCUTour/res/layout/home.xml" />
+        <option value="$PROJECT_DIR$/WCUTour/src/activities/MainActivity.java" />
+        <option value="$PROJECT_DIR$/WCUTour/res/layout/waypoints_in_tour_fragment.xml" />
+        <option value="$PROJECT_DIR$/WCUTour/src/models/TourPoint.java" />
+        <option value="$PROJECT_DIR$/WCUTour/src/utilities/ReadTourXML.java" />
+        <option value="$PROJECT_DIR$/WCUTour/src/utilities/Variables.java" />
+        <option value="$PROJECT_DIR$/WCUTour/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/WCUTour/src/activities/BaseActivity.java" />
+        <option value="$PROJECT_DIR$/WCUTour/assets/cross_campus_tour.xml" />
+        <option value="$PROJECT_DIR$/WCUTour/src/nav_fragments/NavFragment.java" />
+        <option value="$PROJECT_DIR$/WCUTour/assets/sports_tour.xml" />
+>>>>>>> 146054d41ccf19a5fea49eba06dfcdc8a8e71bf0
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="876" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -2154,6 +2303,7 @@
       <sortByType />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -2270,93 +2420,71 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="navigation" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+=======
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WCUTour" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WCUTour-WCUTour" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nav_fragments" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WCUTour" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WCUTour-WCUTour" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WCUTour" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WCUTour-WCUTour" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WCUTour" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WCUTour-WCUTour" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activities" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WCUTour" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WCUTour-WCUTour" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="manifests" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+>>>>>>> 146054d41ccf19a5fea49eba06dfcdc8a8e71bf0
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="AndroidView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WCUTour" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WCUTour" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WCUTour-WCUTour" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WCUTour" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WCUTour-WCUTour" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WCUTour" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WCUTour-WCUTour" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+<<<<<<< HEAD
       <pane id="Scope" />
+=======
+>>>>>>> 146054d41ccf19a5fea49eba06dfcdc8a8e71bf0
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -2367,7 +2495,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="options.lastSelected" value="settings.github" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -2595,6 +2723,7 @@
       <created>1424917442350</created>
       <updated>1424917442350</updated>
     </task>
+<<<<<<< HEAD
     <task id="LOCAL-00007" summary="xml updates-waypoint info screen, waypoints in tour, added waypoints_list_item&#10;java updates-&#10;async task waiting until has location&#10;dynamic pictures in each waypoints&#10;each waypoint in waypoints in tour fragment with formatted xml&#10;custom list view for the waypoints in tour&#10;LocationHelper class from internet to help dertimine location in NavFragment&#10;Waypoint item class for custom list view&#10;WaypointsListAdapter for custom list view&#10;New model waypoint info to hold information about waypoint object&#10;java doc updates">
       <created>1424920963623</created>
       <updated>1424920963623</updated>
@@ -2604,6 +2733,29 @@
       <updated>1426785167548</updated>
     </task>
     <option name="localTasksCounter" value="9" />
+=======
+    <task id="LOCAL-00007" summary="Fixed some UI changes that were messed up from before.">
+      <created>1424968329368</created>
+      <updated>1424968329368</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Fixed some UI changes that were messed up from before.">
+      <created>1424968574571</created>
+      <updated>1424968574571</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added ReadTourXML.java&#10;Added TourPoint.java&#10;Added cross_campus_tour.xml&#10;Added sports_tour.xml&#10;Changed some Buttons on main activity">
+      <created>1424978258815</created>
+      <updated>1424978258815</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added ReadTourXML.java&#10;Added TourPoint.java&#10;Added cross_campus_tour.xml&#10;Added sports_tour.xml&#10;Changed some Buttons on main activity">
+      <created>1424978299764</created>
+      <updated>1424978299764</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added ReadTourXML.java&#10;Added TourPoint.java&#10;Added cross_campus_tour.xml&#10;Added sports_tour.xml&#10;Changed some Buttons on main activity">
+      <created>1424978373367</created>
+      <updated>1424978373367</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+>>>>>>> 146054d41ccf19a5fea49eba06dfcdc8a8e71bf0
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -2627,8 +2779,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
     <editor active="true" />
+=======
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
+>>>>>>> 146054d41ccf19a5fea49eba06dfcdc8a8e71bf0
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2637,21 +2794,35 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44166666" sideWeight="0.41131106" order="7" side_tool="true" content_ui="tabs" />
+=======
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3253833" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+>>>>>>> 146054d41ccf19a5fea49eba06dfcdc8a8e71bf0
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32777777" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44166666" sideWeight="0.58868897" order="7" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32695374" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29642248" sideWeight="0.65885025" order="7" side_tool="false" content_ui="tabs" />
+>>>>>>> 146054d41ccf19a5fea49eba06dfcdc8a8e71bf0
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985073" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13174807" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32777777" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17927383" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32695374" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+>>>>>>> 146054d41ccf19a5fea49eba06dfcdc8a8e71bf0
       <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -2660,6 +2831,37 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32695374" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985073" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17927383" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32695374" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985073" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32695374" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29642248" sideWeight="0.65885025" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -2679,9 +2881,15 @@
     <MESSAGE value="Second commit test" />
     <MESSAGE value="Second commit test2" />
     <MESSAGE value="xml updates-waypoint info screen, waypoints in tour, added waypoints_list_item&#10;java updates-&#10;async task waiting until has location&#10;dynamic pictures in each waypoints&#10;each waypoint in waypoints in tour fragment with formatted xml&#10;custom list view for the waypoints in tour&#10;LocationHelper class from internet to help dertimine location in NavFragment&#10;Waypoint item class for custom list view&#10;WaypointsListAdapter for custom list view&#10;New model waypoint info to hold information about waypoint object&#10;" />
+<<<<<<< HEAD
     <MESSAGE value="xml updates-waypoint info screen, waypoints in tour, added waypoints_list_item&#10;java updates-&#10;async task waiting until has location&#10;dynamic pictures in each waypoints&#10;each waypoint in waypoints in tour fragment with formatted xml&#10;custom list view for the waypoints in tour&#10;LocationHelper class from internet to help dertimine location in NavFragment&#10;Waypoint item class for custom list view&#10;WaypointsListAdapter for custom list view&#10;New model waypoint info to hold information about waypoint object&#10;java doc updates" />
     <MESSAGE value="Updates to async task and webview for the waypoint description" />
     <option name="LAST_COMMIT_MESSAGE" value="Updates to async task and webview for the waypoint description" />
+=======
+    <MESSAGE value="Fixed some UI changes that were messed up from before." />
+    <MESSAGE value="Added ReadTourXML.java&#10;Added TourPoint.java&#10;Added cross_campus_tour.xml&#10;Added sports_tour.xml&#10;Changed some Buttons on main activity" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added ReadTourXML.java&#10;Added TourPoint.java&#10;Added cross_campus_tour.xml&#10;Added sports_tour.xml&#10;Changed some Buttons on main activity" />
+>>>>>>> 146054d41ccf19a5fea49eba06dfcdc8a8e71bf0
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -2701,29 +2909,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WCUTour/res/layout/tour_info_fragment.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="377">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WCUTour/src/navigation/NavigationActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="8908">
           <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WCUTour/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1789" max-vertical-offset="2346">
-          <caret line="117" column="48" selection-start-line="117" selection-start-column="48" selection-end-line="117" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2751,25 +2940,25 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WCUTour/res/layout/activity_blank.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WCUTour/res/layout/activity_tour.xml">
-      <provider editor-type-id="android-designer">
+      <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WCUTour/res/layout/activity_tour.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.740741" vertical-offset="108" max-vertical-offset="612">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="28" selection-end-column="52" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WCUTour/src/activities/TourActivity.java">
@@ -2780,94 +2969,111 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WCUTour/res/layout/activity_locations.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="395">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WCUTour/res/layout/activity_navigation.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WCUTour/res/layout/activity_navigation.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WCUTour/res/layout/navfragment.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WCUTour/res/layout/navfragment.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.8888888" vertical-offset="51" max-vertical-offset="1020">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WCUTour/res/layout/drawer_list_item.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WCUTour/res/layout/drawer_list_item.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.814815" vertical-offset="0" max-vertical-offset="731">
           <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WCUTour/res/layout/list_pic.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WCUTour/res/layout/list_pic.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
+<<<<<<< HEAD
     </entry>
     <entry file="file://$PROJECT_DIR$/WCUTour/res/layout/home.xml">
+=======
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WCUTour/res/layout/list_item.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1088">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-3.7777777" vertical-offset="0" max-vertical-offset="221">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WCUTour/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-29.24" vertical-offset="0" max-vertical-offset="1054">
-          <caret line="43" column="54" selection-start-line="43" selection-start-column="54" selection-end-line="43" selection-end-column="54" />
-          <folding />
-        </state>
+>>>>>>> 146054d41ccf19a5fea49eba06dfcdc8a8e71bf0
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WCUTour/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="697">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
+<<<<<<< HEAD
+=======
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+>>>>>>> 146054d41ccf19a5fea49eba06dfcdc8a8e71bf0
     </entry>
     <entry file="file://$PROJECT_DIR$/WCUTour/src/activities/LocationsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="931" max-vertical-offset="1462">
           <caret line="96" column="1" selection-start-line="96" selection-start-column="1" selection-end-line="96" selection-end-column="1" />
+<<<<<<< HEAD
+=======
+          <folding>
+            <element signature="e#1629#1637#0" expanded="false" />
+            <element signature="e#1917#1925#0" expanded="false" />
+            <element signature="e#2202#2804#0" expanded="false" />
+            <element signature="e#2793#2794#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WCUTour/src/activities/SelectedItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2771" max-vertical-offset="3315">
+          <caret line="209" column="51" selection-start-line="209" selection-start-column="51" selection-end-line="209" selection-end-column="51" />
+          <folding />
+>>>>>>> 146054d41ccf19a5fea49eba06dfcdc8a8e71bf0
         </state>
       </provider>
     </entry>
@@ -2875,6 +3081,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1543" max-vertical-offset="2074">
           <caret line="111" column="7" selection-start-line="111" selection-start-column="7" selection-end-line="111" selection-end-column="7" />
+<<<<<<< HEAD
+=======
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+>>>>>>> 146054d41ccf19a5fea49eba06dfcdc8a8e71bf0
         </state>
       </provider>
     </entry>
@@ -2913,6 +3125,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/WCUTour/src/activities/BaseActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="5062" max-vertical-offset="5593">
@@ -2920,10 +3133,29 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> 146054d41ccf19a5fea49eba06dfcdc8a8e71bf0
     <entry file="file://$PROJECT_DIR$/WCUTour/src/models/Waypoint.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2257" max-vertical-offset="2788">
           <caret line="170" column="41" selection-start-line="170" selection-start-column="41" selection-end-line="170" selection-end-column="41" />
+<<<<<<< HEAD
+=======
+          <folding>
+            <element signature="e#3016#3017#0" expanded="false" />
+            <element signature="e#3043#3044#0" expanded="false" />
+            <element signature="e#3227#3228#0" expanded="false" />
+            <element signature="e#3259#3260#0" expanded="false" />
+            <element signature="e#3403#3404#0" expanded="false" />
+            <element signature="e#3437#3438#0" expanded="false" />
+            <element signature="e#3570#3571#0" expanded="false" />
+            <element signature="e#3598#3599#0" expanded="false" />
+            <element signature="e#3743#3744#0" expanded="false" />
+            <element signature="e#3775#3776#0" expanded="false" />
+            <element signature="e#3905#3906#0" expanded="false" />
+            <element signature="e#3932#3933#0" expanded="false" />
+          </folding>
+>>>>>>> 146054d41ccf19a5fea49eba06dfcdc8a8e71bf0
         </state>
       </provider>
     </entry>
@@ -2973,6 +3205,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/WCUTour/src/activities/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1938" max-vertical-offset="2533">
@@ -3019,6 +3252,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> 146054d41ccf19a5fea49eba06dfcdc8a8e71bf0
     <entry file="file://$PROJECT_DIR$/WCUTour/src/nav_fragments/WaypointsInTourFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="328" max-vertical-offset="1071">
@@ -3038,6 +3273,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/WCUTour/src/activities/SelectedItem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="3315">
@@ -3050,6 +3286,9 @@
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+=======
+    <entry file="file://$PROJECT_DIR$/WCUTour/src/utilities/LocationHelper.java">
+>>>>>>> 146054d41ccf19a5fea49eba06dfcdc8a8e71bf0
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.296296" vertical-offset="280" max-vertical-offset="816">
           <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
@@ -3087,7 +3326,35 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/WCUTour/src/utilities/LocationHelper.java">
+=======
+    <entry file="file://$PROJECT_DIR$/WCUTour/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.68" vertical-offset="493" max-vertical-offset="1105">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WCUTour/src/nav_fragments/TourInfoFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WCUTour/src/activities/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2958">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WCUTour/src/utilities/WaypointItem.java">
+>>>>>>> 146054d41ccf19a5fea49eba06dfcdc8a8e71bf0
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1632" max-vertical-offset="2295">
           <caret line="116" column="26" selection-start-line="116" selection-start-column="12" selection-end-line="116" selection-end-column="26" />
@@ -3117,11 +3384,232 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WCUTour/src/activities/WaypointDescription.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.13636364" vertical-offset="1156" max-vertical-offset="1989">
           <caret line="71" column="63" selection-start-line="71" selection-start-column="63" selection-end-line="71" selection-end-column="63" />
+=======
+        <state vertical-scroll-proportion="0.0" vertical-offset="782" max-vertical-offset="1241">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+>>>>>>> 146054d41ccf19a5fea49eba06dfcdc8a8e71bf0
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WCUTour/res/layout-land/home.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.7777777" vertical-offset="51" max-vertical-offset="901">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="42" selection-end-column="46" />
+          <folding>
+            <element signature="e#439#464#0" expanded="true" />
+            <element signature="e#929#953#0" expanded="true" />
+            <element signature="e#1416#1443#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WCUTour/res/layout/waypoint_list_item.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="663">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WCUTour/res/layout/home.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="e#316#341#0" expanded="true" />
+            <element signature="e#762#786#0" expanded="true" />
+            <element signature="e#1209#1236#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WCUTour/res/values/color.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="561">
+          <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WCUTour/res/layout/tour_info_fragment.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="377">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WCUTour/res/layout/waypoints_in_tour_fragment.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="263" max-vertical-offset="1037">
+          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WCUTour/src/models/TourPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="394">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WCUTour/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="513" max-vertical-offset="2397">
+          <caret line="42" column="36" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WCUTour/src/utilities/ReadTourXML.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="615" max-vertical-offset="1190">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WCUTour/src/activities/BaseActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4664" max-vertical-offset="6120">
+          <caret line="323" column="0" selection-start-line="323" selection-start-column="0" selection-end-line="323" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WCUTour/src/utilities/Variables.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1717">
+          <caret line="55" column="55" selection-start-line="55" selection-start-column="55" selection-end-line="55" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WCUTour/assets/cross_campus_tour.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="6381" max-vertical-offset="7327">
+          <caret line="396" column="16" selection-start-line="3" selection-start-column="6" selection-end-line="396" selection-end-column="16" />
+          <folding>
+            <marker date="1424974406012" expanded="true" signature="188:272" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="296:380" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="404:488" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="511:595" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="619:703" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="727:811" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="835:919" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="943:1027" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="1051:1135" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="1160:1244" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="1269:1353" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="1378:1462" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="1487:1571" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="1596:1680" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="1705:1789" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="1814:1898" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="1923:2007" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="2032:2116" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="2141:2225" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="2250:2334" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="2359:2443" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="2468:2552" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="2577:2661" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="2686:2770" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="2795:2879" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="2904:2988" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="3013:3097" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="3122:3206" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="3231:3315" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="3340:3424" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="3449:3533" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="3558:3642" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="3667:3751" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="3776:3860" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="3885:3969" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="3994:4078" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="4103:4187" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="4212:4296" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="4321:4405" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="4430:4514" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="4539:4623" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="4648:4732" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="4757:4841" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="4866:4950" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="4975:5059" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="5084:5168" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="5193:5277" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="5303:5387" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="5412:5496" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="5521:5605" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="5630:5714" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="5739:5823" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="5848:5932" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="5957:6041" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="6066:6150" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="6175:6259" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="6284:6368" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="6393:6477" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="6502:6586" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="6611:6695" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="6720:6804" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="6829:6913" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="6938:7022" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="7047:7131" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="7156:7240" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="7265:7349" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="7374:7458" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="7483:7567" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="7592:7676" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="7701:7785" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="7810:7894" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="7919:8003" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="8028:8112" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="8137:8221" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="8246:8330" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="8355:8439" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="8464:8548" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="8573:8657" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="8682:8766" placeholder="..." />
+            <marker date="1424974406012" expanded="true" signature="8791:8875" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WCUTour/src/nav_fragments/NavFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="6132" max-vertical-offset="13923">
+          <caret line="425" column="48" selection-start-line="425" selection-start-column="38" selection-end-line="425" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WCUTour/assets/sports_tour.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41576087" vertical-offset="221" max-vertical-offset="6936">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
