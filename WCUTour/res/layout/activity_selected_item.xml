@@ -3,7 +3,7 @@
     android:orientation="vertical"
     android:layout_height="fill_parent"
     android:layout_width="fill_parent"
-    android:background="@color/gray">
+    android:background="@drawable/catamount_purple">
     <LinearLayout 
         android:layout_weight="1"
         android:layout_height="fill_parent"

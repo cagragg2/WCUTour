@@ -5,8 +5,7 @@
     	<long>-83.182322</long>
     	<desc>Ramsey Center</desc>
     	<information>The Ramsey center where events happen such as basketball games, concerts, etc.</information>
-        <hours>M-F:8 am-9 pm
-        12 noon-9pm</hours>
+        <hours>M-F:8 am-9 pm = 12 noon-9pm</hours>
         <uses>Events such as BasketBall Games, Concerts, etc..</uses>
     </Location>
     
@@ -14,10 +13,7 @@
     	<lat>35.310450</lat>
     	<long>-83.182631</long>
     	<desc>Alumni Tower</desc>
-    	<information>On October 28, 1989, the Alumni Association dedicated the Alumni
-            Tower as part of WCU's centennial-year homecoming events.  The Tower
-            stands at 66 feet high in front of the A.K. Hinds Unviersity Center.
-            </information>
+    	<information>On October 28, 1989, the Alumni Association dedicated the Alumni Tower as part of WCU's centennial-year homecoming events.  The Tower stands at 66 feet high in front of the A.K. Hinds Unviersity Center.</information>
         <hours>Every Day</hours>
         <uses>No Uses.</uses>
     </Location>
@@ -35,14 +31,8 @@
     	<lat>35.310517</lat>
     	<long>-83.183470</long>
     	<desc>Reid Gym</desc>
-    	<information>The Ramsey center where
-            events happen.</information>
-        <hours>CRC Hours - Sun, Feb 22, 1 – 9pm\\n CRC Hours - Mon, Feb 23, 6am – 10pm
-            CRC Hours - Tue, Feb 24, 6am – 10pm
-            CRC Hours - Wed, Feb 25, 6am – 10pm
-            CRC Hours - Thu, Feb 26, 6am – 10pm
-            CRC Hours - Fri, Feb 27, 6am – 10pm
-            CRC Hours - Sat, Feb 28, 9am – 5pm</hours>
+    	<information>The Ramsey center where events happen.</information>
+        <hours>CRC Hours - Sun, Feb 22, 1 - 9pm = CRC Hours - Mon, Feb 23, 6am - 10pm = CRC Hours - Tue, Feb 24, 6am - 10pm = CRC Hours - Wed, Feb 25, 6am - 10pm = CRC Hours - Thu, Feb 26, 6am - 10pm = CRC Hours - Fri, Feb 27, 6am - 10pm = CRC Hours - Sat, Feb 28, 9am - 5pm</hours>
         <uses>PE classes</uses>
     </Location>  
    
@@ -60,9 +50,7 @@
     	<long>-83.179745</long>
     	<desc>Hunter Library</desc>
     	<information>The Ramsey center where events happen.</information>
-        <hours>M-F:7am-2am
-        Sat:9am-7pm
-        Sun:10am-2am</hours>
+        <hours>M-F:7am-2am = Sat:9am-7pm = Sun:10am-2am</hours>
         <uses>Book Rental, IT</uses>
     </Location>
     
@@ -89,13 +77,7 @@
     	<long>-83.183028</long>
     	<desc>Campus Recreation Center</desc>
     	<information>The Ramsey center where events happen.</information>
-        <hours>CRC Hours - Sun, Feb 22, 1 – 9pm
-            CRC Hours - Mon, Feb 23, 6am – 10pm
-            CRC Hours - Tue, Feb 24, 6am – 10pm
-            CRC Hours - Wed, Feb 25, 6am – 10pm
-            CRC Hours - Thu, Feb 26, 6am – 10pm
-            CRC Hours - Fri, Feb 27, 6am – 10pm
-            CRC Hours - Sat, Feb 28, 9am – 5pm</hours>
+        <hours>CRC Hours - Sun, Feb 22, 1 - 9pm = CRC Hours - Mon, Feb 23, 6am - 10pm = CRC Hours - Tue, Feb 24, 6am - 10pm = CRC Hours - Wed, Feb 25, 6am - 10pm = CRC Hours - Thu, Feb 26, 6am - 10pm = CRC Hours - Fri, Feb 27, 6am - 10pm = CRC Hours - Sat, Feb 28, 9am - 5pm</hours>
         <uses>Workout, Wall, Basketball gym</uses>
     </Location>
   
@@ -113,9 +95,7 @@
     	<long>-83.183470</long>
     	<desc>Campus Bookstore</desc>
     	<information>The Ramsey center where events happen.</information>
-        <hours>M-TH:8:30am-6:00pm
-        Fri:8:00am-5:00pm
-        Sat 10am-3pm</hours>
+        <hours>M-TH:8:30am-6:00pm = Fri:8:00am-5:00pm = Sat 10am-3pm</hours>
         <uses>Book rentals and school supplies</uses>
     </Location>
     
@@ -160,8 +140,7 @@
     	<long>-83.183299</long>
     	<desc>Courtyard Cafeteria</desc>
     	<information>The Ramsey center where events happen.</information>
-        <hours>M-F:7am-9pm
-        Sat-Sun: 9am-8pm</hours>
+        <hours>M-F:7am-9pm = Sat-Sun: 9am-8pm</hours>
         <uses>Eating</uses>
     </Location>
     

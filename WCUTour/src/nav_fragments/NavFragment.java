@@ -97,8 +97,14 @@ public class NavFragment extends Fragment implements LocationListener{//, Sensor
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+        if(Variables.myLocation == null) {
+            Log.e("Tour","My location is null");
+        }
         locationHelper = new LocationHelper();
         locationHelper.getLocation(getActivity().getApplicationContext(),locationResult);
+        if(Variables.myLocation == null) {
+            Log.e("Tour","My location is null");
+        }
         updateLocationTask = new UpdateLocation();
         updateLocationTask.execute(getActivity().getApplicationContext());
 	}
@@ -811,7 +817,6 @@ public void onAccuracyChanged(Sensor sensor, int accuracy) {
      * method
      */
     public class UpdateLocation extends AsyncTask<Context, Void, Void> {
-
         //dialog box
         private ProgressDialog dialog = new ProgressDialog(getActivity());
 
@@ -819,10 +824,13 @@ public void onAccuracyChanged(Sensor sensor, int accuracy) {
          * called before the execution.
          */
         protected void onPreExecute() {
+
             this.dialog.setMessage("Searching for Location");
             this.dialog.show();
-            Toast.makeText(getActivity().getApplicationContext(), "Waiting to aquire Location.", Toast.LENGTH_SHORT).show();
-            Log.e("tour","doing pre execute");
+            if(Variables.myLocation == null) {
+                Log.e("Tour","My location is null");
+            }
+
         }
 
         /**
@@ -832,7 +840,8 @@ public void onAccuracyChanged(Sensor sensor, int accuracy) {
          */
         protected Void doInBackground(Context... params) {
             int count = 0;
-            while(Variables.myLocation == null || count > 10) {
+
+            while(count < 6) {
                 try {
                     Thread.sleep(500);
                     count++;
@@ -840,6 +849,19 @@ public void onAccuracyChanged(Sensor sensor, int accuracy) {
                     Thread.interrupted();
                 }
             }
+
+            while(Variables.myLocation == null && count < 1000) {
+                try {
+                    if(Variables.myLocation == null) {
+                        Log.e("Tour","My location is null");
+                    }
+                    Thread.sleep(500);
+                    count++;
+                } catch (InterruptedException e) {
+                    Thread.interrupted();
+                }
+            }
+
             return null;
         }
 
@@ -849,12 +871,11 @@ public void onAccuracyChanged(Sensor sensor, int accuracy) {
          * @param unused
          */
         protected  void onPostExecute(final Void unused) {
+
             if(this.dialog.isShowing()) {
                 this.dialog.dismiss();
             }
             if(Variables.myLocation != null) {
-                Toast.makeText(getActivity().getApplicationContext(), "Location Found.", Toast.LENGTH_SHORT).show();
-                Log.e("tour", "location found!!!!!!");
                 setUpMap();
             }
         }

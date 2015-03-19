@@ -7,7 +7,7 @@
     android:orientation="vertical"
     tools:context="activities.WaypointDescription">
 
-    <TextView
+ <!--   <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/description"/>
@@ -31,6 +31,12 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/infotv3"/>
+        android:id="@+id/infotv3"/> -->
 
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/webView"
+        android:layout_gravity="center_horizontal" />
 </LinearLayout>
