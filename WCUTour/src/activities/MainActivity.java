@@ -21,21 +21,7 @@ import android.widget.ImageView;
  */
 
 public class MainActivity extends BaseActivity implements View.OnClickListener {
-	//int campus_unpressed = R.drawable.campusmapunpressed;
-	//int campus_pressed = R.drawable.campusmappressed;
-	//int locations_unpressed = R.drawable.locationsunpressed;
-	//int locations_pressed = R.drawable.locationspressed;
-	//int tours_unpressed = R.drawable.toursunpressed;
-	//int tours_unpressed = R.drawable.tourbuttonjeremiahunpressed;
-	//int tours_pressed = R.drawable.tourspressed;
-	/*
-	int campus_unpressed = R.drawable.campusmapjgcampusmapjeremiahunpressed;
-	int campus_pressed = R.drawable.campusmapjgcampusmapjeremiahpressed;
-	int locations_unpressed = R.drawable.campusmapjglocationsjeremiahunpressed;
-	int locations_pressed = R.drawable.campusmapjglocationsjeremiahpressed;
-	int tours_unpressed = R.drawable.campusmapjgtoursjeremiahunpressed;
-	int tours_pressed = R.drawable.campusmapjgtoursjeremiahpressed;
-	*/
+
 	Thread thread;
 
     /**
@@ -67,70 +53,11 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
 		final Button locations = (Button ) this.findViewById(R.id.locations_button_home);
 		final Button tours = ( Button ) this.findViewById(R.id.tours_button_home);
 		
-	    //campusMap.setBackgroundResource(campus_unpressed);
-	    //locations.setBackgroundResource(locations_unpressed);
-	    //tours.setBackgroundResource(tours_unpressed);
-	    campusMap.setOnClickListener(this);
-        locations.setOnClickListener(this);
-        tours.setOnClickListener(this);
-	    /*
-	    //campusMap.setOnTouchListener(new OnTouchListener() {
-			@Override
-			public boolean onTouch(View v, MotionEvent event) {
-				switch(event.getAction()) {
-				case MotionEvent.ACTION_DOWN: {
-					campusMap.setBackgroundResource(campus_pressed);
-					break;
-				}
-				case MotionEvent.ACTION_UP: {
-					campusMap.setBackgroundResource(campus_unpressed);
-					openMaps(v);
-					break;
-				}
-				}
-				return true;
-			}
-	    	
-	    });
+	 	/* Setting onClickListener for each button */
+		campusMap.setOnClickListener(this);
+        	locations.setOnClickListener(this);
+        	tours.setOnClickListener(this);
 	    
-	    locations.setOnTouchListener(new OnTouchListener() {
-			@Override
-			public boolean onTouch(View v, MotionEvent event) {
-				switch(event.getAction()) {
-				case MotionEvent.ACTION_DOWN: {
-					locations.setBackgroundResource(locations_pressed);
-					break;
-				}
-				case MotionEvent.ACTION_UP: {
-					locations.setBackgroundResource(locations_unpressed);
-					openLocations(v);
-					break;
-				}
-				}
-				return true;
-			}
-	    	
-	    });
-	    
-	    tours.setOnTouchListener(new OnTouchListener() {
-			@Override
-			public boolean onTouch(View v, MotionEvent event) {
-				switch(event.getAction()) {
-				case MotionEvent.ACTION_DOWN: {
-					tours.setBackgroundResource(tours_pressed);
-					break;
-				}
-				case MotionEvent.ACTION_UP: {
-					tours.setBackgroundResource(tours_unpressed);
-					openTours(v);
-					break;
-				}
-				}
-				return true;
-			}
-	    	
-	    });
-        */
 	}
 
     /**
