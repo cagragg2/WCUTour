@@ -70,7 +70,7 @@ public class BaseActivity extends FragmentActivity {
 
 
 		//------------------------------------------------------------------------------------------------------------
-		/*
+		/**
 		 * onCreate method for the base activity.
 		 */
 		//------------------------------------------------------------------------------------------------------------
@@ -145,7 +145,9 @@ public class BaseActivity extends FragmentActivity {
 	        parser();
 		}//end onCreate
 		
-		
+		/**
+		 * onResume method. 
+		 */
 		@Override
 		protected void onResume() {
 			
@@ -186,7 +188,10 @@ public class BaseActivity extends FragmentActivity {
 	        menu.findItem(R.id.action_settings).setVisible(!drawerOpen);
 	        return super.onPrepareOptionsMenu(menu);
 	    }
-	 
+	    /**
+	     * Sets the title of the actionBar. 
+	     * @param title - title of action bar.
+	     */
 	    @Override
 	    public void setTitle(CharSequence title) {
 	        mTitle = title;
@@ -227,7 +232,7 @@ public class BaseActivity extends FragmentActivity {
 	    }
 	    
 		//------------------------------------------------------------------------------------------------------------
-		/*
+		/**
 		 * Handles the case for which nav drawer item was clicked.
 		 */
 		//------------------------------------------------------------------------------------------------------------
