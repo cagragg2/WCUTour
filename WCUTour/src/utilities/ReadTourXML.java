@@ -8,7 +8,9 @@ import models.Waypoint;
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
-
+/**
+ * This class parses XML files that contain the points that make up the polyline for the tour on the map.
+ * /
 public class ReadTourXML extends DefaultHandler{
 
     private TourPoint point;
