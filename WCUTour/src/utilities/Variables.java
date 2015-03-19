@@ -50,10 +50,10 @@ public class Variables {
 	 */
 	public static ArrayList<LatLng> myTracks;
 
-    /**
-     * the cross-campus tour
-     */
-    public static ArrayList<TourPoint> crossCampusTour;
+    	/**
+	 * the cross-campus tour
+	 */
+	 public static ArrayList<TourPoint> crossCampusTour;
 	
 	/**
 	 * to count where we are at in the tour.
