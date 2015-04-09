@@ -20,4 +20,4 @@ limitations under the License.
         android:layout_height="match_parent"
         android:gravity="center"
         style="?attr/actionBarTabBarStyle"/>
-<!-- From: file:/C:/Users/Jeremiah/Documents/GitHubWCUtour/WCUTour/appcompat_v7/res/layout/abc_action_bar_tabbar.xml --><!-- From: file:/C:/Users/Jeremiah/Documents/GitHubWCUtour/WCUTour/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout/abc_action_bar_tabbar.xml -->
+<!-- From: file:/C:/Users/Caleb/WCUTour/appcompat_v7/res/layout/abc_action_bar_tabbar.xml --><!-- From: file:/C:/Users/Caleb/WCUTour/WCUTour/build/intermediates/exploded-aar/WCUTour/appcompat_v7/unspecified/res/layout/abc_action_bar_tabbar.xml -->

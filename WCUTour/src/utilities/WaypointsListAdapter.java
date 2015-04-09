@@ -54,19 +54,19 @@ public class WaypointsListAdapter extends BaseAdapter {
 
         TextView waypoint = (TextView) convertView.findViewById(R.id.waylisttv1);
         TextView dist = (TextView) convertView.findViewById(R.id.waylisttv2);
-        TextView txtCount = (TextView) convertView.findViewById(R.id.counter2);
+        //TextView txtCount = (TextView) convertView.findViewById(R.id.counter2);
 
        waypoint.setText(waypointItem.get(position).getTitle());
        dist.setText(waypointItem.get(position).getDistance() + "");
 
         // displaying count
         // check whether it set visible or not
-        if(waypointItem.get(position).getCounterVisibility()){
-            txtCount.setText(waypointItem.get(position).getCount());
-        }else{
+     ///   if(waypointItem.get(position).getCounterVisibility()){
+     //       txtCount.setText(waypointItem.get(position).getCount());
+     //   }else{
             // hide the counter view
-            txtCount.setVisibility(View.GONE);
-        }
+    //        txtCount.setVisibility(View.GONE);
+     //   }
 
         return convertView;
     }

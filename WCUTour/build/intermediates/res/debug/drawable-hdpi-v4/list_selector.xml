@@ -5,4 +5,4 @@
     <item android:drawable="@drawable/list_item_bg_pressed" android:state_pressed="true"/>
     <item android:drawable="@drawable/list_item_bg_pressed" android:state_activated="true"/>
  
-</selector><!-- From: file:/C:/Users/Jeremiah/Documents/GitHubWCUtour/WCUTour/WCUTour/res/drawable-hdpi/list_selector.xml -->
+</selector><!-- From: file:/C:/Users/Caleb/WCUTour/WCUTour/res/drawable-hdpi/list_selector.xml -->

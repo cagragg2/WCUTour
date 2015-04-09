@@ -4,30 +4,30 @@
     android:orientation="horizontal"
     android:weightSum="2">
 
-<TextView
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:id="@+id/waylisttv1"
-    android:layout_weight="1"
-    android:text="hey"
-    android:textColor="@color/gold"
-    android:textSize="15dp"/>
-
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:textSize="15dp"
-        android:text="asdasdasdasda"
+    <LinearLayout
+        android:layout_width="0dp"
         android:layout_weight="1"
-        android:textColor="@color/gold"
-        android:id="@+id/waylisttv2"/>
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/waylisttv1"
+            android:textColor="@color/gold"
+            android:textSize="15sp"/>
+        </LinearLayout>
 
-    <TextView android:id="@+id/counter2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/catamount_purple"
-        android:layout_alignParentRight="true"
-        android:layout_centerVertical="true"
-        android:layout_marginRight="8dp"
-        android:textColor="@color/counter_text_color" />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@color/gold"
+            android:id="@+id/waylisttv2"/>
+        </LinearLayout>
+
+
+
 </LinearLayout>

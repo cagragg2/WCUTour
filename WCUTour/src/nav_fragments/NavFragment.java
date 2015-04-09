@@ -430,7 +430,7 @@ public void setUpSportsTour(){
         pOptions.add(point);
 
     }
-    googleMap.addMarker(options.position(soccer)
+    /*googleMap.addMarker(options.position(soccer)
             .title("Soccer Field and Track")
             .icon(BitmapDescriptorFactory
                     .defaultMarker(BitmapDescriptorFactory.HUE_YELLOW)));
@@ -447,7 +447,7 @@ public void setUpSportsTour(){
             .title("E.J. Whitmore Stadium")
             .icon(BitmapDescriptorFactory
                     .defaultMarker(BitmapDescriptorFactory.HUE_YELLOW)));
-    line = googleMap.addPolyline(pOptions);
+    line = googleMap.addPolyline(pOptions);*/
 
 }
 public void setUpCrossCampusTour() {
@@ -469,7 +469,7 @@ public void setUpCrossCampusTour() {
 			
 		}
 		
-		googleMap.addMarker(options.position(hunterLibrary)
+		/*googleMap.addMarker(options.position(hunterLibrary)
 								   .title("Hunter Library")
 								   .icon(BitmapDescriptorFactory
 								         .defaultMarker(BitmapDescriptorFactory.HUE_YELLOW)));
@@ -497,7 +497,7 @@ public void setUpCrossCampusTour() {
 								   .icon(BitmapDescriptorFactory
 								         .defaultMarker(BitmapDescriptorFactory.HUE_YELLOW)));
 		line = googleMap.addPolyline(pOptions);
-		//Variables.myTracks.add(latlng);
+		//Variables.myTracks.add(latlng); */
 	}
 
 /*@Override
@@ -508,9 +508,9 @@ if(myLocMarker != null) {
 	//myLocMarker.setRotation(degree *20);
             updateCamera(event.values[0]);}
 	
-}
+}*/
 
-@Override
+/*@Override
 public void onAccuracyChanged(Sensor sensor, int accuracy) {
 	// TODO Auto-generated method stub
 

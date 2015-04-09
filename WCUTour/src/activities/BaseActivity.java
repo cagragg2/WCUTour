@@ -1,13 +1,26 @@
 package activities;
 
+import java.io.BufferedInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipFile;
+import java.util.zip.ZipInputStream;
 
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 
 import models.TourPoint;
+import utilities.Decompress;
 import utilities.NavDrawerItem;
 import models.Tours;
 import models.Waypoint;
@@ -22,12 +35,16 @@ import utilities.Variables;
 import edu.wcu.wcutour.R;
 
 import android.app.Fragment;
+import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.content.res.AssetManager;
 import android.content.res.Configuration;
 import android.content.res.TypedArray;
 import android.location.LocationListener;
+import android.net.Uri;
 import android.os.Bundle;
+import android.provider.ContactsContract;
 import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
@@ -273,6 +290,19 @@ public class BaseActivity extends FragmentActivity {
 
 	    public void parser() {
 
+            //Decompress decompress = new Decompress("/Tours.zip",getFilesDir().getPath());
+           // decompress.unzip();
+            unzipFromAssets("Tours.zip",getFilesDir().getPath());
+            //copyFromAssetsToInternalStorage("Tours.zip");
+            //unZipFile("Tours.zip");
+
+
+
+            File dirFiles = getFilesDir();
+            for (String strFile : dirFiles.list())
+            {
+                Log.e("here",strFile);
+            }
             //All of the waypoints to store from xml file.
 	        Variables.listOfWaypoints = new ArrayList<Waypoint>();
 	        //The tours made from waypoints.
@@ -283,8 +313,15 @@ public class BaseActivity extends FragmentActivity {
 	        // Reading the waypoints.xml file in and storing it an ArrayList.
 	        SAXParserFactory saxParserFactory = SAXParserFactory.newInstance();
 	        AssetManager assetManager = getBaseContext().getAssets();
-	        try {
-	        	InputStream is = assetManager.open("waypoints.xml");
+
+
+            try {
+	        	//InputStream is = assetManager.open("waypoints.xml");
+
+
+                FileInputStream fis = openFileInput("waypoints.xml");
+                InputStreamReader isr = new InputStreamReader(fis);
+
 	        	
 	            SAXParserFactory spf = SAXParserFactory.newInstance();
 	            SAXParser sp = spf.newSAXParser();
@@ -292,7 +329,7 @@ public class BaseActivity extends FragmentActivity {
 	 
 	   			ReadXMLFile handler = new ReadXMLFile(); //reader for the xml file
 	   			xr.setContentHandler(handler);
-	   			InputSource inStream = new InputSource(is);
+	   			InputSource inStream = new InputSource(isr);
 	   			xr.parse(inStream);
 	 
 	            List<Waypoint> wayList = handler.getWayList();
@@ -309,9 +346,12 @@ public class BaseActivity extends FragmentActivity {
 
             SAXParserFactory saxParserFact2 = SAXParserFactory.newInstance();
             AssetManager assetManager2 = getBaseContext().getAssets();
+
             try {
 
-                InputStream is2 = assetManager2.open("cross_campus_tour.xml");
+               // InputStream is2 = assetManager2.open("cross_campus_tour.xml");
+                FileInputStream fis = openFileInput("cross_campus_tour.xml");
+                InputStreamReader isr = new InputStreamReader(fis);
 
                 SAXParserFactory spf2 = SAXParserFactory.newInstance();
                 SAXParser sp2 = spf2.newSAXParser();
@@ -319,7 +359,7 @@ public class BaseActivity extends FragmentActivity {
 
                 ReadTourXML handler2 = new ReadTourXML();
                 reader.setContentHandler(handler2);
-                InputSource inStream2 = new InputSource(is2);
+                InputSource inStream2 = new InputSource(fis);
                 reader.parse(inStream2);
 
                 List<TourPoint> tourList = handler2.getTourList();
@@ -392,5 +432,85 @@ public class BaseActivity extends FragmentActivity {
 			//Variables.listOfTours.add(new Tours(waypoints2,"Residential Living Tour"));
 			Variables.listOfTours.add(new Tours(testWaypoint,"Sport's Tour"));
 			Variables.listOfTours.add(new Tours(sampleTour, "Cross Campus Tour"));
+
+
 	    }
+
+    public void unzipFromAssets(String zipFile, String destination) {
+        try {
+            if (destination == null || destination.length() == 0)
+                destination = getFilesDir().getAbsolutePath();
+            InputStream stream = getAssets().open(zipFile);
+            unzip(stream, destination);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void unzip(String zipFile, String location) {
+        try {
+            FileInputStream fin = new FileInputStream(zipFile);
+            unzip(fin, location);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    public void unzip(InputStream stream, String destination) {
+      //  dirChecker(destination, "");
+        byte[] buffer = new byte[1024*10];
+        try {
+            ZipInputStream zin = new ZipInputStream(stream);
+            ZipEntry ze = null;
+
+            while ((ze = zin.getNextEntry()) != null) {
+                Log.v("tag", "Unzipping " + ze.getName());
+                String name = "";
+                if(ze.getName().equals("Tours/cross_campus_tour.xml")) {
+                    name = "cross_campus_tour.xml";
+                } else if (ze.getName().equals("Tours/waypoints.xml")) {
+                   // Log.e("tag","here");
+                    name = "waypoints.xml";
+                } else if(ze.getName().equals("Tours/sports_tour.xml")) {
+                    name = "sports_tour.xml";
+                }
+
+                if (ze.isDirectory()) {
+             //       dirChecker(destination, ze.getName());
+                } else {
+                   // File f = new File(destination + ze.getName());
+                    File f = new File(destination + "/" + name);
+                    Log.e("here","Made file " + destination +"/" + name);
+                   // if (!f.exists()) {
+                       // FileOutputStream fout = new FileOutputStream(destination + ze.getName());
+                        FileOutputStream fout = new FileOutputStream(destination +"/"+ name);
+                        int count;
+                        while ((count = zin.read(buffer)) != -1) {
+                            fout.write(buffer, 0, count);
+                            Log.e("tag","here");
+                        }
+                        zin.closeEntry();
+                        fout.close();
+                    //}
+                }
+
+            }
+            zin.close();
+        } catch (Exception e) {
+            Log.e("TAg", "unzip", e);
+        }
+
+    }
+
+    private void dirChecker(String destination, String dir) {
+        File f = new File(destination + dir);
+
+        if (!f.isDirectory()) {
+            boolean success = f.mkdirs();
+            if (!success) {
+               Log.w("tag", "Failed to create folder " + f.getName());
+            }
+        }
+    }
 }
