@@ -51,9 +51,8 @@
     <string name="description">Description:</string>
     <string name="hours">Hours of Operation:</string>
     <string name="uses">Uses:</string>
-=======
-    <string name="title_tour_info_frag">Description</string>
+=======    <string name="title_tour_info_frag">Description</string>
     <string name="tour_info_frag_length">Length(m)</string>
->>>>>>> d5031ef5deda2bc6eb923ba1ae684bae36e32fe3
+>>>>>>> d5031ef5deda2bc6eb923ba1ae684bae36e32fe3    <string name="title_activity_splash">WCU Tour</string>
 
 </resources>

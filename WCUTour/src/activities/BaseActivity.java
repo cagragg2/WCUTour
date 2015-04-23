@@ -10,6 +10,8 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
+import java.net.URL;
+import java.net.URLConnection;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.zip.ZipEntry;
@@ -43,6 +45,7 @@ import android.content.res.Configuration;
 import android.content.res.TypedArray;
 import android.location.LocationListener;
 import android.net.Uri;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.provider.ContactsContract;
 import android.support.v4.app.ActionBarDrawerToggle;
@@ -55,6 +58,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.Toast;
 
 
 /**
@@ -159,9 +163,20 @@ public class BaseActivity extends FragmentActivity {
 	            }
 	        };
 	        mDrawerLayout.setDrawerListener(mDrawerToggle);
+
+            checkIfDownloaded();
 	        parser();
 		}//end onCreate
-		
+
+	private void checkIfDownloaded() {
+        File dirFiles = getFilesDir();
+        for (String strFile : dirFiles.list())
+        {
+            Log.e("FILES",strFile.toString());
+        }
+    }
+
+
 		/**
 		 * onResume method. 
 		 */
@@ -290,19 +305,11 @@ public class BaseActivity extends FragmentActivity {
 
 	    public void parser() {
 
-            //Decompress decompress = new Decompress("/Tours.zip",getFilesDir().getPath());
-           // decompress.unzip();
-            unzipFromAssets("Tours.zip",getFilesDir().getPath());
-            //copyFromAssetsToInternalStorage("Tours.zip");
-            //unZipFile("Tours.zip");
-
+            unzip("Tours.zip",getFilesDir().getAbsolutePath());
 
 
             File dirFiles = getFilesDir();
-            for (String strFile : dirFiles.list())
-            {
-                Log.e("here",strFile);
-            }
+
             //All of the waypoints to store from xml file.
 	        Variables.listOfWaypoints = new ArrayList<Waypoint>();
 	        //The tours made from waypoints.
@@ -316,8 +323,6 @@ public class BaseActivity extends FragmentActivity {
 
 
             try {
-	        	//InputStream is = assetManager.open("waypoints.xml");
-
 
                 FileInputStream fis = openFileInput("waypoints.xml");
                 InputStreamReader isr = new InputStreamReader(fis);
@@ -349,7 +354,6 @@ public class BaseActivity extends FragmentActivity {
 
             try {
 
-               // InputStream is2 = assetManager2.open("cross_campus_tour.xml");
                 FileInputStream fis = openFileInput("cross_campus_tour.xml");
                 InputStreamReader isr = new InputStreamReader(fis);
 
@@ -373,48 +377,10 @@ public class BaseActivity extends FragmentActivity {
             catch (Exception e) {
                 e.printStackTrace();
             }
-	        
-	/*        ArrayList<Waypoint> waypoints = new ArrayList<Waypoint>();
-	        ArrayList<Waypoint> waypoints2 = new ArrayList<Waypoint>();*/
+
 	        ArrayList<Waypoint> testWaypoint = new ArrayList<Waypoint>();
 	        ArrayList<Waypoint> sampleTour = new ArrayList<Waypoint>();
-	     /*
-	        for(int i = 0; i < 8; i++) {
-	        	waypoints.add(Variables.listOfWaypoints.get(i));
-	        }
-	        
-	        for(int i = 0; i < Variables.listOfWaypoints.size();i++) {
-	        	if(Variables.listOfWaypoints.get(i).getDescription().equals("Alumni Tower")) {
-	        		waypoints2.add(Variables.listOfWaypoints.get(i));
-	        		System.out.println("added alumni tower");
-	        	}
-	        	if(Variables.listOfWaypoints.get(i).getDescription().equals("Courtyard Cafeteria")) {
-	        		waypoints2.add(Variables.listOfWaypoints.get(i));
-	        		System.out.println("added caf");
-	        	}
-	        }*/
-	        //Waypoint truck = new Waypoint(35.332879, -83.200240,"Truck",998,"The truck","","");
-	        //Waypoint end_of_poarch = new Waypoint(35.332995, -83.199904,"End of Poarch",999,"End of Poarch","","");
-	        //testWaypoint.add(truck);
-	        //testWaypoint.add(end_of_poarch);
-	        
-	       /* Waypoint coulter = new Waypoint(35.311357,-83.182171,"Coulter Stop 1", 997,"Coulter Stop 1");
-	        Waypoint campus_rec_center = new Waypoint(35.310717,-83.183028,"Campus Rec Center Stop 2", 996, "Campus Rec Center Stop 2");
-	        Waypoint alumni_tower = new Waypoint(35.310450,-83.182631,"Alumni Tower Stop 3", 995, "Alumni Tower Stop 3");
-	        Waypoint fountain = new Waypoint(35.310000,-83.182575,"Fountain Stop 4", 994,"Fountain Stop 4");
-	        Waypoint caf = new Waypoint(35.309418,-83.183299,"Caf Stop 5", 993, "Caf Stop 5");
-	        Waypoint library = new Waypoint(35.313028,-83.179745,"Hunter Library Last stop", 992,"Hunter Library last stop");
-	        
-	        
-	        
-	        
-	        
-	        sampleTour.add(coulter);
-	        sampleTour.add(campus_rec_center);
-	        sampleTour.add(alumni_tower);
-	        sampleTour.add(fountain);
-	        sampleTour.add(caf);
-	        sampleTour.add(library); */
+
 	        Waypoint library = new Waypoint(35.312966, -83.179877,"Hunter Library", 992,"Hunter Library last","","");
 	        Waypoint alumni_tower = new Waypoint(35.310413, -83.182663,"Alumni Tower", 995, "Alumni Tower","","");
 	        Waypoint caf = new Waypoint(35.309474, -83.183245,"Cafeteria ", 993, "Caf Stop","","");
@@ -426,30 +392,18 @@ public class BaseActivity extends FragmentActivity {
 	        sampleTour.add(caf);
 	        sampleTour.add(belk);
 	        sampleTour.add(stadium);
-	        
-	        
-			//Variables.listOfTours.add(new Tours(waypoints,"Academic Buildings Tour"));
-			//Variables.listOfTours.add(new Tours(waypoints2,"Residential Living Tour"));
+
 			Variables.listOfTours.add(new Tours(testWaypoint,"Sport's Tour"));
 			Variables.listOfTours.add(new Tours(sampleTour, "Cross Campus Tour"));
 
 
 	    }
 
-    public void unzipFromAssets(String zipFile, String destination) {
-        try {
-            if (destination == null || destination.length() == 0)
-                destination = getFilesDir().getAbsolutePath();
-            InputStream stream = getAssets().open(zipFile);
-            unzip(stream, destination);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
 
     public void unzip(String zipFile, String location) {
         try {
-            FileInputStream fin = new FileInputStream(zipFile);
+            FileInputStream fin;
+            fin = openFileInput(zipFile);
             unzip(fin, location);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
@@ -465,7 +419,7 @@ public class BaseActivity extends FragmentActivity {
             ZipEntry ze = null;
 
             while ((ze = zin.getNextEntry()) != null) {
-                Log.v("tag", "Unzipping " + ze.getName());
+              //  Log.v("tag", "Unzipping " + ze.getName());
                 String name = "";
                 if(ze.getName().equals("Tours/cross_campus_tour.xml")) {
                     name = "cross_campus_tour.xml";
@@ -488,7 +442,7 @@ public class BaseActivity extends FragmentActivity {
                         int count;
                         while ((count = zin.read(buffer)) != -1) {
                             fout.write(buffer, 0, count);
-                            Log.e("tag","here");
+                       //     Log.e("tag","here");
                         }
                         zin.closeEntry();
                         fout.close();
@@ -509,8 +463,9 @@ public class BaseActivity extends FragmentActivity {
         if (!f.isDirectory()) {
             boolean success = f.mkdirs();
             if (!success) {
-               Log.w("tag", "Failed to create folder " + f.getName());
+                // Log.w("tag", "Failed to create folder " + f.getName());
             }
         }
     }
+
 }

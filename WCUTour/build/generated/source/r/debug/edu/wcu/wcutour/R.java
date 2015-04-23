@@ -1412,36 +1412,38 @@ containing a value of this type.
         public static final int activity_selected_item=0x7f03001d;
         public static final int activity_selected_tour=0x7f03001e;
         public static final int activity_settings=0x7f03001f;
-        public static final int activity_tour=0x7f030020;
-        public static final int activity_tour_navigation=0x7f030021;
-        public static final int activity_waypoint_description=0x7f030022;
-        public static final int drawer_list_item=0x7f030023;
-        public static final int fragment_achievements=0x7f030024;
-        public static final int fragment_home=0x7f030025;
-        public static final int fragment_map=0x7f030026;
-        public static final int fragment_settings=0x7f030027;
-        public static final int fragment_tour=0x7f030028;
-        public static final int fragment_tour_navigation=0x7f030029;
-        public static final int home=0x7f03002a;
-        public static final int list_item=0x7f03002b;
-        public static final int list_pic=0x7f03002c;
-        public static final int navfragment=0x7f03002d;
-        public static final int support_simple_spinner_dropdown_item=0x7f03002e;
-        public static final int tour_info_fragment=0x7f03002f;
-        public static final int waypoint_list_item=0x7f030030;
-        public static final int waypoints_in_tour_fragment=0x7f030031;
+        public static final int activity_splash=0x7f030020;
+        public static final int activity_tour=0x7f030021;
+        public static final int activity_tour_navigation=0x7f030022;
+        public static final int activity_waypoint_description=0x7f030023;
+        public static final int drawer_list_item=0x7f030024;
+        public static final int fragment_achievements=0x7f030025;
+        public static final int fragment_home=0x7f030026;
+        public static final int fragment_map=0x7f030027;
+        public static final int fragment_settings=0x7f030028;
+        public static final int fragment_tour=0x7f030029;
+        public static final int fragment_tour_navigation=0x7f03002a;
+        public static final int home=0x7f03002b;
+        public static final int list_item=0x7f03002c;
+        public static final int list_pic=0x7f03002d;
+        public static final int navfragment=0x7f03002e;
+        public static final int support_simple_spinner_dropdown_item=0x7f03002f;
+        public static final int tour_info_fragment=0x7f030030;
+        public static final int waypoint_list_item=0x7f030031;
+        public static final int waypoints_in_tour_fragment=0x7f030032;
     }
     public static final class menu {
         public static final int achievements=0x7f0d0000;
         public static final int locations=0x7f0d0001;
         public static final int maps=0x7f0d0002;
         public static final int menu_blank=0x7f0d0003;
-        public static final int menu_waypoint_description=0x7f0d0004;
-        public static final int navigation=0x7f0d0005;
-        public static final int selected_tour=0x7f0d0006;
-        public static final int settings=0x7f0d0007;
-        public static final int tour=0x7f0d0008;
-        public static final int tour_navigation=0x7f0d0009;
+        public static final int menu_splash=0x7f0d0004;
+        public static final int menu_waypoint_description=0x7f0d0005;
+        public static final int navigation=0x7f0d0006;
+        public static final int selected_tour=0x7f0d0007;
+        public static final int settings=0x7f0d0008;
+        public static final int tour=0x7f0d0009;
+        public static final int tour_navigation=0x7f0d000a;
     }
     public static final class string {
         public static final int abc_action_bar_home_description=0x7f0b0000;
@@ -1498,18 +1500,19 @@ containing a value of this type.
         public static final int title_activity_navigation=0x7f0b0033;
         public static final int title_activity_selected_tour=0x7f0b0034;
         public static final int title_activity_settings=0x7f0b0035;
-        public static final int title_activity_tour=0x7f0b0036;
-        public static final int title_activity_tour_navigation=0x7f0b0037;
-        public static final int title_activity_waypoint_description=0x7f0b0038;
-        public static final int title_section1=0x7f0b0039;
-        public static final int title_section2=0x7f0b003a;
-        public static final int title_section3=0x7f0b003b;
-        public static final int title_tour_info_frag=0x7f0b003c;
-        public static final int tour_info_frag_length=0x7f0b003d;
-        public static final int tours_button_text=0x7f0b003e;
-        public static final int uses=0x7f0b003f;
-        public static final int wallet_buy_button_place_holder=0x7f0b0040;
-        public static final int waypoints_home=0x7f0b0041;
+        public static final int title_activity_splash=0x7f0b0036;
+        public static final int title_activity_tour=0x7f0b0037;
+        public static final int title_activity_tour_navigation=0x7f0b0038;
+        public static final int title_activity_waypoint_description=0x7f0b0039;
+        public static final int title_section1=0x7f0b003a;
+        public static final int title_section2=0x7f0b003b;
+        public static final int title_section3=0x7f0b003c;
+        public static final int title_tour_info_frag=0x7f0b003d;
+        public static final int tour_info_frag_length=0x7f0b003e;
+        public static final int tours_button_text=0x7f0b003f;
+        public static final int uses=0x7f0b0040;
+        public static final int wallet_buy_button_place_holder=0x7f0b0041;
+        public static final int waypoints_home=0x7f0b0042;
     }
     public static final class style {
         /** 
