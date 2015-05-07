@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Waypoint>
+    <Location id="1">
+    	<lat>35.303268</lat>
+    	<long>-83.182322</long>
+    	<desc>Ramsey Center</desc>
+    	<information>The Ramsey center where events happen such as basketball games, concerts, etc.</information>
+        <hours>M-F:8 am-9 pm = 12 noon-9pm</hours>
+        <uses>Events such as BasketBall Games, Concerts, etc..</uses>
+    </Location>
+    
+    <Location id="2">
+    	<lat>35.310450</lat>
+    	<long>-83.182631</long>
+    	<desc>Alumni Tower</desc>
+    	<information>On October 28, 1989, the Alumni Association dedicated the Alumni Tower as part of WCU's centennial-year homecoming events.  The Tower stands at 66 feet high in front of the A.K. Hinds Unviersity Center.</information>
+        <hours>Every Day</hours>
+        <uses>No Uses.</uses>
+    </Location>
+
+    <Location id="3">
+    	<lat>35.311357</lat>
+    	<long>-83.182171</long>
+    	<desc>Coulter</desc>
+    	<information>Coulter is your home if you're thinking of majoring in English or music. It's a main base for our students in these fields and is known on campus as a hotbed for ideas and creativity! Here, our students and faculty discuss their work and ideas, travel to conferences and overseas destinations, and collaborate on concerts, ensembles, electronic music, screenplays, fiction, plays, and poetry.</information>
+        <hours>School Hours</hours>
+        <uses>English, Music majors</uses>
+    </Location>
+    
+    <Location id="4">
+    	<lat>35.310517</lat>
+    	<long>-83.183470</long>
+    	<desc>Reid Gym</desc>
+    	<information>Reid Gym is the building southwest of the Campus Recreation Center. Located within are four gymnasiums and a pool. While most of the facility is used for health education classes, Intramural Sports games are typically held there as well. To get to Reid Upstairs before 9 pm, you can enter through the Reid Fitness Center to the stairwell up.  If after 9pm, you must walk around to the backside of Reid and enter through a set of double doors at the bottom of a stair well. To get to Reid Pool, you must first enter the locker rooms and through there you may reach the pool.</information>
+        <hours>CRC Hours - Sun, Feb 22, 1 - 9pm = CRC Hours - Mon, Feb 23, 6am - 10pm = CRC Hours - Tue, Feb 24, 6am - 10pm = CRC Hours - Wed, Feb 25, 6am - 10pm = CRC Hours - Thu, Feb 26, 6am - 10pm = CRC Hours - Fri, Feb 27, 6am - 10pm = CRC Hours - Sat, Feb 28, 9am - 5pm</hours>
+        <uses>PE classes</uses>
+    </Location>  
+   
+    <Location id="5">
+    	<lat>35.311235</lat>
+    	<long>-83.181227</long>
+    	<desc>Student One-Stop</desc>
+    	<information>Student One Stop for making payments, and other financial school information.</information>
+        <hours>M-F: 8am-5pm</hours>
+        <uses>Financial Issues</uses>
+    </Location>  
+    
+    <Location id="6">
+    	<lat>35.313028</lat>
+    	<long>-83.179745</long>
+    	<desc>Hunter Library</desc>
+    	<information>The WCU School library.</information>
+        <hours>M-F:7am-2am = Sat:9am-7pm = Sun:10am-2am</hours>
+        <uses>Book Rental, IT</uses>
+    </Location>
+    
+    <Location id="7">
+    	<lat>35.311295</lat>
+    	<long>-83.181263</long>
+    	<desc>Student Union Center</desc>
+    	<information>University mail office, Theater, Fast food dining.</information>
+        <hours>Unsure.</hours>
+        <uses></uses>
+    </Location>
+    
+      <Location id="8">
+    	<lat>35.305279</lat>
+    	<long>-83.182494</long>
+    	<desc>Football Field</desc>
+    	<information>Home to the football games and other events.</information>
+          <hours>Open For Games and Events.</hours>
+          <uses>Football Games, and other school related Events</uses>
+    </Location>
+    
+    <Location id="9">
+    	<lat>35.310717</lat>
+    	<long>-83.183028</long>
+    	<desc>Campus Recreation Center</desc>
+    	<information>Gym for student activities and weightrooms.</information>
+        <hours>CRC Hours - Sun, Feb 22, 1 - 9pm = CRC Hours - Mon, Feb 23, 6am - 10pm = CRC Hours - Tue, Feb 24, 6am - 10pm = CRC Hours - Wed, Feb 25, 6am - 10pm = CRC Hours - Thu, Feb 26, 6am - 10pm = CRC Hours - Fri, Feb 27, 6am - 10pm = CRC Hours - Sat, Feb 28, 9am - 5pm</hours>
+        <uses>Workout, Wall, Basketball gym</uses>
+    </Location>
+  
+    <Location id="10">
+    	<lat>35.307502</lat>
+    	<long>-83.182880</long>
+    	<desc>Belk</desc>
+    	<information>Belk is the place for inquiring minds who want to "push the envelope." If you're going to be an engineer, scientist, filmmaker or performer, you'll find your academic and creative home here.</information>
+        <hours>School Hours</hours>
+        <uses></uses>
+    </Location>
+    
+    <Location id="11">
+    	<lat>35.311440</lat>
+    	<long>-83.183470</long>
+    	<desc>Campus Bookstore</desc>
+    	<information>Where students get there books, along with other school apparel</information>
+        <hours>M-TH:8:30am-6:00pm = Fri:8:00am-5:00pm = Sat 10am-3pm</hours>
+        <uses>Book rentals and school supplies</uses>
+    </Location>
+    
+    <Location id="12">
+    	<lat>35.309005</lat>
+    	<long>-83.186424</long>
+    	<desc>Administration Building</desc>
+    	<information>Named for the former Chancellor H.F. "Cotton" Robinson, the H.F.R. Administration Building is the home of the Office of the Chancellor and the Office of the Provost.Offices for the university’s academic affairs, business, development, alumni affairs, communications and marketing functions also are located in the building  The Mountain Heritage Center is located on the first floor. Through exhibitions, publications, educational programs, and demonstrations, the Center promotes the rich traditions of the southern Appalachian mountains.</information>
+        <hours>M-F:9am-5pm</hours>
+        <uses>Administrative issues</uses>
+    </Location>
+    
+    <Location id="13">
+    	<lat>35.306355</lat>
+    	<long>-83.186963</long>
+    	<desc>Campus Police</desc>
+    	<information>Western Carolina University’s Police Department provides a full range of law enforcement services for the university community. All of our police officers are certified by the North Carolina Attorney General’s Office and meet the Attorney General’s standards for law enforcement officers.</information>
+        <hours>All day.</hours>
+        <uses>Police issues.</uses>
+    </Location>
+    
+    <Location id="14">
+    	<lat>35.310464</lat>
+    	<long>-83.186638</long>
+    	<desc>Soccer Field/Running Track</desc>
+    	<information>Soccer and Track events.</information>
+        <hours>Events and Games.</hours>
+        <uses>Soccer games, and track meets.</uses>
+    </Location> 
+    
+    <Location id="15">
+    	<lat>35.307116</lat>
+    	<long>-83.184431</long>
+    	<desc>Bardo Arts Center</desc>
+    	<information>Home to many events such as plays and museums.</information>
+        <hours>Events and School hours.</hours>
+        <uses>Plays and museum</uses>
+    </Location>
+    
+    <Location id="16">
+    	<lat>35.309418</lat>
+    	<long>-83.183299</long>
+    	<desc>Courtyard Cafeteria</desc>
+    	<information>Dining for students.</information>
+        <hours>M-F:7am-9pm = Sat-Sun: 9am-8pm</hours>
+        <uses>Eating</uses>
+    </Location>
+    
+    <Location id="17">
+    	<lat>35.310000</lat>
+    	<long>-83.182575</long>
+    	<desc>Fountain</desc>
+    	<information>Fountain located in the courtyard.</information>
+        <hours>All day.</hours>
+        <uses>Beauty.</uses>
+    </Location>
+    
+    <Location id="18">
+    	<lat>35.311339</lat>
+    	<long>-83.178967</long>
+    	<desc>Health Services</desc>
+    	<information> It is the mission of the Western Carolina University Health Services to meet the healthcare needs of the academic community and to enhance the physical, psychological, environmental and health education needs of our campus.</information>
+        <hours>M-F:8am-5pm</hours>
+        <uses></uses>
+    </Location>
+    
+    
+    <Location id="19">
+    	<lat>35.301412</lat>
+    	<long>-83.181435</long>
+    	<desc>Baseball Field</desc>
+    	<information>Place for WCU baseball games.</information>
+        <hours>Open for games and Events.</hours>
+        <uses></uses>
+    </Location>
+    
+    <Location id="20">
+    	<lat>35.309188</lat>
+    	<long>-83.186925</long>
+    	<desc>Catamount</desc>
+    	<information>School mascot located at school entrance. </information>
+        <hours>All day.</hours>
+        <uses>School mascot.</uses>
+    </Location>
+</Waypoint>

@@ -12,6 +12,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -62,7 +63,7 @@ public class TourActivity extends BaseActivity {
         		Intent i = new Intent(TourActivity.this, SelectedTourActivity.class);
         		
         		Variables.selectedTour = Variables.listOfTours.get(parent.getPositionForView(view));
-        		
+                Log.e("SELECTED TOUR",Variables.selectedTour.getTourName());
         		i.putExtra(Variables.selectedItem + "", ((TextView) view).getText());
         		
         		startActivity(i);

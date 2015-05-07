@@ -284,7 +284,6 @@ public class NavFragment extends Fragment implements LocationListener{//, Sensor
 	public void setMarkers(){
 		
 	    googleMap.setMapType(GoogleMap.MAP_TYPE_SATELLITE);
-	    googleMap.setTrafficEnabled(true);
 	    
 
 	    //loops over all waypoints in the tour and sets a marker for each waypoint
@@ -294,12 +293,14 @@ public class NavFragment extends Fragment implements LocationListener{//, Sensor
 	        							.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_VIOLET)));
 
 	    }
-
-        if(Variables.selectedTour.getTourName().equals("Sport's Tour")) {
+        Log.e("IN", Variables.selectedTour.getTourName());
+        if(Variables.selectedTour.getTourName().equals("Sports Tour")) {
             setUpSportsTour();
+            Log.e("IN", "set up sports tour");
         }
         if(Variables.selectedTour.getTourName().equals("Cross Campus Tour")){
             setUpCrossCampusTour();
+            Log.e("IN", "set up cross campus tour");
         }
 		
 	    myLocMarker = googleMap.addMarker(new MarkerOptions().position(new LatLng(0,
@@ -420,34 +421,17 @@ public class NavFragment extends Fragment implements LocationListener{//, Sensor
 
 public void setUpSportsTour(){
     // Creating temporary arraylist that builds tour path.
-    ArrayList<LatLng> points = new ArrayList<LatLng>();
+  //  ArrayList<LatLng> points = new ArrayList<LatLng>();
     PolylineOptions pOptions = new PolylineOptions().width(15).color(Color.rgb(128,0,128)) //85,30,97
             .geodesic(true);
     
     MarkerOptions options = new MarkerOptions();
-    for(int z = 0; z < points.size(); z++) {
-        LatLng point = points.get(z);
+    for(int z = 0; z < Variables.sportsTourPoints.size(); z++) {
+        LatLng point = Variables.sportsTourPoints.get(z).getPoint();
         pOptions.add(point);
 
     }
-    /*googleMap.addMarker(options.position(soccer)
-            .title("Soccer Field and Track")
-            .icon(BitmapDescriptorFactory
-                    .defaultMarker(BitmapDescriptorFactory.HUE_YELLOW)));
-    googleMap.addMarker(options.position(baseball)
-            .title("Baseball Field")
-            .icon(BitmapDescriptorFactory
-                    .defaultMarker(BitmapDescriptorFactory.HUE_YELLOW)));
-    googleMap.addMarker(options.position(ramsey)
-            .title("Ramsey Center")
-            .icon(BitmapDescriptorFactory
-                    .defaultMarker(BitmapDescriptorFactory.HUE_YELLOW)));
-
-    googleMap.addMarker(options.position(football)
-            .title("E.J. Whitmore Stadium")
-            .icon(BitmapDescriptorFactory
-                    .defaultMarker(BitmapDescriptorFactory.HUE_YELLOW)));
-    line = googleMap.addPolyline(pOptions);*/
+    googleMap.addPolyline(pOptions);
 
 }
 public void setUpCrossCampusTour() {
@@ -457,8 +441,6 @@ public void setUpCrossCampusTour() {
 		
 		PolylineOptions pOptions = new PolylineOptions().width(15).color(Color.rgb(128,0,128)) //85,30,97
 				.geodesic(true);
-		//Arraylist to hold all coordinates on tour. 
-		ArrayList<LatLng> hunterToCrc = new ArrayList<LatLng>();
 		//Building Tour
 	
 		LatLng point;
@@ -466,8 +448,9 @@ public void setUpCrossCampusTour() {
 		for(int z = 0; z < Variables.crossCampusTour.size(); z++) {
 			point = Variables.crossCampusTour.get(z).getPoint();
 			pOptions.add(point);
-			
+
 		}
+        googleMap.addPolyline(pOptions);
 		
 		/*googleMap.addMarker(options.position(hunterLibrary)
 								   .title("Hunter Library")

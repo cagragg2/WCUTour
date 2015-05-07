@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assets>
+    <Tour>
+        <Point id="0">
+            <lat>35.310455</lat>
+            <lng>-83.185925</lng>
+        </Point>
+
+        <Point id="1">
+            <lat>35.310334</lat>
+            <lng>-83.185852</lng>
+        </Point>
+
+        <Point id="2">
+            <lat>35.310131</lat>
+            <lng>-83.186173</lng>
+        </Point>
+
+        <Point id="3">
+            <lat>35.310046</lat>
+            <lng>-83.186284</lng>
+        </Point>
+       <!-- where you left off last -->
+        <Point id="4">
+            <lat>35.309928</lat>
+            <lng>-83.186378</lng>
+        </Point>
+
+        <Point id="5">
+            <lat>35.309662</lat>
+            <lng>-83.186505</lng>
+        </Point>
+
+        <Point id="6">
+            <lat>35.309314</lat>
+            <lng>-83.186672</lng>
+        </Point>
+
+        <Point id="7">
+            <lat>35.309218</lat>
+            <lng>-83.186694</lng>
+        </Point>
+
+        <Point id="8">
+            <lat>35.309137</lat>
+            <lng>-83.186688</lng>
+        </Point>
+
+        <Point id="9">
+            <lat>35.309074</lat>
+            <lng>-83.186721</lng>
+        </Point>
+
+        <Point id="10">
+            <lat>35.309020</lat>
+            <lng>-83.186810</lng>
+        </Point>
+
+        <Point id="11">
+            <lat>35.309005</lat>
+            <lng>-83.186840</lng>
+        </Point>
+
+        <Point id="12">
+            <lat>35.308983</lat>
+            <lng>-83.186866</lng>
+        </Point>
+
+        <Point id="13">
+            <lat>35.308699</lat>
+            <lng>-83.186926</lng>
+        </Point>
+
+        <Point id="14">
+            <lat>35.308591</lat>
+            <lng>-83.186926</lng>
+        </Point>
+
+        <Point id="15">
+            <lat>35.308450</lat>
+            <lng>-83.186888</lng>
+        </Point>
+
+        <Point id="16">
+            <lat>35.308337</lat>
+            <lng>-83.186806</lng>
+        </Point>
+
+        <Point id="17">
+            <lat>35.308238</lat>
+            <lng>-83.186667</lng>
+        </Point>
+
+        <Point id="18">
+            <lat>35.308153</lat>
+            <lng>-83.186522</lng>
+        </Point>
+
+        <Point id="19">
+            <lat>35.308076</lat>
+            <lng>-83.186384</lng>
+        </Point>
+
+        <Point id="20">
+            <lat>35.307954</lat>
+            <lng>-83.186174</lng>
+        </Point>
+
+        <Point id="21">
+            <lat>35.307854</lat>
+            <lng>-83.186019</lng>
+        </Point>
+
+        <Point id="22">
+            <lat>35.307786</lat>
+            <lng>-83.185876</lng>
+        </Point>
+
+        <Point id="23">
+            <lat>35.307750</lat>
+            <lng>-83.185870</lng>
+        </Point>
+
+        <Point id="24">
+            <lat>35.307258</lat>
+            <lng>-83.185200</lng>
+        </Point>
+
+        <Point id="25">
+            <lat>35.307050</lat>
+            <lng>-83.184934</lng>
+        </Point>
+
+        <Point id="26">
+            <lat>35.306783</lat>
+            <lng>-83.184674</lng>
+        </Point>
+
+        <Point id="27">
+            <lat>35.306642</lat>
+            <lng>-83.184529</lng>
+        </Point>
+
+        <Point id="28">
+            <lat>35.306461</lat>
+            <lng>-83.184341</lng>
+        </Point>
+
+        <Point id="29">
+            <lat>35.306385</lat>
+            <lng>-83.184202</lng>
+        </Point>
+
+        <Point id="30">
+            <lat>35.306313</lat>
+            <lng>-83.184036</lng>
+        </Point>
+
+        <Point id="31">
+            <lat>35.306280</lat>
+            <lng>-83.183814</lng>
+        </Point>
+
+        <Point id="32">
+            <lat>35.306280</lat>
+            <lng>-83.183670</lng>
+        </Point>
+
+        <Point id="33">
+            <lat>35.306302</lat>
+            <lng>-83.183515</lng>
+        </Point>
+
+        <Point id="34">
+            <lat>35.306429</lat>
+            <lng>-83.182984</lng>
+        </Point>
+
+        <Point id="35">
+            <lat>35.306514</lat>
+            <lng>-83.182819</lng>
+        </Point>
+
+        <Point id="36">
+            <lat>35.306582</lat>
+            <lng>-83.182709</lng>
+        </Point>
+
+        <Point id="37">
+            <lat>35.306468</lat>
+            <lng>-83.182544</lng>
+        </Point>
+
+        <Point id="38">
+            <lat>35.306441</lat>
+            <lng>-83.182500</lng>
+        </Point>
+
+        <Point id="39">
+            <lat>35.306333</lat>
+            <lng>-83.182428</lng>
+        </Point>
+
+        <Point id="40">
+            <lat>35.306113</lat>
+            <lng>-83.182357</lng>
+        </Point>
+
+        <Point id="41">
+            <lat>35.305933</lat>
+            <lng>-83.182313</lng>
+        </Point>
+
+        <Point id="42">
+            <lat>35.305865</lat>
+            <lng>-83.182329</lng>
+        </Point>
+
+        <Point id="43">
+            <lat>35.305829</lat>
+            <lng>-83.182357</lng>
+        </Point>
+
+        <Point id="44">
+            <lat>35.305784</lat>
+            <lng>-83.182235</lng>
+        </Point>
+
+        <Point id="45">
+            <lat>35.305749</lat>
+            <lng>-83.182063</lng>
+        </Point>
+
+        <Point id="46">
+            <lat>35.305684</lat>
+            <lng>-83.181862</lng>
+        </Point>
+
+        <Point id="47">
+            <lat>35.305491</lat>
+            <lng>-83.181772</lng>
+        </Point>
+
+
+        <Point id="48">
+            <lat>35.305456</lat>
+            <lng>-83.181759</lng>
+        </Point>
+
+        <Point id="49">
+            <lat>35.305467</lat>
+            <lng>-83.181656</lng>
+        </Point>
+
+        <Point id="50">
+            <lat>35.304596</lat>
+            <lng>-83.181383</lng>
+        </Point>
+
+        <Point id="51">
+            <lat>35.304455</lat>
+            <lng>-83.181351</lng>
+        </Point>
+
+        <Point id="52">
+            <lat>35.304263</lat>
+            <lng>-83.181340</lng>
+        </Point>
+
+        <Point id="53">
+            <lat>35.304022</lat>
+            <lng>-83.181356</lng>
+        </Point>
+
+        <Point id="54">
+            <lat>35.303793</lat>
+            <lng>-83.181401</lng>
+        </Point>
+
+        <Point id="55">
+            <lat>35.303707</lat>
+            <lng>-83.181430</lng>
+        </Point>
+
+        <Point id="56">
+            <lat>35.303480</lat>
+            <lng>-83.181526</lng>
+        </Point>
+
+        <Point id="57">
+            <lat>35.303281</lat>
+            <lng>-83.181646</lng>
+        </Point>
+
+        <Point id="58">
+            <lat>35.303087</lat>
+            <lng>-83.181818</lng>
+        </Point>
+
+        <Point id="59">
+            <lat>35.302555</lat>
+            <lng>-83.182347</lng>
+        </Point>
+
+        <Point id="60">
+            <lat>35.302469</lat>
+            <lng>-83.182162</lng>
+        </Point>
+
+        <Point id="61">
+            <lat>35.302426</lat>
+            <lng>-83.182100</lng>
+        </Point>
+
+        <Point id="62">
+            <lat>35.302198</lat>
+            <lng>-83.181941</lng>
+        </Point>
+
+        <Point id="63">
+            <lat>35.302219</lat>
+            <lng>-83.181748</lng>
+        </Point>
+
+        <Point id="64">
+            <lat>35.302104</lat>
+            <lng>-83.181588</lng>
+        </Point>
+
+        <Point id="65">
+            <lat>35.301609</lat>
+            <lng>-83.181002</lng>
+        </Point>
+
+
+
+    </Tour>
+</assets>

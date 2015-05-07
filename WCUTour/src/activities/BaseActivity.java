@@ -317,6 +317,8 @@ public class BaseActivity extends FragmentActivity {
             // The cross-campus tour.
             Variables.crossCampusTour = new ArrayList<TourPoint>();
 
+            ArrayList<TourPoint> sportsTour = new ArrayList<>();
+
 	        // Reading the waypoints.xml file in and storing it an ArrayList.
 	        SAXParserFactory saxParserFactory = SAXParserFactory.newInstance();
 	        AssetManager assetManager = getBaseContext().getAssets();
@@ -367,10 +369,40 @@ public class BaseActivity extends FragmentActivity {
                 reader.parse(inStream2);
 
                 List<TourPoint> tourList = handler2.getTourList();
-
+                Variables.crossCampusTourPoints = new ArrayList<>();
                 for(TourPoint point : tourList) {
                     Variables.crossCampusTour.add(point);
+                    Variables.crossCampusTourPoints.add(point);
+                }
+            }// catch (ParserConfigurationException | SAXException | IOException e) {
+            catch (Exception e) {
+                e.printStackTrace();
+            }
 
+            // Reading the cross_campus_tour.xml in and storing it in an ArrayList.
+
+             saxParserFact2 = SAXParserFactory.newInstance();
+             assetManager2 = getBaseContext().getAssets();
+
+            try {
+
+                FileInputStream fis = openFileInput("sports_tour.xml");
+                InputStreamReader isr = new InputStreamReader(fis);
+
+                SAXParserFactory spf2 = SAXParserFactory.newInstance();
+                SAXParser sp2 = spf2.newSAXParser();
+                XMLReader reader = sp2.getXMLReader();
+
+                ReadTourXML handler2 = new ReadTourXML();
+                reader.setContentHandler(handler2);
+                InputSource inStream2 = new InputSource(fis);
+                reader.parse(inStream2);
+
+                List<TourPoint> tourList = handler2.getTourList();
+                Variables.sportsTourPoints = new ArrayList<>();
+                for(TourPoint point : tourList) {
+                    sportsTour.add(point);
+                    Variables.sportsTourPoints.add(point);
 
                 }
             }// catch (ParserConfigurationException | SAXException | IOException e) {
@@ -378,7 +410,8 @@ public class BaseActivity extends FragmentActivity {
                 e.printStackTrace();
             }
 
-	        ArrayList<Waypoint> testWaypoint = new ArrayList<Waypoint>();
+
+            ArrayList<Waypoint> testWaypoint = new ArrayList<Waypoint>();
 	        ArrayList<Waypoint> sampleTour = new ArrayList<Waypoint>();
 
 	        Waypoint library = new Waypoint(35.312966, -83.179877,"Hunter Library", 992,"Hunter Library last","","");
@@ -392,8 +425,25 @@ public class BaseActivity extends FragmentActivity {
 	        sampleTour.add(caf);
 	        sampleTour.add(belk);
 	        sampleTour.add(stadium);
+            // Creating waypoints for sports tour.
+            Waypoint soccerField = new Waypoint(35.310455, -83.185925,"Soccer Field", 980,"","","");
+            Waypoint stadium2 = new Waypoint(35.305456, -83.181759,"E.J. Whitmore Stadium", 981, "","","");
+            Waypoint ramsey = new Waypoint(35.302555, -83.182347,"Ramsey Center", 982, "Caf Stop","","");
+            Waypoint baseball = new Waypoint (35.307838, -83.183053,"Baseball Field", 983, "","","");
 
-			Variables.listOfTours.add(new Tours(testWaypoint,"Sport's Tour"));
+            // Adding values to the tour.
+            testWaypoint.add(soccerField);
+            testWaypoint.add(stadium2);
+            testWaypoint.add(ramsey);
+            testWaypoint.add(baseball);
+            ArrayList<Waypoint> crossWays = new ArrayList<>();
+            //for(int i = 0; i < Variables.crossCampusTour.size();i++) {
+            //    crossWays.add(new Waypoint(Variables.crossCampusTour.get(i).getLatitude(),
+           //             Variables.crossCampusTour));
+          //  }
+
+			//Variables.listOfTours.add(new Tours(testWaypoint,"Sport's Tour"));
+            Variables.listOfTours.add(new Tours(testWaypoint,"Sports Tour"));
 			Variables.listOfTours.add(new Tours(sampleTour, "Cross Campus Tour"));
 
 

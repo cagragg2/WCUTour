@@ -268,6 +268,7 @@
     <string name="title_activity_navigation">NavigationActivity</string>
     <string name="title_activity_selected_tour">SelectedTourActivity</string>
     <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_splash">WCU Tour</string>
     <string name="title_activity_tour">TourActivity</string>
     <string name="title_activity_tour_navigation">TourNavigationActivity</string>
     <string name="title_activity_waypoint_description">Waypoint Description</string>

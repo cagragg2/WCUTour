@@ -102,5 +102,15 @@ public class Variables {
      * My location.
      */
     public static Location myLocation;
+
+    /**
+     * Points in cross campus from xml
+     */
+    public static ArrayList<TourPoint> crossCampusTourPoints;
+
+    /**
+     * Points in sports tour from xml
+     */
+    public static ArrayList<TourPoint> sportsTourPoints;
 }
 

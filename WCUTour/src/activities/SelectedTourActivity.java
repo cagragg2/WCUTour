@@ -3,6 +3,7 @@ package activities;
 import java.util.ArrayList;
 import java.util.List;
 
+import models.TourPoint;
 import utilities.Variables;
 import edu.wcu.wcutour.R;
 import edu.wcu.wcutour.R.id;
@@ -59,9 +60,9 @@ public class SelectedTourActivity extends BaseActivity {
         //Log.e("tour", Variables.selectedTour.getTourName()+ "");
 
         tourHeader.setText("" + Variables.selectedTour.getTourName()); //sets the title of the tour
-        List<Waypoint> waypoints = Variables.selectedTour.getTour(); //gets all the waypoints from the tour. 
-        
-        
+        List<Waypoint> waypoints = Variables.selectedTour.getTour(); //gets all the waypoints from the tour.
+        //List<TourPoint>
+        Log.e("SELECTED TOUR",Variables.selectedTour.getTourName());
         List<String> locations = new ArrayList<String>();
         for(int i =0; i < waypoints.size();i++) {
         locations.add(waypoints.get(i).getDescription()); //adds the waypoints to be put in the list

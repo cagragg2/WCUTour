@@ -12,14 +12,14 @@ import java.util.List;
  */
 public class Tours {
 
-	List<Waypoint> waypoints;
+	List<Waypoint> points;
 	String tourName = "";
 	/**
 	 * Constructor takes a list of waypoints and a name for the tour.
 	 */
-	public Tours(List<Waypoint> way, String name) {
+	public Tours(List<Waypoint> points, String name) {
 		tourName = name;
-		waypoints = way;
+		this.points = points;
 	}
 	
 	public Tours() {
@@ -40,16 +40,16 @@ public class Tours {
 	}
 	/**
 	 * sets the waypoints of the tour.
-	 * @param way the waypoints to add to the tour.
+	 * @param points the waypoints to add to the tour.
 	 */
-	public void setTour(List<Waypoint> way) {
-		waypoints = way;
+	public void setTour(List<Waypoint> points) {
+		this.points = points;
 	}
 	/**
 	 * returns the list of waypoints
 	 * @return the list of waypoints in the tour.
 	 */
 	public List<Waypoint> getTour() {
-		return waypoints;
+		return points;
 	}
 }
